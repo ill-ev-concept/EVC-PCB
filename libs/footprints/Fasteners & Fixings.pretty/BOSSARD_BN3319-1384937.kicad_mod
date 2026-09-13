@@ -1,0 +1,219 @@
+(footprint "BOSSARD_BN3319-1384937"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "M3 L=6mm, Hex Stand-off With Internal Thread on both sides, Steel, Zinc Plated Blue")
+	(property "Reference" "REF**"
+		(at 0 -3.95 0)
+		(layer "F.SilkS")
+		(uuid "b5a85b03-a67b-430f-ad52-0c2027a9907b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BOSSARD_BN3319-1384937"
+		(at 0 3.95 0)
+		(layer "F.Fab")
+		(uuid "6d139a13-56e6-44ee-91d4-42e4f79400c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "985df763-8c38-4a58-b7e6-2ff52da52cbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce7c3547-b473-44ba-b8c2-e972108d0852")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1dba5672-be33-4000-9ddf-bb4955b50637")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ef60e8d9-47c9-44e1-b659-f804e43da8a2")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a619fb03-f28c-46f2-9b66-f036795d52fb")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9fb34aa2-2834-402b-a3fd-b124729cb24c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "4fc915b5-df57-4b36-ad30-462198bec2cd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "c74e60a6-0203-4af7-9628-d78f410e62e2")
+	)
+	(fp_line
+		(start -2.75 -1.58771)
+		(end 0 -3.17543)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "609f2d2c-9896-492b-a9b5-b7c01f108def")
+	)
+	(fp_line
+		(start -2.75 1.58771)
+		(end -2.75 -1.58771)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "144c7743-24dc-40ad-be01-0d2d4be8fdda")
+	)
+	(fp_line
+		(start -2.75 1.58771)
+		(end 0 3.17543)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "402d6a97-b97b-441e-91fd-b44e5556d3fa")
+	)
+	(fp_line
+		(start 0 -3.17543)
+		(end 2.75 -1.58771)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a24d0b8-ba5b-49fd-86fe-2230e6d46fe5")
+	)
+	(fp_line
+		(start 0 3.17543)
+		(end 2.75 1.58771)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "069796e3-4fe9-4667-950f-f5616e4afb98")
+	)
+	(fp_line
+		(start 2.75 1.58771)
+		(end 2.75 -1.58771)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d0b9e7d-ea65-46ed-af4e-66ba904f6a16")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "19bf9c1a-84f4-4c5a-aad7-939b3a6335c4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6dabcb29-de4c-4208-a3dc-fac65143f63a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.5 6.5)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "7033b084-9a43-435c-b81b-127839b02644")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/BOSSARD_BN3319-1384937.stp"
+		(offset
+			(xyz 0.00011 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

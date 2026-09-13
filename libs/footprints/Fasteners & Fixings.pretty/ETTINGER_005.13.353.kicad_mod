@@ -1,0 +1,219 @@
+(footprint "ETTINGER_005.13.353"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Standoff Nickel-Plated Brass M/F AF5.5x35 F=M3x7 M=M3x6")
+	(property "Reference" "REF**"
+		(at 0 -3.95 0)
+		(layer "F.SilkS")
+		(uuid "3b066120-0f26-48a3-96db-d4aca636787a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "ETTINGER_005.13.353"
+		(at 0 3.95 0)
+		(layer "F.Fab")
+		(uuid "d0643a05-d845-46f1-9a54-e2dd1c76fb6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d832d42c-21ed-446f-8deb-5e2f327ac594")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "778d706f-ec59-4a6d-9d6e-818bd8cd6e8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "65d0223c-7faf-4175-88ef-224643b5a7e6")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "36f56006-c6d9-44e1-8843-ea6be2d574ef")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "272b521a-021a-4c58-9735-9d6a9e9441bc")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b1cb8d48-cba9-48cd-a012-06584dda1e0a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "52743eac-5696-4b6b-91d9-a9760a5624ea")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "256f499c-0a8f-4dbe-bb26-51630938d531")
+	)
+	(fp_line
+		(start -2.75 -1.58771)
+		(end 0 -3.17543)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bf7907b-9af5-4034-860e-02276b4b26f9")
+	)
+	(fp_line
+		(start -2.75 1.58771)
+		(end -2.75 -1.58771)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ccec0c5-f390-4265-9e19-fec38c29cec0")
+	)
+	(fp_line
+		(start -2.75 1.58771)
+		(end 0 3.17543)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7dc1a6da-bc82-43aa-8497-b1a17f84c5d5")
+	)
+	(fp_line
+		(start 0 -3.17543)
+		(end 2.75 -1.58771)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76ca5710-f032-464b-a2f0-c6bcfda9b6b4")
+	)
+	(fp_line
+		(start 0 3.17543)
+		(end 2.75 1.58771)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4792cda1-de77-4a93-b2a3-a1b4fce1dd5d")
+	)
+	(fp_line
+		(start 2.75 1.58771)
+		(end 2.75 -1.58771)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16e9ac6c-6fee-499d-87a4-2f6dd13afc5f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aeb9f3e3-cd70-4208-9bc1-5ba975b8b6d8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dffcd0e3-8b24-4111-8f20-384d0fb59fb5")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.5 6.5)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "5f22f5c8-36e5-43fe-a415-c7fb45d06f63")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/ETTINGER_005.13.353.stp"
+		(offset
+			(xyz 0.00011 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

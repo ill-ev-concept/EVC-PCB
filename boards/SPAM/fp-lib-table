@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ThreadedConnector") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/ThreadedConnector.pretty") (options "") (descr ""))
+)

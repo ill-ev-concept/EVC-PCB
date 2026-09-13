@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Connectors") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/Connectors.kicad_sym") (options "") (descr ""))
+	(lib (name "Regulators") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/Regulators.kicad_sym") (options "") (descr ""))
+)

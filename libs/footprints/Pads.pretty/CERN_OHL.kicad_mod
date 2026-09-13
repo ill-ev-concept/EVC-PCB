@@ -1,0 +1,100 @@
+(footprint "CERN_OHL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "733ca9ed-87ea-4050-a3fe-1e74b5cd435a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "CERN_OHL"
+		(at 0 0.95 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4212192f-f9af-473c-8683-8317a60af7e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea1ea592-5c30-4bbf-b89d-919bffa28fbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd85923a-4228-4574-9dbe-20587c5e60b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "OHL_License" "OHL-W v2.0+"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "17d1699a-7970-4279-a987-99875de56645")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "OHL_Project" "https://ohwr.org/project/xxxx/wiki"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "086812bc-bbe2-4292-bb7f-2c92b1d4dac3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_text_box "Licensed under ${OHL_License}\nhttp://ohwr.org/CERNOHL\n${OHL_Project}"
+		(start 0 -2)
+		(end 37.5 5)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "c4f219a2-d751-40c7-bf28-b0b6ecdc9559")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(border no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+	)
+	(embedded_fonts no)
+)

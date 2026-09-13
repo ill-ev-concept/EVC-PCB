@@ -1,0 +1,256 @@
+(footprint "LED_5MM_GREEN_1C-2A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED, Green, Body Dia. 5.08mm, Pin spacing 2.54mm")
+	(property "Reference" "REF**"
+		(at 0.246025 -3.85 0)
+		(layer "F.SilkS")
+		(uuid "3db602b9-a0b0-4996-b484-47106b104ae2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "LED_5MM_GREEN_1C-2A"
+		(at 0.246025 3.85 0)
+		(layer "F.Fab")
+		(uuid "affd94ff-c21f-4012-8be0-6832913ffab3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4647e2fa-d4a1-4ae1-a547-87aabff85efd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e95524a-6f72-4b6f-802e-cf26c58f05f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -2.55795 1.66115)
+		(end -2.55795 -1.66115)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b98f17bc-0b9b-4226-824d-571d92db87a8")
+	)
+	(fp_line
+		(start -0.3 -1.8)
+		(end 0.3 -2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12912726-df6b-4380-8a55-cf0ddc9d33a2")
+	)
+	(fp_line
+		(start -0.3 -1.8)
+		(end 0.3 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b0360ab-d0ee-4930-96bd-b66a767d733d")
+	)
+	(fp_line
+		(start -0.3 -1.2)
+		(end -0.3 -2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34609a2c-007a-4659-8e96-fdd0f603e83b")
+	)
+	(fp_line
+		(start 0.3 -1.2)
+		(end 0.3 -2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7693279-feec-41a8-a8f0-9c8acf142414")
+	)
+	(fp_arc
+		(start -2.557945 -1.661149)
+		(mid 3.05 0)
+		(end -2.557945 1.661149)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3acbdf57-7526-4e96-92ac-6a944686dad9")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "12cf2a60-842b-4fbd-bd4d-6e8e6962c114")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "41cbfcbe-98ff-4d77-a30b-68c25d07ea3e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b1bec67d-b732-4569-aea3-418c2f56735a")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f68ec56a-7691-4652-a48b-7120ae68c2ee")
+	)
+	(fp_line
+		(start -2.52857 1.70554)
+		(end -2.52857 -1.70554)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "026fa48e-6bf7-4fe0-95f7-548f89b04687")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end 0.3 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2aef1ac9-083c-4e43-b5cd-03a1d17c080e")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end 0.3 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82243460-bc19-4670-934e-a9775eb1f0ed")
+	)
+	(fp_line
+		(start -0.3 0.6)
+		(end -0.3 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6fdc23b-77b3-458e-9a6f-eb1e6aa23a65")
+	)
+	(fp_line
+		(start 0.3 0.6)
+		(end 0.3 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9eaf2475-046f-4b8b-9063-c43b1d421160")
+	)
+	(fp_arc
+		(start -2.528565 -1.705538)
+		(mid 3.05 -0.000001)
+		(end -2.528564 1.705539)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0199e5b6-25c4-4f40-be10-b6738307b85b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4ec486fd-e7f2-46ba-bd06-99f87843e8b6")
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91f0d647-f93a-4304-b180-4b28043a51db")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d719d926-9b46-4f59-8e97-f3861e5146ce")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/LED_5MM_GREEN_v.stp"
+		(offset
+			(xyz 0.00005 0.00007 -5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

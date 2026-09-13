@@ -1,0 +1,239 @@
+(footprint "PEM_SMTSOB-M25-2ET_a"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5.56mm Diameter, SMT Brass Surface Mount Standoff with Internal Thread M2.5")
+	(property "Reference" "REF**"
+		(at 0 -4.525 0)
+		(layer "F.SilkS")
+		(uuid "45010f27-eb25-410c-a3a8-19d34d1422cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "PEM_SMTSOB-M25-2ET_a"
+		(at 0 4.525 0)
+		(layer "F.Fab")
+		(uuid "eb21d136-e44b-4f08-bb10-3c16c49006f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce19934f-916f-42fa-856b-f86f4db70c71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ed163b5-bafd-4fcb-adce-422f0d22a216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9752a354-2aca-4c2b-8936-fcfb229d84f5")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 3.05941) (xy -0.73889 3.02037) (xy -1.19875 2.86907) (xy -1.62956 2.64823) (xy -2.02087 2.36319) (xy -2.36319 2.02087) (xy -2.64823 1.62957) (xy -2.86907 1.19876) (xy -3.02037 0.73889) (xy -3.05941 0.5) (xy -2.06534 0.5) (xy -2.02229 0.6381) (xy -1.91001 0.90457) (xy -1.76441 1.1544) (xy -1.58791 1.38345) (xy -1.38345 1.58791) (xy -1.1544 1.76441) (xy -0.90457 1.91001) (xy -0.6381 2.02229) (xy -0.5 2.06534)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "9936fd9a-7ab3-4e7a-90b4-52672199c965")
+	)
+	(fp_poly
+		(pts
+			(xy -3.05941 -0.5) (xy -3.02037 -0.73889) (xy -2.86907 -1.19875) (xy -2.64822 -1.62956) (xy -2.36319 -2.02086) (xy -2.02087 -2.36318) (xy -1.62956 -2.64822) (xy -1.19875 -2.86906) (xy -0.73889 -3.02036) (xy -0.5 -3.0594) (xy -0.5 -3.05941) (xy -0.5 -2.06534) (xy -0.6381 -2.02229) (xy -0.90457 -1.91001) (xy -1.1544 -1.76441) (xy -1.38345 -1.58791) (xy -1.58792 -1.38345) (xy -1.76441 -1.1544) (xy -1.91001 -0.90457) (xy -2.02229 -0.6381) (xy -2.06534 -0.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "61460f6b-83e7-4d02-9bfa-cda797bcd1e4")
+	)
+	(fp_poly
+		(pts
+			(xy 3.05941 0.5) (xy 3.02037 0.73889) (xy 2.86907 1.19876) (xy 2.64823 1.62957) (xy 2.36319 2.02087) (xy 2.02087 2.36319) (xy 1.62956 2.64823) (xy 1.19875 2.86907) (xy 0.73888 3.02037) (xy 0.49999 3.05941) (xy 0.5 3.05941) (xy 0.5 2.06534) (xy 0.6381 2.02229) (xy 0.90457 1.91) (xy 1.15439 1.76441) (xy 1.38344 1.58791) (xy 1.58791 1.38345) (xy 1.7644 1.1544) (xy 1.91 0.90457) (xy 2.02228 0.63811) (xy 2.06533 0.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "e027ae10-0011-44cc-8e69-27adb537ddf8")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 -3.05941) (xy 0.73888 -3.02037) (xy 1.19875 -2.86907) (xy 1.62956 -2.64822) (xy 2.02087 -2.36319) (xy 2.36319 -2.02087) (xy 2.64822 -1.62956) (xy 2.86907 -1.19875) (xy 3.02036 -0.73888) (xy 3.0594 -0.49999) (xy 3.05941 -0.5) (xy 2.06534 -0.5) (xy 2.02229 -0.6381) (xy 1.91001 -0.90457) (xy 1.76441 -1.1544) (xy 1.58792 -1.38345) (xy 1.38345 -1.58791) (xy 1.1544 -1.76441) (xy 0.90457 -1.91001) (xy 0.6381 -2.02229) (xy 0.5 -2.06533) (xy 0.5 -2.06534)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "a5eb14a9-dcea-403a-8fc1-a16a3d281302")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7ad6d5f9-e1a1-417c-ae37-17a6fa668cdd")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f92f8dad-fd28-4219-bc37-6682e1116c0b")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d4fbfabd-59c6-4ca4-ace1-dbb56dbf29cd")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "4fad4fdf-5579-4471-9d06-06d69e28d4b8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "0806efc1-cca0-4c1f-ac4e-a18aaf4fd07f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "bedc4b2d-dd02-4069-b7d5-33838efc4ef0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dfa9ae8d-96b4-46af-adcc-653e5c3e9818")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.6966)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3b2ce749-5f33-44b1-b905-ea39c2f76195")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "128a6605-fc5e-42d8-a917-c355a48bd1e1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.005)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d42c314-eca3-4c07-ad01-3653a3415b3f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 4.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "99226fe6-d4af-44b6-8123-2e045aa48d86")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/PEM_SMTSOB-M25-2ET.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

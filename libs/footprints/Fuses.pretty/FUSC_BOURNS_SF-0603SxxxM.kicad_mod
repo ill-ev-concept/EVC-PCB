@@ -1,0 +1,379 @@
+(footprint "FUSC_BOURNS_SF-0603SxxxM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0603 (1608mm), Body 1.6 x 0.8mm, Slow Blow Multilayer Surface Mount Fuse,  SF-0603SxxxM  Series")
+	(property "Reference" "REF**"
+		(at 0 -1.475 0)
+		(layer "F.SilkS")
+		(uuid "ee050ddf-2444-4e7f-b734-5ff200890a19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "FUSC_BOURNS_SF-0603SxxxM"
+		(at 0 1.475 0)
+		(layer "F.Fab")
+		(uuid "7174ae17-24cc-42bb-99da-46a28d680e89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57ce10fe-b6a2-43f6-8c28-8be839b7f46b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3650c1bd-316c-40e0-acf2-4b22ca3ead0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start 0 0.4)
+		(end 0 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f73706f3-db96-4979-bfd1-fdd2291fd695")
+	)
+	(fp_line
+		(start -1.1 -0.5)
+		(end -0.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9fe3c17d-95df-4515-80a9-12db37f34ec1")
+	)
+	(fp_line
+		(start -1.1 -0.5)
+		(end -0.4 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "26f1747c-3fc3-4e88-aa39-a0a320f41dea")
+	)
+	(fp_line
+		(start -1.1 0.5)
+		(end -1.1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ade32c81-72d6-44b5-9e02-405d2b1b67b0")
+	)
+	(fp_line
+		(start -1.1 0.5)
+		(end -0.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8be901d4-5c1c-4b05-9369-ba243c96f8f5")
+	)
+	(fp_line
+		(start -1.1 0.5)
+		(end -0.4 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "44c2f3ac-e179-45f9-bd02-1a541660094a")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5935f495-37c9-44a9-bad3-07ac21c8c420")
+	)
+	(fp_line
+		(start -0.4 0.5)
+		(end -0.4 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5bab6a1d-5367-485a-80d4-a3106cea153b")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3d119ef4-41f8-4c2e-bf43-504de94fc8c3")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ec50a90d-d0e0-4c1a-b0b5-54281cc9d880")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1e42d8ab-6bba-4fd1-9d60-51ec83d53dc4")
+	)
+	(fp_line
+		(start 0.4 -0.5)
+		(end 1.1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3b38b760-c88f-42f4-b0f7-47f5423d095f")
+	)
+	(fp_line
+		(start 0.4 0.5)
+		(end 0.4 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "506ffcb9-517a-4922-9180-cb0c35b15fb4")
+	)
+	(fp_line
+		(start 0.4 0.5)
+		(end 1.1 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6cf5f180-4bc3-44ae-8ca7-0d55f98d5a00")
+	)
+	(fp_line
+		(start 0.75 0)
+		(end 1.1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "15bf0a1f-0d7f-4542-bf07-3473613e9c99")
+	)
+	(fp_line
+		(start 0.75 0)
+		(end 1.1 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c9c78045-1f6f-4238-9f71-b83aa98cbc45")
+	)
+	(fp_line
+		(start 1.1 0.5)
+		(end 1.1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "979b4e42-c804-41ca-8527-b1db76a6397e")
+	)
+	(fp_line
+		(start -1.35 -0.75)
+		(end 1.35 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3668b09e-8bba-4ae7-bf32-c8a049759d25")
+	)
+	(fp_line
+		(start -1.35 0.75)
+		(end -1.35 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc889f1d-fa31-4121-b907-2dfb6f638ea5")
+	)
+	(fp_line
+		(start -1.35 0.75)
+		(end 1.35 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5b524bb-088d-4b72-9ee7-9a4d87c4aedd")
+	)
+	(fp_line
+		(start 1.35 0.75)
+		(end 1.35 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c61317b7-58b9-463d-8cf0-bd4a9817a56d")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fc91927-5e65-402a-91d9-cfcfc1e321ec")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "987186e9-03f6-4f2b-8d30-7147522ba8b5")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38f28cec-b65c-4b2f-b0ef-1cf31abfe052")
+	)
+	(fp_line
+		(start -0.44 0.4)
+		(end -0.44 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae149031-68b3-4dc1-b228-448da8e4ecce")
+	)
+	(fp_line
+		(start 0.44 0.4)
+		(end 0.44 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5d77ac5-01e4-480f-a288-5e47cd5479e3")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "472a9994-18a8-4ed9-b405-0635d260b784")
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c776baf9-3cf5-4538-9230-b4ca4a27e5f8")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e760cfca-433f-4031-a65b-05295c1ac99a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "72c6a3c2-a782-4408-bb58-414a504307c2")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.1 0.4) (xy 0.1 0.4) (xy 0.1 -0.4) (xy -0.1 -0.4)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/FUSC_BOURNS_SF-0603SxxxM.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)
