@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Potentiometer_THT") (type "KiCad") (uri "${EVC_FOOTPRINT_LIB}/Potentiometers THD.pretty") (options "") (descr ""))
+)
