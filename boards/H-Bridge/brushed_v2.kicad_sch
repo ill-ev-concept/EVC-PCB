@@ -1346,59 +1346,37 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Kicad_sym:P120PK-Y25BR10K"
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "VR"
-				(at 24.13 7.62 0)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "P120PK-Y25BR10K"
-				(at 24.13 5.08 0)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "P120PKY25BR10K"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P120.pdf"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "10k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Conductive Plastic 0.05W, 1/20W PC Pins, Board Locks"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1409,8 +1387,8 @@
 					)
 				)
 			)
-			(property "Height" "25.5"
-				(at 24.13 -394.92 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1418,11 +1396,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "TT Electronics"
-				(at 24.13 -494.92 0)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1430,11 +1407,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "P120PK-Y25BR10K"
-				(at 24.13 -594.92 0)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1442,11 +1418,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "858-P120PKY25BR10K"
-				(at 24.13 -694.92 0)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1454,11 +1429,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/BI-Technologies-TT-Electronics/P120PK-Y25BR10K?qs=mJjUQczmFnjx7VJQOQfC3g%3D%3D"
-				(at 24.13 -794.92 0)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1466,11 +1440,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Arrow Part Number" "P120PK-Y25BR10K"
-				(at 24.13 -894.92 0)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1478,11 +1451,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/p120pk-y25br10k/bi-technologies.html?utm_currency=USD&region=nac"
-				(at 24.13 -994.92 0)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1490,25 +1462,50 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(symbol "P120PK-Y25BR10K_1_1"
+			(symbol "R_Potentiometer_0_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "CCW"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1524,9 +1521,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "WIPER"
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1542,9 +1539,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "CW"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1552,42 +1549,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2684,7 +2645,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:TC1108-3.3VDBTR"
+		(symbol "Regulators:TC1108-3.3VDBTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3427,7 +3388,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SWD Pin is not in confirmed location pls check"
+	(text "SWO Pin is not in confirmed location pls check"
 		(exclude_from_sim no)
 		(at 166.624 90.17 0)
 		(effects
@@ -3556,14 +3517,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faec6e59-7aa4-4920-87c7-1b62d99aeb4b")
-	)
-	(no_connect
-		(at 57.15 31.75)
-		(uuid "707aa301-fc97-496f-b28a-0637d340186e")
-	)
-	(no_connect
-		(at 57.15 29.21)
-		(uuid "800d702f-609b-4ce4-b8be-398d8309d6ac")
 	)
 	(no_connect
 		(at 50.8 62.23)
@@ -3771,6 +3724,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 26.67) (xy 33.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45de84ff-d38f-4753-8bb2-5b4e83d9f89f")
+	)
+	(wire
+		(pts
 			(xy 29.21 118.11) (xy 29.21 119.38)
 		)
 		(stroke
@@ -3941,7 +3904,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 34.29) (xy 29.21 34.29)
+			(xy 33.02 36.83) (xy 33.02 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4218,16 +4181,6 @@
 			(type default)
 		)
 		(uuid "e3a48f3f-cb8b-484c-a119-2390573d3b61")
-	)
-	(wire
-		(pts
-			(xy 27.94 29.21) (xy 29.21 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6d68132-afdf-4e96-8c8a-6815e0496159")
 	)
 	(wire
 		(pts
@@ -5580,178 +5533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:TC1108-3.3VDBTR")
-		(at 116.84 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aab0a4b-2d5e-418b-8608-34a69c080202")
-		(property "Reference" "IC1"
-			(at 129.54 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TC1108-3.3VDBTR"
-			(at 129.54 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT230P700X180-4N"
-			(at 143.51 252.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21357C.pdf"
-			(at 143.51 352.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Microchip TC1108-3.3VDBTR, LDO Voltage Regulator, 300mA, 3.3 V +/-0.5%, 2.7  6 Vin, 3-Pin SOT-223"
-			(at 116.84 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.8"
-			(at 143.51 552.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 143.51 652.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TC1108-3.3VDBTR"
-			(at 143.51 752.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "579-TC1108-3.3VDBTR"
-			(at 143.51 852.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC1108-3.3VDBTR?qs=AIv3GLl6KMNgHSi6BcHPMA%3D%3D"
-			(at 143.51 952.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "TC1108-3.3VDBTR"
-			(at 143.51 1052.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tc1108-3.3vdbtr/microchip-technology?region=nac"
-			(at 143.51 1152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3"
-			(uuid "05ea2f84-f950-4335-ad13-f0059e2e800e")
-		)
-		(pin "1"
-			(uuid "d9fcc243-7991-4cb8-89b7-95cdd02fa75d")
-		)
-		(pin "4"
-			(uuid "e1754d0e-1a53-4579-8326-b1d5be5b8257")
-		)
-		(pin "2"
-			(uuid "d9353547-0cce-442b-81a5-34e1bc8e7c64")
-		)
-		(instances
-			(project "brushed_v2"
-				(path "/499ba534-8527-4f4e-b05c-ad6bfd4c0ecb"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 111.76 152.4 0)
 		(unit 1)
@@ -6064,7 +5845,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 34.29 0)
+		(at 33.02 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6075,7 +5856,7 @@
 		(fields_autoplaced yes)
 		(uuid "50799db8-9419-4505-8054-0b3d15e91d5d")
 		(property "Reference" "#PWR017"
-			(at 27.94 40.64 0)
+			(at 33.02 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6086,7 +5867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 39.37 0)
+			(at 33.02 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6096,7 +5877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 34.29 0)
+			(at 33.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6107,7 +5888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 34.29 0)
+			(at 33.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,7 +5899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 34.29 0)
+			(at 33.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,181 +6156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Kicad_sym:P120PK-Y25BR10K")
-		(at 29.21 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "790426a0-2e59-43cd-a835-cfb04d1d258c")
-		(property "Reference" "VR1"
-			(at 43.18 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Throttle Potentiometer"
-			(at 43.18 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "P120PKY25BR10K"
-			(at 53.34 124.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P120.pdf"
-			(at 53.34 224.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "10k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Conductive Plastic 0.05W, 1/20W PC Pins, Board Locks"
-			(at 29.21 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "25.5"
-			(at 53.34 424.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "TT Electronics"
-			(at 53.34 524.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "P120PK-Y25BR10K"
-			(at 53.34 624.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "858-P120PKY25BR10K"
-			(at 53.34 724.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/BI-Technologies-TT-Electronics/P120PK-Y25BR10K?qs=mJjUQczmFnjx7VJQOQfC3g%3D%3D"
-			(at 53.34 824.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "P120PK-Y25BR10K"
-			(at 53.34 924.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/p120pk-y25br10k/bi-technologies.html?utm_currency=USD&region=nac"
-			(at 53.34 1024.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5"
-			(uuid "afd2b155-9132-4eaf-8b45-a1d38db09dba")
-		)
-		(pin "2"
-			(uuid "067e82fd-f168-40c8-97a0-baa617853c37")
-		)
-		(pin "4"
-			(uuid "c7d94641-e56b-4b20-bc3d-9be6740ce4a4")
-		)
-		(pin "3"
-			(uuid "32c24557-95a3-46f9-b19a-c59e4838b6a8")
-		)
-		(pin "1"
-			(uuid "8a648bbf-5b07-4a1a-853f-968149ed0413")
-		)
-		(instances
-			(project "brushed_v2"
-				(path "/499ba534-8527-4f4e-b05c-ad6bfd4c0ecb"
-					(reference "VR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 35.56 115.57 0)
 		(unit 1)
@@ -6629,6 +6235,124 @@
 			(project "brushed_v2"
 				(path "/499ba534-8527-4f4e-b05c-ad6bfd4c0ecb"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 33.02 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd5359f-5869-4b1b-95ae-9275fa08f87f")
+		(property "Reference" "RV1"
+			(at 35.56 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 35.56 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:P120PKY25BR10K"
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bebd1a5b-9153-4b84-8fb4-4c3c692bcb5d")
+		)
+		(pin "3"
+			(uuid "6cda36f0-d4bc-4466-993d-97e9eb097f36")
+		)
+		(pin "2"
+			(uuid "a46d0950-66fe-4af3-be5c-700e8d29fbe0")
+		)
+		(instances
+			(project "brushed_v2"
+				(path "/499ba534-8527-4f4e-b05c-ad6bfd4c0ecb"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -6874,7 +6598,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 27.94 29.21 0)
+		(at 33.02 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6885,7 +6609,7 @@
 		(fields_autoplaced yes)
 		(uuid "90a8db72-9163-4224-b1c7-afcec032c065")
 		(property "Reference" "#PWR016"
-			(at 27.94 33.02 0)
+			(at 33.02 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6896,7 +6620,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 27.94 24.13 0)
+			(at 33.02 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6906,7 +6630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 29.21 0)
+			(at 33.02 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6917,7 +6641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 29.21 0)
+			(at 33.02 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6928,7 +6652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 27.94 29.21 0)
+			(at 33.02 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7179,6 +6903,178 @@
 			(project "brushed_v2"
 				(path "/499ba534-8527-4f4e-b05c-ad6bfd4c0ecb"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulators:TC1108-3.3VDBTR")
+		(at 116.84 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd443889-0c59-4305-96a7-64d907b39a33")
+		(property "Reference" "IC1"
+			(at 129.54 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC1108-3.3VDBTR"
+			(at 129.54 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT230P700X180-4N"
+			(at 143.51 252.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21357C.pdf"
+			(at 143.51 352.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Microchip TC1108-3.3VDBTR, LDO Voltage Regulator, 300mA, 3.3 V +/-0.5%, 2.7  6 Vin, 3-Pin SOT-223"
+			(at 116.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.8"
+			(at 143.51 552.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 143.51 652.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TC1108-3.3VDBTR"
+			(at 143.51 752.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "579-TC1108-3.3VDBTR"
+			(at 143.51 852.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC1108-3.3VDBTR?qs=AIv3GLl6KMNgHSi6BcHPMA%3D%3D"
+			(at 143.51 952.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "TC1108-3.3VDBTR"
+			(at 143.51 1052.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tc1108-3.3vdbtr/microchip-technology?region=nac"
+			(at 143.51 1152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "e2d82a3d-2d88-4e2c-8593-f217916f1853")
+		)
+		(pin "4"
+			(uuid "9efdadf5-1c86-450e-a9f5-0a9911835c20")
+		)
+		(pin "2"
+			(uuid "be8309a0-9e13-4e51-ab87-83ee448e0cc4")
+		)
+		(pin "3"
+			(uuid "5190c747-033d-42a7-b04b-0c1e1e8a6b0c")
+		)
+		(instances
+			(project "brushed_v2"
+				(path "/499ba534-8527-4f4e-b05c-ad6bfd4c0ecb"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
