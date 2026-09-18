@@ -1,4 +1,6 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "Regulators") (type "KiCad") (uri "${EVC_SYMBOL_LIB}/Regulators.kicad_sym") (options "") (descr ""))
+	(lib (name "Regulators") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/Regulators.kicad_sym") (options "") (descr ""))
+	(lib (name "PCB Modules") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/PCB Modules.kicad_sym") (options "") (descr ""))
+	(lib (name "Standard Logic") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/Standard Logic.kicad_sym") (options "") (descr ""))
 )
