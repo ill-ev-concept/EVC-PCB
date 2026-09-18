@@ -5298,29 +5298,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 26.67 7.62 0)
+			(property "Reference" "IC1"
+				(at 15.24 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "TC1108-3.3VDBTR"
-				(at 26.67 5.08 0)
+				(at 15.24 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT230P700X180-4N"
+			(property "Footprint" "SamacSys_Parts:SOT230P700X180-4N"
 				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5439,6 +5437,39 @@
 					(justify left top)
 				)
 			)
+			(property "MANUFACTURER" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "STANDARD" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "TC1108-3.3VDBTR_1_1"
 				(rectangle
 					(start 5.08 2.54)
@@ -5470,7 +5501,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 30.48 -5.08 180)
 					(length 5.08)
 					(name "GND_1"
 						(effects
@@ -7179,12 +7210,6 @@
 		(uuid "ca9c3b1f-a1bd-41d3-a775-a60e25afad0b")
 	)
 	(junction
-		(at 273.05 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02a2b5de-e974-4e5f-bc51-b99e1d8cb3aa")
-	)
-	(junction
 		(at 289.56 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7297,6 +7322,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46feb075-fe18-42a6-aae1-696bea875879")
+	)
+	(junction
+		(at 306.07 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c788df6-655e-45ae-bdf9-b907ccb1bf1f")
 	)
 	(junction
 		(at 360.68 105.41)
@@ -7465,6 +7496,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d367aacb-4a96-49aa-86e1-f1602610672a")
+	)
+	(junction
+		(at 273.05 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6c2f5a2-cedc-47af-aa68-c05487d63a52")
 	)
 	(junction
 		(at 205.74 41.91)
@@ -7946,6 +7983,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 52.07) (xy 273.05 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634be2e9-54ef-4060-9197-f20d4b959fe5")
+	)
+	(wire
+		(pts
 			(xy 205.74 46.99) (xy 209.55 46.99)
 		)
 		(stroke
@@ -8296,6 +8343,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 46.99) (xy 306.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab861b72-9098-4f3f-820c-619bac697cf0")
+	)
+	(wire
+		(pts
 			(xy 128.27 41.91) (xy 137.16 41.91)
 		)
 		(stroke
@@ -8403,6 +8460,16 @@
 			(type default)
 		)
 		(uuid "bf6810ea-b493-4a8d-afde-d07659354b9e")
+	)
+	(wire
+		(pts
+			(xy 306.07 41.91) (xy 306.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c588ef64-9dc1-4f2b-aaf3-23436dc7bdd6")
 	)
 	(wire
 		(pts
@@ -12917,7 +12984,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 273.05 50.8 180)
+		(at 273.05 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12928,7 +12995,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ef243fd-da45-4e75-802e-55c136b61a11")
 		(property "Reference" "C3"
-			(at 269.24 52.0701 0)
+			(at 269.24 57.1501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12939,7 +13006,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 269.24 49.5301 0)
+			(at 269.24 54.6101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12950,7 +13017,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 272.0848 46.99 0)
+			(at 272.0848 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12961,7 +13028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 50.8 0)
+			(at 273.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12972,7 +13039,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 273.05 50.8 0)
+			(at 273.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12983,7 +13050,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 273.05 50.8 0)
+			(at 273.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12994,7 +13061,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 273.05 50.8 0)
+			(at 273.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13005,7 +13072,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 273.05 50.8 0)
+			(at 273.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13025,85 +13092,6 @@
 			(project "brushed_ethab_redo"
 				(path "/d8f361a7-491e-46d4-b4cf-f2b16f084705"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 275.59 44.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "543cb9f6-33dd-440b-8c63-ab923361620d")
-		(property "Reference" "#PWR030"
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b91de90-f2e8-4416-9de6-69a1fa4ce1aa")
-		)
-		(instances
-			(project "brushed_ethab_redo"
-				(path "/d8f361a7-491e-46d4-b4cf-f2b16f084705"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15671,7 +15659,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 306.07 41.91 0)
+		(at 306.07 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15682,7 +15670,7 @@
 		(fields_autoplaced yes)
 		(uuid "850837ab-cd5f-4943-a722-325525d68e23")
 		(property "Reference" "#PWR03"
-			(at 306.07 48.26 0)
+			(at 306.07 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15693,7 +15681,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.07 46.99 0)
+			(at 306.07 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15703,7 +15691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 41.91 0)
+			(at 306.07 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15714,7 +15702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 41.91 0)
+			(at 306.07 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15725,7 +15713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 306.07 41.91 0)
+			(at 306.07 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17293,7 +17281,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 54.61 0)
+		(at 273.05 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17304,7 +17292,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaa61f34-35bc-48fa-8f27-b90c4cfb9b14")
 		(property "Reference" "#PWR04"
-			(at 273.05 60.96 0)
+			(at 273.05 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17315,7 +17303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 59.69 0)
+			(at 273.05 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17325,7 +17313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 54.61 0)
+			(at 273.05 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17336,7 +17324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 54.61 0)
+			(at 273.05 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17347,7 +17335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 54.61 0)
+			(at 273.05 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

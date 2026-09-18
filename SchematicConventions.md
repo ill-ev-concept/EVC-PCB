@@ -15,15 +15,16 @@ When using labels use **regular** or **hierarchical** labels. Only use global la
 
 ### **Naming labels**
 
-When naming labels, do **not** use spaces, use "_" instead. Generally it is best to use all capital letters when naming.
+When naming labels, do **not** use spaces, use "_" or no space instead. Generally it is best to use all capital letters when naming.
 
-PUT IMAGE HERE PLS
+![Label Conventions](./images/Label_Convention.png)
+
 
 ### **Power Labels**
 
-For power labels, GND must always face downwards, and power always upwards. Make sure you are using the build in symbols for these.
+For power labels, GND must always face downwards, and power always upwards. Make sure you are using the built in symbols for these.
 
-IMAGE OF THIS PLSSSSS
+![Power Label Conventions](./images/Programming_Header.png)
 
 # **Structure**
 
@@ -38,7 +39,7 @@ Make sure to label each boxes function. Make sure the box has:
 - Dashed lines
 - Use at least 1.5mm (55 mil) text size
 
-IMAGE HERE OF BOXES
+![Box/Partition Conventions](./images/Box_Example.png)
 
 ## **Sizes**
 
@@ -63,7 +64,7 @@ Make sure that components do not have overlapping designators, or component valu
 We have some specific standard layouts for connectors such as the programming headers and CANbus connections, as shown below
 
 
-IMG OF THE CAN AND PROG HEADER AND INCLUDE NAMES OF THE CONNECTOR
+![Programming Header](./images/Programming_Header.png) ![CAN Header](./images/CAN_Header.png) 
 
 # **Final Notes**
 
