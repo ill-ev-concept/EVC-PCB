@@ -26,11 +26,11 @@ If using Desktop, you can click the dropdown menu next to current repository, th
 After cloning, open KiCAD and find the "Preferences" dropdown and select "Configure Paths".
 We are going to be adding three new paths. Create three new variables, ```EVC_SYMBOL_DIR```, ```EVC_FOOTPRINT_DIR```, and ```EVC_3DMODEL_DIR```. Link these to the location of the ```symbols```, ```footprints```, and ```3d_models``` folders contained with ```libs``` folder.
 
-<img src="./images/Configure_Paths.png" width="500" alt="Example of Correct Paths">
+<img src="./images/Configure_Paths.png" width="700" alt="Example of Correct Paths">
 
 When designing, we will need KiCAD to know to look at a given library. We can do this by going to "Preferences" and finding either "Manage Symbol Libraries" or "Manage Footpring Libraries". Opening either brings up a window where we can select "Project Specific Libraries" where we can add paths. Click the folder icon and add the wanted library. If you set the path up correctly, the library path will contain  ```${EVC_SYMBOL_DIR}```, ```${EVC_FOOTPRINT_DIR}```, or ```${EVC_3DMODEL_DIR}```. 
 
-<img src="./images/Correct_Lib_Path.png" width="500" alt="Example of Library Paths">
+<img src="./images/Correct_Lib_Path.png" width="700" alt="Example of Library Paths">
 
 # Contributing 
 
@@ -38,7 +38,7 @@ In order to begin designing, create a branch for your given board. This can be d
 
 <img src="./images/Branch.png" width="300" alt="Desktop Branch Dropdown">
 
-This will be the branch where you will be doing your design work. Create a new KiCAD project and save the location into the boards folder of this repo. Everything onward will be traditional git. Use ```git add``` or check off the needed boxes on Desktop to add files on commit. ```git commit -m "[MESSAGE HERE]"``` will commit your changes. Make sure to write a meaningful commit message in order for good documentation. An example is shown below.
+This will be the branch where you will be doing your design work. Create a new KiCAD project and save the location into the boards folder of this repo. Everything onward will be traditional git. Use ```git add``` or check off the needed boxes on Desktop to add files for commit. ```git commit -m "[MESSAGE HERE]"``` will commit your changes. Make sure to write a meaningful commit message in order for good documentation. An example is shown below.
 
 ```git commit -m "Finished designing LDO and CANBus connectors, need to add MCU pinout and decoupling caps"```
 
@@ -52,11 +52,11 @@ Once a board is finished or you want it reviewed, it must be submitted via a pul
 
 This will open up a Github tab on your browser where you can edit your pull request. Give it a good title and description so the design choices are clear and understandable. A title will also help the leads parse what you guys want done. 
 
-<img src="./images/Comp_And_PR.png" width="300" alt="PR From Git Command">
+<img src="./images/Comp_And_PR.png" width="500" alt="PR From Git Command">
 
 You'll see the image above if you use a command line prompt and go to the repo.
 
-<img src="./images/PR_In_Git.png" width="300" alt="Creating a Pull Request">
+<img src="./images/PR_In_Git.png" width="400" alt="Creating a Pull Request">
 
 After the PR is submitted, we will decide on whether the board can be pushed to main or not. If it is not pushed, we will submit comments on what needs to be reviewed and edited. You can view open PRs and their comments in Github.
 
