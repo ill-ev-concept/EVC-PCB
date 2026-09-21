@@ -28,7 +28,7 @@ We are going to be adding three new paths. Create three new variables, ```EVC_SY
 
 <img src="./images/Configure_Paths.png" width="700" alt="Example of Correct Paths">
 
-When designing, we will need KiCAD to know to look at a given library. We can do this by going to "Preferences" and finding either "Manage Symbol Libraries" or "Manage Footpring Libraries". Opening either brings up a window where we can select "Project Specific Libraries" where we can add paths. Click the folder icon and add the wanted library. If you set the path up correctly, the library path will contain  ```${EVC_SYMBOL_DIR}```, ```${EVC_FOOTPRINT_DIR}```, or ```${EVC_3DMODEL_DIR}```. 
+When designing, we will need KiCAD to know to look at a given library. We can do this by going to "Preferences" and finding either "Manage Symbol Libraries" or "Manage Footprint Libraries". Opening either brings up a window where we can select "Project Specific Libraries" where we can add paths. Click the folder icon and add the wanted library. If you set the path up correctly, the library path will contain  ```${EVC_SYMBOL_DIR}```, ```${EVC_FOOTPRINT_DIR}```, or ```${EVC_3DMODEL_DIR}```. 
 
 <img src="./images/Correct_Lib_Path.png" width="700" alt="Example of Library Paths">
 
@@ -72,7 +72,7 @@ Because the libs folder will be constantly updated, its also important to keep y
 
 <img src="./images/Update_From_Main.png" width="300" alt="Update from Main">
 
-This should not change any local files that is stored and will update the libs folder to have the newest selection of ICs. I recommened doing this every time you work on your boards. It will also make sure a merge conflict won't be created, in which the same file from two different pull requests is edited, causing a lot of hassle for the writers of this repo. 
+This should not change any local files that is stored and will update the libs folder to have the newest selection of ICs. I recommend doing this every time you work on your boards. It will also make sure a merge conflict won't be created, in which the same file from two different pull requests is edited, causing a lot of hassle for the writers of this repo. 
 
 A general outline of what the workflow may look like is shown below:
 
@@ -82,7 +82,7 @@ A general outline of what the workflow may look like is shown below:
 
 ```git merge origin/main``` -> Merges the changes from the above command
 
-```git add [file name]``` -> Add files for commit. When updating library files, make sure to add them in indivual PRs
+```git add [file name]``` -> Add files for commit. When updating library files, make sure to add them in individual PRs
 
 ```git commit -m "[message here]"``` -> Commits your changes to be pushed into your branch
 
