@@ -1,0 +1,232 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5680942d-4620-49a6-8440-2cbb90deb788")
+	(paper "A4")
+	(title_block
+		(title "EVC Brushed Motor Controller V2")
+		(date "2026-09-08")
+		(rev "1.0.0")
+		(company "Illini EV Concept")
+	)
+	(lib_symbols)
+	(sheet
+		(at 99.06 74.93)
+		(size 24.13 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1f56d47e-fe69-48f6-82e1-eecb4054b845")
+		(property "Sheetname" "MCU&Low_Voltage"
+			(at 99.06 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "brushed_v2.kicad_sch"
+			(at 99.06 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AHI" output
+			(at 123.19 95.25 0)
+			(uuid "f9113260-5af1-4e0d-b86b-ef1bda095b3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALI" output
+			(at 123.19 91.44 0)
+			(uuid "228c2b44-bb84-484f-afe6-ba4b5f543435")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BHI" output
+			(at 123.19 87.63 0)
+			(uuid "9ac7a18b-86be-4f92-89e8-87383d8c1643")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BLI" output
+			(at 123.19 83.82 0)
+			(uuid "e2e58044-49a6-43b5-bf7c-fb9188bd5b50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GATE_EN" output
+			(at 123.19 77.47 0)
+			(uuid "24f442ef-b0b2-4071-84cd-be73680b99c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_IN" input
+			(at 99.06 81.28 180)
+			(uuid "d78d5d6c-5337-450a-8754-177c6c42ea3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "brushed_v2"
+				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 74.93)
+		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "576e7c9a-0307-4216-9e33-6884784be1ad")
+		(property "Sheetname" "High Voltage&Sense"
+			(at 158.75 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "High_Voltage.kicad_sch"
+			(at 158.75 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AHI" input
+			(at 158.75 93.98 180)
+			(uuid "8aa869f7-80cd-426e-95f5-e8a32ab3ce4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ALI" input
+			(at 158.75 90.17 180)
+			(uuid "25aecd48-da25-4295-b567-2a0b25d47877")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BHI" input
+			(at 158.75 86.36 180)
+			(uuid "3adfd075-218c-4f76-abd3-01c3fdac4dfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BLI" input
+			(at 158.75 82.55 180)
+			(uuid "9ad52695-8cf2-4ab5-9e85-93d28e30931b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GATE_EN" input
+			(at 158.75 78.74 180)
+			(uuid "25d3d58f-e3fb-468f-a323-1e9efedb66a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CURR_SENSE" output
+			(at 185.42 96.52 0)
+			(uuid "14eb8218-ebc7-4dd8-96fe-b79c36704dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "brushed_v2"
+				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

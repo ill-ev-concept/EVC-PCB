@@ -709,19 +709,28 @@
         "filename": "brushed_v2.kicad_sch",
         "name": "brushed_v2",
         "uuid": "499ba534-8527-4f4e-b05c-ad6bfd4c0ecb"
+      },
+      {
+        "filename": "h-bridge_top.kicad_sch",
+        "name": "H-Bridge_Top",
+        "uuid": "eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
       }
     ],
-    "used_designators": "IC1-3,RV1,C7-8,#PWR24-28",
+    "used_designators": "#PWR26-28,C8,R1,IC2-3",
     "variants": []
   },
   "sheets": [
     [
-      "499ba534-8527-4f4e-b05c-ad6bfd4c0ecb",
-      "brushed_v2"
+      "eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86",
+      "H-Bridge_Top"
     ],
     [
-      "c01e7cef-d592-4fdb-a456-2d225f41306b",
+      "576e7c9a-0307-4216-9e33-6884784be1ad",
       "High Voltage&Sense"
+    ],
+    [
+      "499ba534-8527-4f4e-b05c-ad6bfd4c0ecb",
+      "brushed_v2"
     ]
   ],
   "text_variables": {},
