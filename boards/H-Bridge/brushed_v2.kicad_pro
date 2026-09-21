@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -709,12 +709,25 @@
         "filename": "brushed_v2.kicad_sch",
         "name": "brushed_v2",
         "uuid": "499ba534-8527-4f4e-b05c-ad6bfd4c0ecb"
+      },
+      {
+        "filename": "h-bridge_top.kicad_sch",
+        "name": "H-Bridge_Top",
+        "uuid": "eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
       }
     ],
-    "used_designators": "IC1,RV1",
+    "used_designators": "#PWR26-28,C8,R1,IC2-3",
     "variants": []
   },
   "sheets": [
+    [
+      "eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86",
+      "H-Bridge_Top"
+    ],
+    [
+      "576e7c9a-0307-4216-9e33-6884784be1ad",
+      "High Voltage&Sense"
+    ],
     [
       "499ba534-8527-4f4e-b05c-ad6bfd4c0ecb",
       "brushed_v2"
