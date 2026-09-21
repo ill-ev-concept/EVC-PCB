@@ -252,7 +252,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -19.05 90)
+				(at 11.43 -19.05 90)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -270,7 +270,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -19.05 90)
+				(at 13.97 -19.05 90)
 				(length 5.08)
 				(name "VSS"
 					(effects
