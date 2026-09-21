@@ -23,20 +23,31 @@ If using Desktop, you can click the dropdown menu next to current repository, th
 After cloning, open KiCAD and find the "Preferences" dropdown and select "Configure Paths".
 We are going to be adding three new paths. Create three new variables, ```EVC_SYMBOL_DIR```, ```EVC_FOOTPRINT_DIR```, and ```EVC_3DMODEL_DIR```. Link these to the location of the ```symbols```, ```footprints```, and ```3d_models``` folders contained with ```libs``` folder.
 
+![Example of Correct Paths](./images/Configure_Paths.png)
+
 When designing, we will need KiCAD to know to look at a given library. We can do this by going to "Preferences" and finding either "Manage Symbol Libraries" or "Manage Footpring Libraries". Opening either brings up a window where we can select "Project Specific Libraries" where we can add paths. Click the folder icon and add the wanted library. If you set the path up correctly, the library path will contain  ```${EVC_SYMBOL_DIR}```, ```${EVC_FOOTPRINT_DIR}```, or ```${EVC_3DMODEL_DIR}```. 
 
+![Example of Library Paths](./images/Correct_Lib_Path.png)
 
 # Contributing 
 
 In order to begin designing, create a branch for your given board. This can be done through either the "current branch" dropdown in Desktop or using the command ```git checkout -b [branch name]```. You can swap branches using the same dropdown or either ```git checkout [branch name]```. 
 
+![Desktop Branch Dropdown]
+
 This will be the branch where you will be doing your design work. Create a new KiCAD project and save the location into the boards folder of this repo. Everything onward will be traditional git. Use ```git add``` or check off the needed boxes on Desktop to add files on commit. ```git commit -m "[MESSAGE HERE]"``` will commit your changes. Make sure to write a meaningful commit message in order for good documentation. An example is shown below.
 
 ```git commit -m "Finished designing LDO and CANBus connectors, need to add MCU pinout and decoupling caps"```
 
+![Ex. of Good Commit Msg]
+
 Input both your contributions and the next required steps in order to give reminders to both yourself and your teammates. 
 
-Once a board is finished or you want it reviewed, it must be submitted via a pull request. This can be done using ```git push -u origin [branch name]``` or by clicking the branch dropdown in Desktop and selecting the "create pull request" option. This will open up a Github tab on your browser where you can edit your pull request. Give it a good title and description so the design choices are clear and understandable. A title will also help the leads parse what you guys want done. 
+Once a board is finished or you want it reviewed, it must be submitted via a pull request. This can be done using ```git push -u origin [branch name]``` or by clicking the branch dropdown in Desktop and selecting the "create pull request" option. 
+
+
+
+This will open up a Github tab on your browser where you can edit your pull request. Give it a good title and description so the design choices are clear and understandable. A title will also help the leads parse what you guys want done. 
 
 After the PR is submitted, we will decide on whether the board can be pushed to main or not. If it is not pushed, we will submit comments on what needs to be reviewed and edited. You can view open PRs and their comments in Github.
 
@@ -44,7 +55,7 @@ Apart from designing in KiCAD, it is important to be updating the libs folder wh
 
 When making pull requests for ICs, make sure to push them individually rather than with changes to other files. This will make it more clear for reviewers to understand that library files are being edited in addition to making sure that the change will be pushed to main. If you push with changes to your board and the pull request is not granted, people will not have access to the IC you have imported. 
 
-Because the libs folder will be constantly updated, its also important to keep your branch up to date with new changes. We can layer on changes from main into our branch using a few different methods but the main one we will be using is merge. Run the command ```git fetch origin``` and then ```git merge origin``` in order to update changes. In Desktop, you can selete "Update from main" from the "Branch" dropdown. This should not change any local files that is stored and will update the libs folder to have the newest selection of ICs. I recommened doing this every time you work on your boards. It will also make sure a merge conflict won't be created, in which the same file from two different pull requests is edited, causing a lot of hassle for the writers of this repo. 
+Because the libs folder will be constantly updated, its also important to keep your branch up to date with new changes. We can layer on changes from main into our branch using a few different methods but the main one we will be using is merge. Run the command ```git fetch origin``` and then ```git merge origin``` in order to update changes. In Desktop, you can select "Update from main" from the "Branch" dropdown. This should not change any local files that is stored and will update the libs folder to have the newest selection of ICs. I recommened doing this every time you work on your boards. It will also make sure a merge conflict won't be created, in which the same file from two different pull requests is edited, causing a lot of hassle for the writers of this repo. 
 
 A general outline of what the workflow may look like is shown below:
 
