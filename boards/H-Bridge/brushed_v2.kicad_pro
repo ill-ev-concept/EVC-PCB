@@ -706,17 +706,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "brushed_v2.kicad_sch",
-        "name": "brushed_v2",
-        "uuid": "499ba534-8527-4f4e-b05c-ad6bfd4c0ecb"
-      },
-      {
         "filename": "h-bridge_top.kicad_sch",
         "name": "H-Bridge_Top",
         "uuid": "eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
       }
     ],
-    "used_designators": "#PWR26-28,C8,R1,IC2-3",
+    "used_designators": "#PWR26-36,C8-17,J5-8,R1-4,IC2-4,RV2,U1-3",
     "variants": []
   },
   "sheets": [
@@ -729,8 +724,8 @@
       "High Voltage&Sense"
     ],
     [
-      "499ba534-8527-4f4e-b05c-ad6bfd4c0ecb",
-      "brushed_v2"
+      "1f56d47e-fe69-48f6-82e1-eecb4054b845",
+      "MCU&Low_Voltage"
     ]
   ],
   "text_variables": {},
