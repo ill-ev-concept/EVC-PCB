@@ -4,4 +4,6 @@
 	(lib (name "High Power MOSFETs") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/High Power MOSFETs.pretty") (options "") (descr ""))
 	(lib (name "Current Sense Amplifiers") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/Current Sense Amplifiers.pretty") (options "") (descr ""))
 	(lib (name "Gate Drivers") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/Gate Drivers.pretty") (options "") (descr ""))
+	(lib (name "CAN Isolators & Trancievers") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/CAN Isolators & Trancievers.pretty") (options "") (descr ""))
+	(lib (name "ThreadedConnector") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/ThreadedConnector.pretty") (options "") (descr ""))
 )

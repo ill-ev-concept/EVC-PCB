@@ -5,4 +5,5 @@
 	(lib (name "Gate Drivers") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/Gate Drivers.kicad_sym") (options "") (descr ""))
 	(lib (name "Level_Shifters") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/Level_Shifters.kicad_sym") (options "") (descr ""))
 	(lib (name "High Power MOSFETs") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/High Power MOSFETs.kicad_sym") (options "") (descr ""))
+	(lib (name "CAN Isolators & Trancievers") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/CAN Isolators & Trancievers.kicad_sym") (options "") (descr ""))
 )
