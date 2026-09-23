@@ -964,7 +964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c3463d-d466-49a0-aeb7-ff9a33b9eff9")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 106.68 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1028,7 +1028,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1046,7 +1046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677d2124-dd5c-4afd-8fc1-d921643a921c")
-		(property "Reference" "C28"
+		(property "Reference" "C29"
 			(at 124.46 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1110,7 +1110,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "C28")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -1128,7 +1128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a357de9-4923-4f06-b6c3-a12e471ea608")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 78.74 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1188,7 +1188,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1206,7 +1206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3305ea-87c4-4fe2-aa47-83bdcfcee51a")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1266,7 +1266,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1284,7 +1284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ea7d5ae-960b-4f1a-9ae4-e923a097110b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 149.86 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1344,7 +1344,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -1442,7 +1442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c05dc96c-16c2-43a3-a508-f327e14d9d4a")
-		(property "Reference" "C27"
+		(property "Reference" "C28"
 			(at 114.3 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1504,7 +1504,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "C27")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -1522,7 +1522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c46a517c-acd9-4a27-882f-ce5c3c032497")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 128.27 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1584,7 +1584,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -1602,7 +1602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5fb3307-8e55-4005-be59-6710cec9b9aa")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 76.2 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1666,7 +1666,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -1764,7 +1764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8ad4d1e-4e3c-4c88-9c94-d6c6a35f1922")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 88.9 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1828,7 +1828,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -1846,7 +1846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d690163a-7e56-4d7c-8a82-8ba6d0fc32ed")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 153.67 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1910,7 +1910,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/e71ddfbd-55e3-49a6-8efb-57936fc9e5b8"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
