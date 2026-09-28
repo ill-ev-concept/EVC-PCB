@@ -649,7 +649,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Dashboard STM32",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -670,8 +670,8 @@
       "Root"
     ],
     [
-      "87ad2d04-0ce7-4524-8399-ce5eec209bd4",
-      "LCD"
+      "9090026c-71d0-41e3-9a0c-b041ee1ac1f4",
+      "MCU"
     ]
   ],
   "text_variables": {},
