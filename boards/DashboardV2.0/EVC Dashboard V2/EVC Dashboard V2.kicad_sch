@@ -190,6 +190,52 @@
 		)
 	)
 	(sheet
+		(at 105.41 167.64)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a863baeb-ace9-4290-ba79-a0c3a9791cc4")
+		(property "Sheetname" "Overvoltage Protection"
+			(at 105.41 166.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "overvoltage.kicad_sch"
+			(at 105.41 193.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EVC Dashboard V2"
+				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 20.32 21.59)
 		(size 80.01 57.15)
 		(exclude_from_sim no)

@@ -464,6 +464,10 @@
     [
       "3ee3826b-6fc5-49c7-b040-60fa39243ad2",
       "LCD"
+    ],
+    [
+      "a863baeb-ace9-4290-ba79-a0c3a9791cc4",
+      "Overvoltage Protection"
     ]
   ],
   "text_variables": {},
