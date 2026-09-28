@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 20.32 139.7)
-		(size 96.52 52.07)
+		(at 160.02 40.64)
+		(size 63.5 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "9090026c-71d0-41e3-9a0c-b041ee1ac1f4")
-		(property "Sheetname" "MCU"
-			(at 20.32 138.9884 0)
+		(uuid "87ad2d04-0ce7-4524-8399-ce5eec209bd4")
+		(property "Sheetname" "LCD"
+			(at 160.02 39.9284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32,8 +32,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU.kicad_sch"
-			(at 20.32 192.3546 0)
+		(property "Sheetfile" "LCD_sch.kicad_sch"
+			(at 160.02 92.0246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
