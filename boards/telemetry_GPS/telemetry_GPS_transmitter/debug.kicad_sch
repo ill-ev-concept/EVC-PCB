@@ -395,6 +395,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -2222,6 +2345,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V5"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+1V5"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V5\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+1V5_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V5_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -3028,6 +3290,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 160.02) (xy 86.36 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161eec4a-983f-4613-a02c-4638b64530a8")
+	)
+	(wire
+		(pts
 			(xy 54.61 134.62) (xy 58.42 134.62)
 		)
 		(stroke
@@ -3572,7 +3844,7 @@
 		)
 		(uuid "67181974-1529-4d6b-a870-b5a88d763c67")
 	)
-	(hierarchical_label "I2C_SDA"
+	(hierarchical_label "I2C_SCL"
 		(shape bidirectional)
 		(at 110.49 43.18 180)
 		(effects
@@ -3660,7 +3932,7 @@
 		)
 		(uuid "e964b5d8-4cb2-40f3-95da-55e63a80c1b6")
 	)
-	(hierarchical_label "I2C_SCL"
+	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 110.49 40.64 180)
 		(effects
@@ -3683,7 +3955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00145d3a-d019-4d42-bf61-a7b59c2b879c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3743,7 +4015,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3761,7 +4033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0124448a-509c-4f5c-a53e-c0200704a047")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 58.42 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3825,7 +4097,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3843,7 +4115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d51ae79-492c-4afb-8621-7cee2b9e0695")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 106.68 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -3903,7 +4175,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4102,7 +4374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
 			(at 73.66 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4224,6 +4496,163 @@
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V5")
+		(at 86.36 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26901611-39c6-47a2-8fdc-0241082dd137")
+		(property "Reference" "#PWR029"
+			(at 86.36 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V5"
+			(at 86.36 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V5\""
+			(at 86.36 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "777e5c50-ab14-4582-ad44-895832f2d2d5")
+		)
+		(instances
+			(project "telemetry_GPS_transmitter"
+				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 86.36 163.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29179441-832c-44bf-942c-90cfdafeda48")
+		(property "Reference" "TP1"
+			(at 88.9 165.8619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.9 168.4019 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 81.28 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3f88b75-bf72-4453-a80b-39da3bac5a4e")
+		)
+		(instances
+			(project "telemetry_GPS_transmitter"
+				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4893,7 +5322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 229.87 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5031,84 +5460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 77.47 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8555ea6a-acb3-4551-ad75-83705d641cfb")
-		(property "Reference" "#PWR028"
-			(at 77.47 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 77.47 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 77.47 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9fa72fa-deea-49bf-b111-2e05c835df1e")
-		)
-		(instances
-			(project "telemetry_GPS_transmitter"
-				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 73.66 0)
 		(unit 1)
@@ -5120,7 +5471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8719736d-beb6-4e60-92d7-1c2d8999fb14")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 190.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5180,7 +5531,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5198,7 +5549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe0fe5d-d092-4dc9-8b2e-68bc53549fd0")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5258,7 +5609,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5276,7 +5627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1be9bfb-195b-473e-b1f7-aa3620ea8846")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 247.65 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5336,7 +5687,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5841,7 +6192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9da338b-0272-4a28-a0ed-fce417c040fd")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 107.95 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5901,7 +6252,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5941,7 +6292,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 247.65 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5995,6 +6346,84 @@
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 77.47 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdc88b58-7bf2-4843-a228-6f379ae814d3")
+		(property "Reference" "#PWR028"
+			(at 77.47 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 77.47 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd74ed27-be9f-4969-bcbb-0eca6303c34c")
+		)
+		(instances
+			(project "telemetry_GPS_transmitter"
+				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/b445cc6d-7b3e-4d39-86ab-3d1fa150ad3f"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

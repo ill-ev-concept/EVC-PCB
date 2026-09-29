@@ -1275,7 +1275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03d514a5-ef11-4bf4-a8d3-1ed5b9a5c99c")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 80.01 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1339,7 +1339,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/8a3a1144-1204-45bc-8a8c-54e20062ae57"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1617,7 +1617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 121.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1934,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3cc685a-a0b9-428d-8172-c2bd1082790b")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 104.14 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1998,7 +1998,7 @@
 		(instances
 			(project "telemetry_GPS_transmitter"
 				(path "/533d07f9-dcec-4fc7-999e-b85b8badcf59/8a3a1144-1204-45bc-8a8c-54e20062ae57"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
