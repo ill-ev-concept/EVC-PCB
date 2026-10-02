@@ -7,4 +7,5 @@
 	(lib (name "STLINK-V3MODS") (type "KiCad") (uri "${KIPRJMOD}/tGPS_footprints/STLINK-V3MODS") (options "") (descr ""))
 	(lib (name "ISO1042") (type "KiCad") (uri "${KIPRJMOD}/tGPS_footprints/ISO1042") (options "") (descr ""))
 	(lib (name "NX2016SA-32MHZ-EXS00A-CS11213") (type "KiCad") (uri "${KIPRJMOD}/tGPS_footprints/NX2016SA-32MHZ-EXS00A-CS11213") (options "") (descr ""))
+	(lib (name "EVC Logo") (type "KiCad") (uri "${KIPRJMOD}/tGPS_footprints/EVC Logo.pretty") (options "") (descr ""))
 )
