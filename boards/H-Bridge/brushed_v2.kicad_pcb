@@ -4633,9 +4633,9 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U1-PA3-Pad13)")
+			(net "/MCU&Low_Voltage/SENSE")
 			(pinfunction "PA3_13")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "932f9fcf-77e9-472b-8ff5-267cb1ecaa9a")
 		)
 		(pad "14" smd roundrect
@@ -4663,9 +4663,9 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U1-PA6-Pad16)")
+			(net "/MCU&Low_Voltage/AHI")
 			(pinfunction "PA6_16")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "66704a7b-96e7-46f7-b43c-33f7193d4d81")
 		)
 		(pad "17" smd roundrect
@@ -4673,7 +4673,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU&Low_Voltage/SENSE")
+			(net "/MCU&Low_Voltage/ALI")
 			(pinfunction "PA7_17")
 			(pintype "bidirectional")
 			(uuid "fa6fe3e7-bfe4-4437-a40f-224700c0151f")
@@ -4683,7 +4683,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU&Low_Voltage/AHI")
+			(net "/MCU&Low_Voltage/BLI")
 			(pinfunction "PB0_18")
 			(pintype "bidirectional")
 			(uuid "b65f3205-b973-426e-9bb3-81652a3b0810")
@@ -4693,7 +4693,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU&Low_Voltage/ALI")
+			(net "/MCU&Low_Voltage/BHI")
 			(pinfunction "PB1_19")
 			(pintype "bidirectional")
 			(uuid "1b85feef-e44d-4ca8-b29e-810744987cb7")
@@ -4713,9 +4713,9 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU&Low_Voltage/BLI")
+			(net "unconnected-(U1-PB10-Pad21)")
 			(pinfunction "PB10_21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "842f39c3-77c3-4afa-a7dd-23730b6268f0")
 		)
 		(pad "22" smd roundrect
@@ -4723,9 +4723,9 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU&Low_Voltage/BHI")
+			(net "unconnected-(U1-PB11-Pad22)")
 			(pinfunction "PB11_22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2af240af-ef55-47b1-9688-22b197bf507a")
 		)
 		(pad "23" smd roundrect
@@ -15710,11 +15710,11 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "eb15f4aa-4c4b-4f92-ba54-5307e1e5ea33")
-		(at 164.5 96.5)
+		(at 202.25 105.75 90)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -2.63 0)
+			(at 0 -2.63 90)
 			(layer "F.SilkS")
 			(uuid "94638c25-93b3-46c3-ba0f-72beecac6932")
 			(effects
@@ -15725,7 +15725,7 @@
 			)
 		)
 		(property "Value" ".001"
-			(at 0 2.63 0)
+			(at 0 2.63 90)
 			(layer "F.Fab")
 			(uuid "bd98a248-e19c-4391-9b73-728f911bdee5")
 			(effects
@@ -15736,7 +15736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63537756-e6b3-4aef-93b1-c68bd2e036d7")
@@ -15747,7 +15747,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol, CSS2H-2512R-1L00FE"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "76bab09d-7f2d-4205-92cb-f9d4f037a8b2")
@@ -15758,7 +15758,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "746e2da1-935e-4acf-a3c4-023f16d88d51")
@@ -15824,7 +15824,7 @@
 			(uuid "96079729-ade5-488d-bbfe-9a2747943a18")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "d7524f74-8b96-4302-818f-6e7efc44e818")
 			(effects
@@ -15835,7 +15835,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.9625 0)
+			(at -2.9625 0 90)
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
@@ -15844,7 +15844,7 @@
 			(uuid "0b16f3c1-c87f-4335-ba67-5b434a805d91")
 		)
 		(pad "2" smd roundrect
-			(at 2.9625 0)
+			(at 2.9625 0 90)
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
