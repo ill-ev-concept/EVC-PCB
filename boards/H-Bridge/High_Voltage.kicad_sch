@@ -2978,6 +2978,12 @@
 		(uuid "0f4937cb-fe8f-468f-8605-19b86e16b5f0")
 	)
 	(junction
+		(at 195.58 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1204a06d-aea7-4230-b4e1-3e54f77bddbe")
+	)
+	(junction
 		(at 143.51 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3014,16 +3020,16 @@
 		(uuid "3054628d-bc45-4cf3-a578-85baaa73f88c")
 	)
 	(junction
+		(at 184.15 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32545377-aa6f-4fad-919f-2bb7b5909cba")
+	)
+	(junction
 		(at 243.84 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "399011eb-37af-4b03-9a3c-b8d2c0d9b1ce")
-	)
-	(junction
-		(at 196.85 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b9c4dfb-609a-47de-9f7a-95840977b2c0")
 	)
 	(junction
 		(at 143.51 49.53)
@@ -3060,6 +3066,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e916810-d6f8-4202-8bf9-6fd858ac93b3")
+	)
+	(junction
+		(at 187.96 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ef0b2c8-be96-4dbe-97aa-fc309ad1b318")
 	)
 	(junction
 		(at 217.17 46.99)
@@ -3164,12 +3176,6 @@
 		(uuid "97ca676b-379a-46c4-b0a0-d2164b4b1d72")
 	)
 	(junction
-		(at 212.09 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99f546b3-d3b6-437f-a12b-114a0b3aea3c")
-	)
-	(junction
 		(at 217.17 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3200,12 +3206,6 @@
 		(uuid "b4c423b0-b471-4e1b-9fa5-63acde68ab3d")
 	)
 	(junction
-		(at 207.01 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0a932fb-2df2-4ca1-a166-2d9261bbb562")
-	)
-	(junction
 		(at 246.38 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3218,12 +3218,6 @@
 		(uuid "cb962263-8e0c-42a5-a177-6f9172791372")
 	)
 	(junction
-		(at 184.15 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbb088b4-1abe-4b43-a7ca-531f81ab3ce4")
-	)
-	(junction
 		(at 215.9 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3234,6 +3228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc69863e-168f-4b7b-83ca-cd37cd4fd7b9")
+	)
+	(junction
+		(at 212.09 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd41a447-f153-4c8e-b200-b8222106706d")
 	)
 	(junction
 		(at 85.09 64.77)
@@ -3489,6 +3489,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 66.04) (xy 196.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e73cb55-4f89-4140-b87e-465f66009d6b")
+	)
+	(wire
+		(pts
 			(xy 144.78 52.07) (xy 143.51 52.07)
 		)
 		(stroke
@@ -3519,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 66.04) (xy 184.15 82.55)
+			(xy 184.15 50.8) (xy 184.15 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4029,6 +4039,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 66.04) (xy 195.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634f18af-b6a1-4cfb-adfc-4bd5d84ffac2")
+	)
+	(wire
+		(pts
 			(xy 144.78 81.28) (xy 143.51 81.28)
 		)
 		(stroke
@@ -4076,16 +4096,6 @@
 			(type default)
 		)
 		(uuid "6a7d77aa-c1f6-4456-8257-4eeb8d25d162")
-	)
-	(wire
-		(pts
-			(xy 198.12 66.04) (xy 196.85 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6abfc796-571c-48ab-b6d3-1532e6753526")
 	)
 	(wire
 		(pts
@@ -4189,27 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 74.93) (xy 196.85 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb8b0e4-7f44-4dc8-bb73-17e0dc1c8413")
-	)
-	(wire
-		(pts
-			(xy 207.01 66.04) (xy 207.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d8a3b61-dbfc-4750-9e91-916f36719354")
-	)
-	(wire
-		(pts
-			(xy 207.01 66.04) (xy 212.09 66.04)
+			(xy 209.55 66.04) (xy 212.09 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4286,16 +4276,6 @@
 			(type default)
 		)
 		(uuid "8af50698-78a8-4ceb-860c-1a60e7ff4673")
-	)
-	(wire
-		(pts
-			(xy 207.01 66.04) (xy 205.74 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd27696-201d-4af1-81bb-dc84dec766df")
 	)
 	(wire
 		(pts
@@ -4386,6 +4366,16 @@
 			(type default)
 		)
 		(uuid "976c7c18-618f-4636-9dd5-8455e9b51f6d")
+	)
+	(wire
+		(pts
+			(xy 184.15 66.04) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f86b62-4b12-4c3b-8cf6-f11865686262")
 	)
 	(wire
 		(pts
@@ -4759,6 +4749,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 66.04) (xy 187.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded99cda-f557-4284-954c-57053d5e2914")
+	)
+	(wire
+		(pts
 			(xy 158.75 128.27) (xy 161.29 128.27)
 		)
 		(stroke
@@ -4869,13 +4869,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 50.8) (xy 184.15 66.04)
+			(xy 184.15 66.04) (xy 187.96 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec80937f-0d04-4ef1-acda-a3d7d4932eb7")
+		(uuid "ec5dc671-13c5-42be-8b39-cc8047cc4a77")
 	)
 	(wire
 		(pts
@@ -4998,7 +4998,7 @@
 		(uuid "02fb045f-8569-4645-98f0-3b8dd771ca1a")
 	)
 	(label "SHUNT+"
-		(at 196.85 74.93 270)
+		(at 187.96 69.85 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5017,7 +5017,7 @@
 		)
 		(uuid "2886474f-330c-4ad9-aaa8-84cf756ab00f")
 	)
-	(label "AHS"
+	(label "SHUNT-"
 		(at 153.67 128.27 180)
 		(effects
 			(font
@@ -5028,7 +5028,7 @@
 		(uuid "30b34ea0-7052-4b23-964c-1163c8143944")
 	)
 	(label "SHUNT-"
-		(at 207.01 74.93 270)
+		(at 195.58 69.85 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5323,6 +5323,12 @@
 			(uuid "3ebac084-87d3-438d-a926-adb6a58cd43c")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR038")
@@ -5401,6 +5407,12 @@
 			(uuid "a4bcb1f7-bd62-4dc1-ab62-d4b5fb0b9310")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "J9")
@@ -5600,6 +5612,12 @@
 			(uuid "d7d9607b-a2d7-4279-b7a5-04b50ac1b709")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "Q2")
@@ -5678,6 +5696,12 @@
 			(uuid "b438fc2b-2d4b-4418-9678-7c251673df0c")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR044")
@@ -5756,6 +5780,12 @@
 			(uuid "532592aa-09fb-4793-8b99-3c9b64de0060")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR042")
@@ -5834,6 +5864,12 @@
 			(uuid "218ef2a4-5924-4153-b2a9-10b1e5c9054b")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "J1")
@@ -5912,6 +5948,12 @@
 			(uuid "762b4d9e-76b0-4355-b8f2-802122cc4aba")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR027")
@@ -5990,6 +6032,12 @@
 			(uuid "0846aaa3-f6d3-4575-8521-d5300f14fa3d")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR049")
@@ -6068,6 +6116,12 @@
 			(uuid "fde8331a-3fd2-46ef-a867-8a1cf4be7f49")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR053")
@@ -6147,6 +6201,12 @@
 			(uuid "94ecdcdc-7df2-473d-bc55-30a542558647")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "J2")
@@ -6229,6 +6289,12 @@
 			(uuid "51060e5b-1d9e-4799-8745-77fa408443ca")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "C5")
@@ -6428,6 +6494,12 @@
 			(uuid "7cec9d4e-6bd2-499a-959b-1951229b348c")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "Q1")
@@ -6506,6 +6578,12 @@
 			(uuid "66aaed62-02fe-4a32-975a-03d2b3fd4ce2")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR043")
@@ -6584,6 +6662,12 @@
 			(uuid "12e1d500-55da-4d25-8b4c-5eeb37d0e7e3")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR051")
@@ -6783,6 +6867,12 @@
 			(uuid "16594815-b67c-4426-af88-ffaad85351e5")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "Q4")
@@ -6861,6 +6951,12 @@
 			(uuid "c179f881-4c2f-45e4-984c-912ada390169")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR028")
@@ -6943,6 +7039,12 @@
 			(uuid "08654e67-b9ed-408a-a508-68cbd53e631b")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "R7")
@@ -7142,6 +7244,12 @@
 			(uuid "0f28207b-b4c9-4325-b4b8-713d3d0e956e")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "Q3")
@@ -7220,6 +7328,12 @@
 			(uuid "95656ee4-1f90-41ff-b0cb-76d75b797297")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR037")
@@ -7298,6 +7412,12 @@
 			(uuid "519be360-951c-4b12-bc9a-430551c9fe23")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR052")
@@ -7377,6 +7497,12 @@
 			(uuid "da3b906e-d4d3-48f2-a799-4795acee06fc")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "R8")
@@ -7456,6 +7582,12 @@
 			(uuid "baf08c55-dad8-4938-b224-4697723cfb37")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#FLG02")
@@ -7534,6 +7666,12 @@
 			(uuid "0836f808-d59a-44d9-8b78-37fad0a1b611")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR040")
@@ -7616,6 +7754,12 @@
 			(uuid "972bf9ea-4bcc-4d1a-b4c7-b8512559ac8d")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "R6")
@@ -7800,6 +7944,12 @@
 			(uuid "64ee90c9-6016-4224-8287-b2f2aa347f51")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "IC3")
@@ -7879,6 +8029,12 @@
 			(uuid "8ea0b545-96f4-407f-a71f-152e879dcc69")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "J3")
@@ -7958,6 +8114,12 @@
 			(uuid "b0d72174-0f3c-4bc3-b730-0c9a358970fa")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#FLG01")
@@ -7968,7 +8130,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 189.23 66.04 90)
+		(at 201.93 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7979,7 +8141,7 @@
 		(fields_autoplaced yes)
 		(uuid "a74e2a72-bee4-4dc4-a3a1-a7999013dc31")
 		(property "Reference" "M1"
-			(at 191.77 58.42 90)
+			(at 204.47 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7989,7 +8151,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 191.77 60.96 90)
+			(at 204.47 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7999,7 +8161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.516 66.04 0)
+			(at 204.216 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8010,7 +8172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.516 66.04 0)
+			(at 204.216 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8021,7 +8183,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 189.23 66.04 0)
+			(at 201.93 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8038,6 +8200,12 @@
 			(uuid "37f4ba63-8ca5-4901-b533-85b70692841e")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "M1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "M1")
@@ -8116,6 +8284,12 @@
 			(uuid "20608fb5-1c56-4268-83ee-ebd48a7606f1")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR050")
@@ -8198,6 +8372,12 @@
 			(uuid "da341476-d591-480e-ad97-59fd466f5d3b")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "C2")
@@ -8280,6 +8460,12 @@
 			(uuid "544d0755-2402-45eb-a25f-704a5f8bff2e")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "C8")
@@ -8360,6 +8546,12 @@
 			(uuid "7f4ad982-1652-40b5-b093-7291ef4950a7")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "R5")
@@ -8438,6 +8630,12 @@
 			(uuid "3257ff98-b6ef-42f2-9b1c-e10f4689c818")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR039")
@@ -8516,6 +8714,12 @@
 			(uuid "96bf0f9f-2a91-4c97-a31a-805b23e8c994")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR026")
@@ -8598,6 +8802,12 @@
 			(uuid "67ecf28c-315c-4c08-a4cd-7d037e212e18")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "C6")
@@ -8680,6 +8890,12 @@
 			(uuid "d532cfa4-6dcf-4971-9a9c-43f76889cfcf")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "C1")
@@ -8690,7 +8906,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 201.93 66.04 90)
+		(at 191.77 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8701,7 +8917,7 @@
 		(fields_autoplaced yes)
 		(uuid "e43a9d05-295f-4a1c-87aa-a858ef262fe1")
 		(property "Reference" "R1"
-			(at 201.93 59.69 90)
+			(at 191.77 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8711,7 +8927,7 @@
 			)
 		)
 		(property "Value" ".001"
-			(at 201.93 62.23 90)
+			(at 191.77 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8721,7 +8937,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 202.184 65.024 90)
+			(at 192.024 65.024 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,7 +8948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 66.04 0)
+			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8743,7 +8959,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol, CSS2H-2512R-1L00FE"
-			(at 201.93 66.04 0)
+			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8760,6 +8976,12 @@
 			(uuid "b5a5f7a2-ecbc-42a6-b1cf-baf729225c67")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "R1")
@@ -8838,6 +9060,12 @@
 			(uuid "58c32cdc-dbb1-41c8-98f9-f82c83e89d17")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR041")
@@ -8916,6 +9144,12 @@
 			(uuid "48bdec01-4505-4d54-85af-8534fb00a25d")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "J4")
@@ -9126,6 +9360,12 @@
 			(uuid "0f158ce5-1df6-459e-8a53-7ab0607c0bd5")
 		)
 		(instances
+			(project "High_Voltage"
+				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "IC2")
@@ -9134,4 +9374,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
