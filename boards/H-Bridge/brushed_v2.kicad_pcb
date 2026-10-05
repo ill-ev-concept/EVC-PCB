@@ -13725,7 +13725,7 @@
 	(footprint "ThreadedConnector:WP-BUTR_7460307"
 		(layer "F.Cu")
 		(uuid "b8da88f2-b0c7-43e5-8d15-b5f598be456b")
-		(at 224.5 116.75)
+		(at 225.75 116.25)
 		(property "Reference" "J4"
 			(at 0 -6.135 0)
 			(layer "F.SilkS")
@@ -15420,7 +15420,7 @@
 	(footprint "ThreadedConnector:WP-BUTR_7460307"
 		(layer "F.Cu")
 		(uuid "e5692684-ab5c-469f-abdd-c16a525f9dce")
-		(at 224.25 101.25)
+		(at 226 101.25)
 		(property "Reference" "J3"
 			(at 0 -6.135 0)
 			(layer "F.SilkS")
