@@ -3310,16 +3310,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 54.61 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24d5bba3-873f-49b5-b0c3-9e7a58fba192")
-	)
-	(wire
-		(pts
 			(xy 48.26 50.8) (xy 48.26 53.34)
 		)
 		(stroke
@@ -3540,6 +3530,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 45.72) (xy 54.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801cabf2-558c-412f-bb2e-e4b0e797e434")
+	)
+	(wire
+		(pts
 			(xy 58.42 124.46) (xy 58.42 125.73)
 		)
 		(stroke
@@ -3710,13 +3710,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 45.72) (xy 54.61 45.72)
+			(xy 50.8 48.26) (xy 54.61 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebd68d48-ffc5-451d-b413-38297d3367a3")
+		(uuid "e9d85ef5-c892-4a2e-96ca-4d668e76af72")
 	)
 	(wire
 		(pts
@@ -3901,7 +3901,7 @@
 	)
 	(hierarchical_label "MCU_UART_TX"
 		(shape input)
-		(at 50.8 48.26 180)
+		(at 50.8 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3923,7 +3923,7 @@
 	)
 	(hierarchical_label "MCU_UART_RX"
 		(shape output)
-		(at 50.8 45.72 180)
+		(at 50.8 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -7,4 +7,5 @@
 	(lib (name "STLINK-V3MODS") (type "KiCad") (uri "${KIPRJMOD}/tGPS_symbols/STLINK-V3MODS.kicad_sym") (options "") (descr ""))
 	(lib (name "ISO1042") (type "KiCad") (uri "${KIPRJMOD}/tGPS_symbols/ISO1042.kicad_sym") (options "") (descr ""))
 	(lib (name "32mhz_crystal_oscillator") (type "KiCad") (uri "${KIPRJMOD}/tGPS_symbols/32mhz_crystal_oscillator.kicad_sym") (options "") (descr ""))
+	(lib (name "1N4148WS") (type "KiCad") (uri "${KIPRJMOD}/tGPS_symbols/1N4148WS.kicad_sym") (options "") (descr ""))
 )
