@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ISM330DLC") (type "KiCad") (uri "/Users/paige/Desktop/EVConcept/imu_PCB") (options "") (descr ""))
+)
