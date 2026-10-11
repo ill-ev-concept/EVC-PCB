@@ -3040,8 +3040,8 @@
 		(uuid "4d2a7845-c78b-43ab-985b-dac3d5433c29")
 	)
 	(rectangle
-		(start 110.49 143.51)
-		(end 177.8 165.1)
+		(start 120.65 116.84)
+		(end 171.45 138.43)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3107,7 +3107,7 @@
 	)
 	(text "External Connections\n"
 		(exclude_from_sim no)
-		(at 133.604 142.494 0)
+		(at 143.764 115.824 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3282,7 +3282,7 @@
 		(uuid "77889584-dc51-4979-8923-a8dd6bd4da56")
 	)
 	(junction
-		(at 162.56 152.4)
+		(at 153.67 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78aa1249-1500-4c18-86d8-2cafb0203639")
@@ -3372,7 +3372,7 @@
 		(uuid "a574f71f-e9b0-4599-806d-bee1d9101b11")
 	)
 	(junction
-		(at 115.57 152.4)
+		(at 125.73 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adcee88b-4cab-4948-b328-40a4537df3a7")
@@ -3811,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 151.13) (xy 162.56 152.4)
+			(xy 153.67 125.73) (xy 153.67 127)
 		)
 		(stroke
 			(width 0)
@@ -4361,7 +4361,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 154.94) (xy 132.08 157.48)
+			(xy 142.24 128.27) (xy 142.24 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4801,7 +4801,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 152.4) (xy 115.57 153.67)
+			(xy 125.73 125.73) (xy 125.73 127)
 		)
 		(stroke
 			(width 0)
@@ -4911,7 +4911,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 152.4) (xy 162.56 153.67)
+			(xy 153.67 127) (xy 153.67 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5111,7 +5111,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 151.13) (xy 115.57 152.4)
+			(xy 125.73 124.46) (xy 125.73 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5601,7 +5601,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 162.56 158.75 270)
+		(at 153.67 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5611,7 +5611,7 @@
 		(dnp no)
 		(uuid "0a03e52b-115c-4150-a7b6-b43eae8a65f6")
 		(property "Reference" "J9"
-			(at 165.1 157.4799 90)
+			(at 156.21 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5622,7 +5622,7 @@
 			)
 		)
 		(property "Value" "12V+"
-			(at 165.1 159.766 90)
+			(at 156.21 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5633,7 +5633,7 @@
 			)
 		)
 		(property "Footprint" "ThreadedConnector:WP-BUTR_7460307"
-			(at 162.56 158.75 0)
+			(at 153.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5644,7 +5644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 158.75 0)
+			(at 153.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +5655,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 162.56 158.75 0)
+			(at 153.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5890,7 +5890,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 157.48 0)
+		(at 142.24 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5901,7 +5901,7 @@
 		(fields_autoplaced yes)
 		(uuid "1789e9af-de9c-46d5-b996-b583dab3e91a")
 		(property "Reference" "#PWR044"
-			(at 132.08 163.83 0)
+			(at 142.24 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5912,7 +5912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 162.56 0)
+			(at 142.24 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5922,7 +5922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 157.48 0)
+			(at 142.24 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5933,7 +5933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 157.48 0)
+			(at 142.24 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5944,7 +5944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 157.48 0)
+			(at 142.24 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,7 +6058,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 115.57 158.75 270)
+		(at 125.73 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6068,7 +6068,7 @@
 		(dnp no)
 		(uuid "20744e41-a78f-497b-8c42-f8e9947764bd")
 		(property "Reference" "J1"
-			(at 118.11 157.4799 90)
+			(at 128.27 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6079,7 +6079,7 @@
 			)
 		)
 		(property "Value" "V+"
-			(at 118.11 159.766 90)
+			(at 128.27 133.096 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6090,7 +6090,7 @@
 			)
 		)
 		(property "Footprint" "ThreadedConnector:WP-BUTR_7460307"
-			(at 115.57 158.75 0)
+			(at 125.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6101,7 +6101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 158.75 0)
+			(at 125.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6112,7 +6112,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 158.75 0)
+			(at 125.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,7 +6305,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 162.56 151.13 0)
+		(at 153.67 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6316,7 +6316,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e8448f3-04bc-431d-b488-ba013c12a314")
 		(property "Reference" "#PWR049"
-			(at 162.56 154.94 0)
+			(at 153.67 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6327,7 +6327,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 162.56 146.05 0)
+			(at 153.67 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6337,7 +6337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 151.13 0)
+			(at 153.67 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6348,7 +6348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 151.13 0)
+			(at 153.67 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6359,7 +6359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 162.56 151.13 0)
+			(at 153.67 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6553,7 +6553,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 132.08 149.86 90)
+		(at 142.24 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6564,7 +6564,7 @@
 		(fields_autoplaced yes)
 		(uuid "37681c4c-ec9b-4965-b58b-0af99ed7ff72")
 		(property "Reference" "J2"
-			(at 134.62 148.5899 90)
+			(at 144.78 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6575,7 +6575,7 @@
 			)
 		)
 		(property "Value" "V-"
-			(at 134.62 151.1299 90)
+			(at 144.78 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6586,7 +6586,7 @@
 			)
 		)
 		(property "Footprint" "ThreadedConnector:WP-BUTR_7460307"
-			(at 132.08 149.86 0)
+			(at 142.24 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 149.86 0)
+			(at 142.24 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +6608,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 132.08 149.86 0)
+			(at 142.24 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,7 +6931,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 115.57 151.13 0)
+		(at 125.73 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6942,7 +6942,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ca4acb5-9fb4-4122-9859-1c140c77cdaa")
 		(property "Reference" "#PWR043"
-			(at 115.57 154.94 0)
+			(at 125.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6953,7 +6953,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 115.57 146.05 0)
+			(at 125.73 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6963,7 +6963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 151.13 0)
+			(at 125.73 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6974,7 +6974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 151.13 0)
+			(at 125.73 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6985,7 +6985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 115.57 151.13 0)
+			(at 125.73 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8015,7 +8015,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 162.56 152.4 270)
+		(at 153.67 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8026,7 +8026,7 @@
 		(fields_autoplaced yes)
 		(uuid "88ba2997-4381-43fe-acd7-4d50c4f91ef7")
 		(property "Reference" "#FLG02"
-			(at 164.465 152.4 0)
+			(at 155.575 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8037,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 166.37 152.3999 90)
+			(at 157.48 126.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8048,7 +8048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 152.4 0)
+			(at 153.67 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8059,7 +8059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 152.4 0)
+			(at 153.67 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8070,7 +8070,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 162.56 152.4 0)
+			(at 153.67 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8540,7 +8540,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 115.57 152.4 270)
+		(at 125.73 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8551,7 +8551,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6c51dad-936a-4dd2-a452-082b64cf59b0")
 		(property "Reference" "#FLG01"
-			(at 117.475 152.4 0)
+			(at 127.635 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8562,7 +8562,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 119.38 152.3999 90)
+			(at 129.54 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8573,7 +8573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 152.4 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,7 +8584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 152.4 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8595,7 +8595,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 115.57 152.4 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
