@@ -9050,6 +9050,16 @@
 		)
 		(uuid "ffe540b6-d58a-4706-9d41-70c5c9bb448d")
 	)
+	(label "LED3"
+		(at 222.25 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09f3812a-3fe1-462b-8a80-dbcb30fadd2e")
+	)
 	(label "VREF"
 		(at 209.55 36.83 0)
 		(effects
@@ -9150,6 +9160,26 @@
 		)
 		(uuid "5c244eef-b213-4f8d-8024-975f9f3f0533")
 	)
+	(label "LED4"
+		(at 222.25 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "635eec20-b616-46dd-b170-5e8e87139031")
+	)
+	(label "LED6"
+		(at 222.25 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "973fb92c-b43d-4a85-a089-325b7c3b8fba")
+	)
 	(label "LED1"
 		(at 64.77 107.315 180)
 		(effects
@@ -9191,6 +9221,36 @@
 		(uuid "b64ab25a-24c7-4440-ae11-ed6e7e11a4d5")
 	)
 	(label "LED1"
+		(at 222.25 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8bb543e-f2f0-46ba-8091-34ba7c32df6d")
+	)
+	(label "LED5"
+		(at 222.25 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9717eb0-0796-43a0-9231-abcf671e5788")
+	)
+	(label "LED2"
+		(at 222.25 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba09612f-edc4-493b-8b88-ca316d6e75bb")
+	)
+	(label "LED1"
 		(at 64.135 139.065 180)
 		(effects
 			(font
@@ -9199,6 +9259,16 @@
 			(justify right bottom)
 		)
 		(uuid "cd6b1fba-73e0-484d-beb9-f290a42c7849")
+	)
+	(label "LED7"
+		(at 222.25 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8685166-1d6b-4d1a-bfed-0bb026c35a18")
 	)
 	(label "LED5"
 		(at 63.5 186.69 180)
@@ -9258,9 +9328,9 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "LED3"
 		(shape input)
-		(at 222.25 133.35 0)
+		(at 228.6 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9268,9 +9338,9 @@
 			)
 			(justify left)
 		)
-		(uuid "084b2645-7fb8-4006-b85a-1e16b943a1de")
+		(uuid "06d35516-076a-4d05-a34c-4b5ba5af8809")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.8918 133.35 0)
+			(at 236.2418 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9666,6 +9736,30 @@
 			)
 		)
 	)
+	(global_label "LED_CAN"
+		(shape input)
+		(at 222.25 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8143984a-0b27-47fa-9551-08e6d8516f44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.339 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MOSI"
 		(shape input)
 		(at 222.25 80.01 0)
@@ -9906,30 +10000,6 @@
 			)
 		)
 	)
-	(global_label "LED3"
-		(shape input)
-		(at 222.25 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d394eb0c-bffb-4ff6-9d63-bc887208a8ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.8918 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SW_4"
 		(shape input)
 		(at 222.25 163.83 0)
@@ -9991,30 +10061,6 @@
 		(uuid "f6905549-bb06-4201-8808-81ee4818ca72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.3518 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "LED2"
-		(shape input)
-		(at 222.25 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f6c5080e-2d30-4f12-81da-14b3bbc6c542")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.8918 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

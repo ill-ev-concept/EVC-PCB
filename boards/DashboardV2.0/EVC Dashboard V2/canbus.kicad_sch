@@ -1210,6 +1210,16 @@
 		)
 		(uuid "8694fa59-84c1-4ec8-b7cc-31b5ca9799ed")
 	)
+	(wire
+		(pts
+			(xy 43.18 80.01) (xy 46.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c2dd22-7496-458d-b625-073627561483")
+	)
 	(global_label "CAN_H"
 		(shape input)
 		(at 80.01 40.64 0)
@@ -1231,6 +1241,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "LED_CAN"
+		(shape input)
+		(at 43.18 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b58044e-7696-43d9-aab8-fd80e303ed52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.091 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
