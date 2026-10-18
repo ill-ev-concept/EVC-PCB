@@ -6241,7 +6241,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 22.86) (xy 27.94 22.86)
+			(xy 34.29 31.75) (xy 33.02 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6650,7 +6650,7 @@
 		(uuid "9b5b1e4a-bbb5-4ca5-b725-02d88190ab27")
 	)
 	(label "SENSE"
-		(at 29.21 22.86 0)
+		(at 34.29 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6896,7 +6896,7 @@
 	)
 	(hierarchical_label "SENSE_IN"
 		(shape input)
-		(at 27.94 22.86 180)
+		(at 33.02 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
