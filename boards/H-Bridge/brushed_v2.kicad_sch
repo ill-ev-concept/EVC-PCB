@@ -4774,10 +4774,6 @@
 		(uuid "00453317-8ebd-4c15-920a-2054cd0a6feb")
 	)
 	(no_connect
-		(at 194.31 95.25)
-		(uuid "0bbca3ba-d4af-40ae-bf69-3fee3b9ca77d")
-	)
-	(no_connect
 		(at 194.31 64.77)
 		(uuid "0d349a6e-5daa-4450-a38d-b46983b76071")
 	)
@@ -4796,6 +4792,10 @@
 	(no_connect
 		(at 194.31 100.33)
 		(uuid "3624c861-dfc2-419e-b00f-57706834d708")
+	)
+	(no_connect
+		(at 194.31 113.03)
+		(uuid "4639a651-148b-44c4-94ed-1d9d23dbe678")
 	)
 	(no_connect
 		(at 194.31 107.95)
@@ -5168,6 +5168,16 @@
 			(type default)
 		)
 		(uuid "36802b92-6f35-4b94-90cd-4a0d4675a618")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.52) (xy 96.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3accea75-2c55-400d-bfd4-a9e2bb6bec23")
 	)
 	(wire
 		(pts
@@ -5651,16 +5661,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 106.68) (xy 123.19 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "869654f4-f7f3-4c04-903a-f36920a3f996")
-	)
-	(wire
-		(pts
 			(xy 127 172.72) (xy 127 171.45)
 		)
 		(stroke
@@ -5751,16 +5751,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 113.03) (xy 191.77 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99319592-33ca-4bbc-a813-72dadb41bfc3")
-	)
-	(wire
-		(pts
 			(xy 124.46 139.7) (xy 127 139.7)
 		)
 		(stroke
@@ -5838,16 +5828,6 @@
 			(type default)
 		)
 		(uuid "a5833d70-fcf6-4a00-9ad0-ef1fd232437e")
-	)
-	(wire
-		(pts
-			(xy 93.98 96.52) (xy 96.52 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67b6cff-ecf6-41ad-9670-18e9524559b5")
 	)
 	(wire
 		(pts
@@ -5931,6 +5911,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 101.6) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ae5eb7-0d33-4e63-9bb6-367ee5ece28c")
+	)
+	(wire
+		(pts
 			(xy 29.21 96.52) (xy 31.75 96.52)
 		)
 		(stroke
@@ -6008,6 +5998,26 @@
 			(type default)
 		)
 		(uuid "c78bebaa-202e-4702-b028-abb134d32e49")
+	)
+	(wire
+		(pts
+			(xy 191.77 95.25) (xy 194.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c994a432-5306-46f5-879b-38fb64b1f65e")
+	)
+	(wire
+		(pts
+			(xy 125.73 106.68) (xy 123.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccab5d38-ae53-4f9e-a808-161003618baa")
 	)
 	(wire
 		(pts
@@ -6141,6 +6151,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 101.6) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49e5099-6fd6-49a6-9e4a-a1ae9b9e2ec2")
+	)
+	(wire
+		(pts
 			(xy 191.77 44.45) (xy 191.77 46.99)
 		)
 		(stroke
@@ -6168,16 +6188,6 @@
 			(type default)
 		)
 		(uuid "ecabe4c7-eb4c-44fc-8a49-b6cc225c7250")
-	)
-	(wire
-		(pts
-			(xy 125.73 101.6) (xy 123.19 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed285bb3-af1b-450d-a871-94e178141797")
 	)
 	(wire
 		(pts
@@ -6251,16 +6261,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 96.52 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f893f446-0385-41ab-8d44-1946c068e44a")
-	)
-	(wire
-		(pts
 			(xy 125.73 137.16) (xy 127 137.16)
 		)
 		(stroke
@@ -6300,7 +6300,7 @@
 		(uuid "fd6922fa-80ba-4c0b-b597-dd809258fa28")
 	)
 	(label "CH_A"
-		(at 125.73 101.6 0)
+		(at 125.73 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6370,7 +6370,7 @@
 		(uuid "23a09cba-1a18-4190-888f-0c8ea01fa69d")
 	)
 	(label "CHB_3.3"
-		(at 93.98 101.6 180)
+		(at 93.98 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6378,16 +6378,6 @@
 			(justify right bottom)
 		)
 		(uuid "23a130d8-b0a9-4bee-b7b3-f7c116c509ea")
-	)
-	(label "IDX_3.3"
-		(at 191.77 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b0748b3-78df-4b8b-8ab3-2f48582c0f9d")
 	)
 	(label "UART_RX"
 		(at 232.41 72.39 0)
@@ -6460,7 +6450,7 @@
 		(uuid "52c2952d-338d-4db9-b95b-1dba8711bf0e")
 	)
 	(label "CH_B"
-		(at 125.73 106.68 0)
+		(at 125.73 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6639,6 +6629,16 @@
 		)
 		(uuid "99a9500f-8a40-4273-a71b-2aa6190272ca")
 	)
+	(label "IDX_3.3"
+		(at 191.77 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b14c67b-f863-4c72-9ff3-2fff9dd7e18b")
+	)
 	(label "CANL"
 		(at 125.73 132.08 180)
 		(effects
@@ -6710,7 +6710,7 @@
 		(uuid "abee6905-9dd4-41c8-be4a-4d99efa68fbb")
 	)
 	(label "CHA_3.3"
-		(at 93.98 96.52 180)
+		(at 93.98 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)

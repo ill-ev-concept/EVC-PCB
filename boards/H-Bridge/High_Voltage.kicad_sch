@@ -3029,7 +3029,7 @@
 	)
 	(rectangle
 		(start 29.21 109.22)
-		(end 97.79 138.43)
+		(end 107.95 138.43)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5889,6 +5889,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 97.79 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e0f12fe-bbbe-4766-bd7e-0092b5cb29cc")
+		(property "Reference" "C7"
+			(at 101.6 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 101.6 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.7552 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "881a1d19-306d-4616-b969-ecf13a39b0f3")
+		)
+		(pin "1"
+			(uuid "c9fc80c7-84ba-4d5b-a978-3d6e22a65342")
+		)
+		(instances
+			(project "brushed_v2"
+				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 130.81 0)
 		(unit 1)
@@ -6219,6 +6301,84 @@
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ad5ef82-f44f-42f0-8086-50c458359193")
+		(property "Reference" "#PWR060"
+			(at 97.79 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c463d61-2c81-41c8-93b6-1fcba542c2b9")
+		)
+		(instances
+			(project "brushed_v2"
+				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8455,6 +8615,84 @@
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a19137b9-02f0-454e-a6cb-6d6b00fdea5b")
+		(property "Reference" "#PWR059"
+			(at 97.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 97.79 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3af69607-ebfe-4243-b9cd-71821663168d")
+		)
+		(instances
+			(project "brushed_v2"
+				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
