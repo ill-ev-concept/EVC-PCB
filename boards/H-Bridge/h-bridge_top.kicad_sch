@@ -20,7 +20,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#G"
+			(property "Reference" "#G1"
 				(at 0 43.337 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -784,7 +784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EVC Logo:EVC_LOGO"
 			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
