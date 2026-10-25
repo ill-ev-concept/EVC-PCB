@@ -1,0 +1,181 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d910187f-4507-4b88-8211-f1a45fa01caf")
+	(paper "A4")
+	(title_block
+		(title "Screenless Dashboard")
+		(rev "v1.0")
+		(company "Illini EV Concept")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 116.84 166.37)
+		(end 175.26 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "febe9b5c-e82f-4ef3-854e-17705a0ce757")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 163.068 193.294 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "fa3f6a93-bafe-4bdb-8c0e-30a0fc9582b2")
+	)
+	(sheet
+		(at 116.84 25.4)
+		(size 161.29 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4a40ced4-2efd-4a98-9536-f384a8df6a19")
+		(property "Sheetname" "CAN"
+			(at 116.84 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 116.84 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 85.09)
+		(size 161.29 74.93)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "661922b9-6d61-4559-a788-a0986bf6fa5a")
+		(property "Sheetname" "IO"
+			(at 116.84 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I_O.kicad_sch"
+			(at 116.84 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 24.13)
+		(size 83.82 167.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "78f18463-d8a7-403f-a989-a1610996795e")
+		(property "Sheetname" "MCU"
+			(at 24.13 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 24.13 192.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

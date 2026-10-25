@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "63f496ee-777a-4aba-8855-a0bd0c948073")
+	(paper "A4")
+	(title_block
+		(title "Dashboard I/O")
+		(rev "v1.0")
+		(company "Illini EV Concept")
+		(comment 1 "Implements switches, encoders, and LEDs for turn signals, wipers, horn, E-stop")
+	)
+	(lib_symbols)
+)

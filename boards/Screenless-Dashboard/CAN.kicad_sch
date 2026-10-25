@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b2e806a6-aa6e-491e-9942-d771cca4a10e")
+	(paper "A4")
+	(title_block
+		(title "CAN Implementation")
+		(rev "v1.0")
+		(company "Illini EV Concept")
+		(comment 1 "Implements CAN FD")
+		(comment 2 "Backwards compatible with classic versions of CAN")
+	)
+	(lib_symbols)
+)

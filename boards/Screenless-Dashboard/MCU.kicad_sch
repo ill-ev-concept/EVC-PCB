@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3b50af70-a971-4971-8d16-73a0adf6f726")
+	(paper "A4")
+	(title_block
+		(title "MCU Implementation")
+		(rev "v1.0")
+		(company "Illini EV Concept")
+		(comment 1 "Uses STM32H563RGT6")
+		(comment 2 "1 MB flash, 640 KB SPIRAM")
+		(comment 3 "64 Pin LQFP")
+	)
+	(lib_symbols)
+)
