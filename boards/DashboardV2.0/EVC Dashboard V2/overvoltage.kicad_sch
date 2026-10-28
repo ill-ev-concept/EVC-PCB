@@ -1608,11 +1608,105 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R3"
+		(exclude_from_sim no)
+		(at 163.068 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b05ffe4-d05d-4bdc-a85b-8be773af4642")
+	)
+	(text "FAULT pin is an output \nthat changes if input \nvoltage surpasses threshold"
+		(exclude_from_sim no)
+		(at 224.79 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2bf55293-cf62-4867-8406-d9d081ee07b4")
+	)
+	(text "added input as the voltage from the \nCAN connector, output as +5V power \nto the rest of the board"
+		(exclude_from_sim no)
+		(at 257.81 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41a8f580-f509-4470-a837-844252251a75")
+	)
+	(text "what should be OV threshold? \n\nis there any tradeoff for output \nvoltage but shutoff for high voltages?\n\nrecommended max for LDO is 8V, so at least lower than 8V \nand higher than 2.7V\n"
+		(exclude_from_sim no)
+		(at 90.678 72.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "641b81a9-68b3-4d9e-9940-654e290b0970")
+	)
+	(text "add some kind of \npull-up to shutdown,\npull up to Vin?"
+		(exclude_from_sim no)
+		(at 198.374 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7dd13c46-452a-444c-b2f7-edc9e54876aa")
+	)
+	(text "using offset voltage = 3mV and worst case leakage current is 10nA\n**find and recalculate suitable standard 1% values\nassuming OV limit is 8V:\nR3 = 1.32M-->1.3M\nR1 = 100k\nR2 = 200k\n\nassuming OV limit is 5V:\nR3 = 1.3M\nR1 = 158k\nR2 = 143k\n"
+		(exclude_from_sim no)
+		(at 86.868 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0b85993-4c4d-4a9a-bd9c-3ea53e68a695")
+	)
+	(text "R2"
+		(exclude_from_sim no)
+		(at 162.306 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d1fe85d3-4a36-462f-8141-6438b9578f83")
+	)
+	(text "R1"
+		(exclude_from_sim no)
+		(at 162.306 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fdef90ec-03fe-44a1-bc8e-b0910565fd69")
+	)
 	(junction
 		(at 166.37 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1148203a-7cdf-4d4e-a54f-3300b1b4b038")
+	)
+	(junction
+		(at 166.37 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d1726dd-576b-48d1-a1e7-4ca0de81b2b9")
+	)
+	(junction
+		(at 166.37 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f8c621f-22d3-4af0-963a-38a3706c3e3c")
 	)
 	(junction
 		(at 99.06 44.45)
@@ -1627,6 +1721,12 @@
 		(uuid "3545daab-6be4-4507-a409-ce8d8884c106")
 	)
 	(junction
+		(at 172.72 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8698f236-c5e2-4cef-adf8-5d87a7d3ad9c")
+	)
+	(junction
 		(at 172.72 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1639,16 +1739,20 @@
 		(uuid "913bfed6-13aa-4e31-94f5-0415780dabc3")
 	)
 	(junction
-		(at 166.37 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4d7cb9f-5491-40e4-877e-0f912619a3db")
-	)
-	(junction
 		(at 204.47 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca7e71c2-adaa-48f6-b573-7172ac97a08e")
+	)
+	(junction
+		(at 259.08 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fda831c2-6dfe-4204-875b-c23989fddf6c")
+	)
+	(no_connect
+		(at 240.03 72.39)
+		(uuid "23d68212-d9fd-4e72-8b30-1fc98588183f")
 	)
 	(wire
 		(pts
@@ -1662,13 +1766,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 72.39) (xy 166.37 62.23)
+			(xy 166.37 69.85) (xy 166.37 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "090293bf-c152-461d-86f0-e1ed1048177b")
+		(uuid "11a3543d-5208-493c-87d3-b5d783a0e362")
+	)
+	(wire
+		(pts
+			(xy 156.21 41.91) (xy 172.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25123421-ae8e-43c9-b2d8-d9f25d014de3")
 	)
 	(wire
 		(pts
@@ -1678,7 +1792,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "25123421-ae8e-43c9-b2d8-d9f25d014de3")
+		(uuid "2a53a21f-1167-4674-b8a3-2c73a4e3abe0")
 	)
 	(wire
 		(pts
@@ -1702,7 +1816,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 62.23) (xy 156.21 62.23)
+			(xy 172.72 41.91) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3471449f-a195-47be-95b6-17fa51828d05")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 166.37 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1712,13 +1836,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 41.91) (xy 172.72 62.23)
+			(xy 166.37 69.85) (xy 179.07 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40c5afc1-fef2-4ea3-ae76-da52aae93b94")
+		(uuid "3655a12f-d613-48cc-9c37-b2e3a177c807")
 	)
 	(wire
 		(pts
@@ -1782,16 +1906,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 62.23) (xy 172.72 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91d65680-dddf-4cce-969b-b77d2abda791")
-	)
-	(wire
-		(pts
 			(xy 240.03 69.85) (xy 250.19 69.85)
 		)
 		(stroke
@@ -1842,13 +1956,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 69.85) (xy 179.07 69.85)
+			(xy 200.66 102.87) (xy 240.03 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9138496-9f8b-4d8a-ba04-a96156682969")
+		(uuid "c14afaa0-88df-47b7-9581-5b5a5f5dcc07")
+	)
+	(wire
+		(pts
+			(xy 166.37 62.23) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c981ee8f-36a1-4948-9421-82fa9c8e84dc")
 	)
 	(wire
 		(pts
@@ -1892,7 +2016,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 102.87) (xy 240.03 102.87)
+			(xy 156.21 102.87) (xy 193.04 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1919,6 +2043,30 @@
 			(type default)
 		)
 		(uuid "ee0a88b6-ccb5-4752-b651-5c9aa2e81b9b")
+	)
+	(global_label "UNLIMIT_+5V"
+		(shape input)
+		(at 156.21 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44ed40ef-4040-497d-9ccc-51608af6f47d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.069 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1990,6 +2138,12 @@
 			(uuid "485bb4ba-3c5c-4f7f-bf52-86a45619af9d")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "#PWR016")
@@ -2072,6 +2226,12 @@
 			(uuid "32f433fa-ac5e-44fc-8e4a-7035fd691e21")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "C2")
@@ -2149,6 +2309,12 @@
 			)
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "U6")
@@ -2228,6 +2394,12 @@
 			(uuid "baa69c8f-bde5-4981-a756-573073676b11")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "#PWR07")
@@ -2306,6 +2478,12 @@
 			(uuid "b04282f9-02c0-4803-929e-8ea35d03c86e")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "#PWR017")
@@ -2384,9 +2562,180 @@
 			(uuid "ad68eae4-3b77-4f73-bd47-4d4f7f0855a5")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4875cc80-94ce-4e75-93e2-1cf675c06ada")
+		(property "Reference" "R15"
+			(at 196.088 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 198.1199 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a2b2e97c-91f3-4457-868f-1b625817fd27")
+		)
+		(pin "1"
+			(uuid "5988f03e-ca10-48bc-a721-15a86354254e")
+		)
+		(instances
+			(project "EVC Dashboard V2"
+				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ed42929-cac9-4331-b22e-30fd461ce1c5")
+		(property "Reference" "#PWR01"
+			(at 259.08 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 259.08 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 259.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aafb8523-b251-4800-b982-94e617e9b455")
+		)
+		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "EVC Dashboard V2"
+				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2466,6 +2815,12 @@
 			(uuid "dee6be1f-1b19-4af2-aad8-540b54b64259")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "R7")
@@ -2545,6 +2900,12 @@
 			(uuid "11ef0bda-2fe2-4d76-b3b7-6d44dc679006")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "#PWR06")
@@ -2622,6 +2983,12 @@
 			)
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "U5")
@@ -2704,6 +3071,12 @@
 			(uuid "2975b9e7-ae4f-421b-9f16-de237a6f69bc")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "R6")
@@ -2789,6 +3162,12 @@
 			(uuid "16a8c1ec-6593-4030-ae7a-8284de492530")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "U2")
@@ -2867,6 +3246,12 @@
 			(uuid "2528a0bf-cb02-4138-b8c3-49fb346bcabf")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "#PWR015")
@@ -2877,7 +3262,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 66.04 0)
+		(at 166.37 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2885,9 +3270,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cc1d7ea3-97f5-4234-b0a5-b4cf2961b367")
+		(uuid "d7f06a1a-6886-4df7-a0eb-6a7457ccfb11")
 		(property "Reference" "R5"
-			(at 175.26 65.278 0)
+			(at 168.91 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2898,7 +3283,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 175.26 67.3099 0)
+			(at 168.91 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2909,7 +3294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.942 66.04 90)
+			(at 164.592 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,7 +3305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 66.04 0)
+			(at 166.37 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2931,7 +3316,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 172.72 66.04 0)
+			(at 166.37 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2942,10 +3327,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "525d94a4-95fa-49a6-b984-8860abe14cc9")
+			(uuid "930c1cf4-dfe2-4a61-878d-0628a14cd8d4")
 		)
 		(pin "1"
-			(uuid "85eb1557-500d-4e71-9775-6f1dbec01a78")
+			(uuid "6f6d0f17-831d-4df0-9a32-6c376e3d00c0")
 		)
 		(instances
 			(project "EVC Dashboard V2"
@@ -3030,6 +3415,12 @@
 			(uuid "9332bd98-4934-4f3a-81c0-ee8caf3638ac")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "C1")
@@ -3108,6 +3499,12 @@
 			(uuid "36bb0d20-484b-49b4-a81b-1ad7dbbdf489")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "#PWR011")
@@ -3190,6 +3587,12 @@
 			(uuid "82cb03b5-bede-4b3a-8240-0cd4f5bd0420")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "C5")
@@ -3268,6 +3671,12 @@
 			(uuid "1cec6a72-13f5-47d0-96c3-29a2392afe9b")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "#PWR05")
@@ -3368,12 +3777,23 @@
 			(uuid "1381887b-cea7-4602-aab7-d64d77d90ce9")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "U4")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
