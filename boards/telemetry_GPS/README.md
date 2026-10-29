@@ -1,8 +1,8 @@
 ## Cart Orders
 
-Mouser Cart(enough for 1 board, with some +/- tolerance in the number of parts): https://www.mouser.com/en/Tools/SavedCart/Share?AccessID=581db3815b
+Mouser Cart(enough for 1 board, with some +/- tolerance in the number of parts): [https://www.mouser.com/en/Tools/SavedCart/Share?AccessID=581db3815b](https://www.mouser.com/en/Tools/SavedCart/Share?AccessID=141096782c)
 
-Digikey Cart(enough for 2 transmitters, 2 receivers): [https://www.digikey.com/short/j81pmn1m](https://www.digikey.com/short/2zj99zv8)
+Digikey Cart(enough for 2 transmitters, 2 receivers): [https://www.digikey.com/short/j81pmn1m](https://www.digikey.com/short/2zj99zv8)](https://www.digikey.com/short/7t22bw8j)
 
 E-Shop Order (these need to be added to the carts):
 
