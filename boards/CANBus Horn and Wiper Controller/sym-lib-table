@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CAN Isolators and Trancievers") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/CAN Isolators & Trancievers.kicad_sym") (options "") (descr ""))
+	(lib (name "Fasteners & Fixings") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/Fasteners & Fixings.kicad_sym") (options "") (descr ""))
+)
