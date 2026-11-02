@@ -4985,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Value" "NX2016SA-32MHZ-EXS00A-CS11213"
+		(property "Value" "NX2016SA-32MHZ-EXS00A-CS07977"
 			(at 48.26 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5007,7 +5007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "NX2016SA-32MHZ-EXS00A-CS11213"
+		(property "Datasheet" "NX2016SA-32MHZ-EXS00A-CS07977"
 			(at 35.56 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5019,7 +5019,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "I originally chose CS11213 but I think this is wrong since it is rated for 6pF"
 			(at 35.56 64.77 0)
 			(hide yes)
 			(show_name no)

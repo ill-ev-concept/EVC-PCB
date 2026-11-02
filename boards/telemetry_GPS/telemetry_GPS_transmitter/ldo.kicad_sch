@@ -1854,7 +1854,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV75509PDBV"
+		(property "Value" "TLV75533PDBV"
 			(at 88.9 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
