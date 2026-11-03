@@ -6997,6 +6997,12 @@
 			(uuid "7fac6c22-dfc3-4c73-aebc-ea301d1e95ab")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "J5")
@@ -7101,6 +7107,12 @@
 			(uuid "b6ac77b1-c734-4ae6-aa76-117e2f3d2668")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "J7")
@@ -7179,6 +7191,12 @@
 			(uuid "8fb24dd9-27b1-44a6-9ff3-4f2aecfb39b2")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#FLG03")
@@ -7210,7 +7228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 111.76 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7261,6 +7279,12 @@
 			(uuid "973657ef-2a6e-4269-b80d-4a599ccf8a9e")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "R11")
@@ -7482,6 +7506,12 @@
 			(uuid "931d2b50-2e79-4216-b3a6-0c84c8465643")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "U1")
@@ -7560,6 +7590,12 @@
 			(uuid "ab7774c2-eb3b-4116-a386-0df328028f94")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR030")
@@ -7638,6 +7674,12 @@
 			(uuid "fa5eea94-2e1b-41d0-a3f8-e7c8887c6ce1")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR022")
@@ -7716,6 +7758,12 @@
 			(uuid "24b9ca16-3ab7-4313-98ff-00c74335c8b8")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR01")
@@ -7798,6 +7846,12 @@
 			(uuid "a6fa918f-3606-4094-b096-77bb3326a58d")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C10")
@@ -7876,6 +7930,12 @@
 			(uuid "077a21eb-3c28-4972-b169-b0120c13e06e")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR014")
@@ -7958,6 +8018,12 @@
 			(uuid "703f32f1-1d52-4b33-9998-947c73c9ed0e")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C14")
@@ -8049,6 +8115,12 @@
 			(uuid "5f3a7681-2bec-4a00-be57-2ade55dae3e6")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "J6")
@@ -8127,6 +8199,12 @@
 			(uuid "199c6606-2089-45e7-8ba0-64abf8fa7893")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR019")
@@ -8205,6 +8283,12 @@
 			(uuid "17083b00-87ef-4aa0-b5fa-f4af13a7a4fb")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR031")
@@ -8283,6 +8367,12 @@
 			(uuid "2546c665-5959-4d2a-92a2-347b34c5a002")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR025")
@@ -8364,6 +8454,12 @@
 			(uuid "e58325aa-d598-4d2e-96e9-a3e2a0c54ccf")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C17")
@@ -8442,6 +8538,12 @@
 			(uuid "c60a3f3b-ac9e-4218-ae4a-92482005c6f3")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR034")
@@ -8520,6 +8622,12 @@
 			(uuid "9e5860dc-3885-43ee-80ad-50019894ac4b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR055")
@@ -8619,6 +8727,12 @@
 			(uuid "2b21e604-8f81-46c7-8273-57443d8d4a98")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "U3")
@@ -8697,6 +8811,12 @@
 			(uuid "85b2ee20-c701-4859-adc6-c355772977f8")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR03")
@@ -8779,6 +8899,12 @@
 			(uuid "eb545d86-2fb2-40e3-99f7-c626cfd2b97f")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C3")
@@ -8856,6 +8982,12 @@
 			(uuid "8fa3f1fb-0b50-48ca-a30f-6158f196ee57")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR04")
@@ -8934,6 +9066,12 @@
 			(uuid "4f678090-5fa3-4518-b6c8-8c4e551d5a5b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR021")
@@ -9012,6 +9150,12 @@
 			(uuid "a10a4145-79e4-48bf-90c7-d6a88cfda32c")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR09")
@@ -9090,6 +9234,12 @@
 			(uuid "822b870b-e821-464d-8240-38e8a06b7912")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR017")
@@ -9168,6 +9318,12 @@
 			(uuid "f24bb306-e227-42c4-8723-90f58834b0b1")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR056")
@@ -9250,6 +9406,12 @@
 			(uuid "912f3362-ad17-4158-93b6-53da4f6a906e")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "R9")
@@ -9328,6 +9490,12 @@
 			(uuid "58c61cf1-4917-40bc-9064-38d4a12a4c07")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR08")
@@ -9359,7 +9527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 132.08 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9410,6 +9578,12 @@
 			(uuid "88ddd1b3-82ce-43f3-9fb1-862b5ed6de2b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "R10")
@@ -9488,6 +9662,12 @@
 			(uuid "4317ed15-47df-4d10-aef3-dda8e22127a3")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR06")
@@ -9566,6 +9746,12 @@
 			(uuid "aa0ee47b-ee52-490a-b8ad-68eb39f0461f")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR035")
@@ -9644,6 +9830,12 @@
 			(uuid "01d1d4b5-0cf7-413c-9caf-6fa0dec8b079")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR029")
@@ -9722,6 +9914,12 @@
 			(uuid "5612ed9a-5cd0-4131-97ca-4837b3118424")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR048")
@@ -9800,6 +9998,12 @@
 			(uuid "146ffaf2-4646-4509-be0c-d3e302e7392b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR020")
@@ -9882,6 +10086,12 @@
 			(uuid "6f114957-0010-4ea5-ad60-d4a1506a760d")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "R3")
@@ -9967,6 +10177,12 @@
 			(uuid "78d1f1ca-fc6b-4492-aff1-586d0b66e37b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "J8")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "J8")
@@ -10045,6 +10261,12 @@
 			(uuid "12a4194e-8dc1-4733-ad27-2fed6d647026")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR047")
@@ -10163,6 +10385,12 @@
 			(uuid "a46d0950-66fe-4af3-be5c-700e8d29fbe0")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "RV2")
@@ -10241,6 +10469,12 @@
 			(uuid "d934576e-8ba5-4fbb-ac1c-0be5f1e48d22")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR07")
@@ -10323,6 +10557,12 @@
 			(uuid "b9f4c414-cc9e-4466-b05b-3efeef6aefea")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C15")
@@ -10423,6 +10663,12 @@
 			(uuid "0f418be6-5f3f-4015-9c48-d465e6cbfa1c")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "IC1")
@@ -10501,6 +10747,12 @@
 			(uuid "fde5d1e0-e3ec-4d35-a7dc-9f035b84b7bf")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR036")
@@ -10583,6 +10835,12 @@
 			(uuid "c5b9d1cc-4537-4a5c-b06a-087436d85084")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "R2")
@@ -10661,6 +10919,12 @@
 			(uuid "4119a536-0d12-45cb-a2fc-873e0dee587b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR05")
@@ -10739,6 +11003,12 @@
 			(uuid "df0482f3-d362-434f-8a88-c2187ccbe807")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR016")
@@ -10821,6 +11091,12 @@
 			(uuid "80e853a0-9f24-4cc0-ba8d-0df4f20e6887")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C9")
@@ -10899,6 +11175,12 @@
 			(uuid "e7c3408c-c768-4d85-a91c-5ee6f1ee1922")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR015")
@@ -10980,6 +11262,12 @@
 			(uuid "3330dbcc-a60d-4bd4-ae0f-9045adc70123")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "R4")
@@ -11079,6 +11367,12 @@
 			(uuid "4d8215da-5dd3-4615-aa1e-1cbd41d954a8")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "U2")
@@ -11161,6 +11455,12 @@
 			(uuid "a7a443c1-15fb-4553-a7ef-6fce8d398a45")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C4")
@@ -11254,6 +11554,12 @@
 			(uuid "7ddf49fd-0e7b-4471-8460-3a6e943af353")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "D1")
@@ -11332,6 +11638,12 @@
 			(uuid "044f847e-774f-45a1-8369-39d6a5906ccd")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR033")
@@ -11373,7 +11685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 185.1152 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -11413,6 +11725,12 @@
 			(uuid "e47c5348-0620-46f9-8580-1c3566554ebc")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C18")
@@ -11491,6 +11809,12 @@
 			(uuid "d856ddac-051f-4e10-8583-dbd223f1a308")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR02")
@@ -11569,6 +11893,12 @@
 			(uuid "a0e6990f-223a-4f63-b57e-b09eb9484d47")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR013")
@@ -11741,6 +12071,12 @@
 			(uuid "5190c747-033d-42a7-b04b-0c1e1e8a6b0c")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "IC4")
@@ -11823,6 +12159,12 @@
 			(uuid "1db2420f-372c-419e-a004-345e18429568")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C13")
@@ -11905,6 +12247,12 @@
 			(uuid "75b733df-fe9c-43c2-a487-300b4744fed4")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C12")
@@ -11986,6 +12334,12 @@
 			(uuid "e8f47204-7c42-45e0-9bfd-825177410d24")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C11")
@@ -12079,6 +12433,12 @@
 			(uuid "e2ff65a3-1a5f-43f4-bffc-a87db13dd1b8")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "D2")
@@ -12156,6 +12516,12 @@
 			(uuid "80b41133-bb08-4769-9c09-d540c1b9ed7d")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR018")
@@ -12234,6 +12600,12 @@
 			(uuid "8b90a7a6-07c7-4636-a4b1-a7527529ad9b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#FLG04")
@@ -12312,6 +12684,12 @@
 			(uuid "fa1898fc-56a9-4c83-9ecd-8d426cf009d4")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR010")
@@ -12390,6 +12768,12 @@
 			(uuid "489f7b81-79a1-4d57-b7e5-0481897ad97e")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR012")
@@ -12468,6 +12852,12 @@
 			(uuid "6dd107b8-e5ff-4ab8-82d2-6e5cbe2ec903")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR032")
@@ -12546,6 +12936,12 @@
 			(uuid "0ad7e0db-bc84-43e9-889d-70ebb15d54d7")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR045")
@@ -12624,6 +13020,12 @@
 			(uuid "d99aa1ca-ec58-48a7-8431-90305bfc6e05")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR054")
@@ -12705,6 +13107,12 @@
 			(uuid "7843ad64-7ba2-4007-ab5b-4629ca92c619")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "C16")
@@ -12783,6 +13191,12 @@
 			(uuid "a2baaaf0-4de7-4f76-961a-7487bf39df18")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR046")
@@ -12861,6 +13275,12 @@
 			(uuid "94fae7d0-163e-4322-b0d0-ff5ebaf2e7f9")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR023")
@@ -12939,6 +13359,12 @@
 			(uuid "a7f0add7-8c81-47ad-8186-0e19c355eb3d")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR011")
@@ -13017,6 +13443,12 @@
 			(uuid "5d751a35-1833-44bc-a198-b4e5b0d058b8")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/1f56d47e-fe69-48f6-82e1-eecb4054b845"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/1f56d47e-fe69-48f6-82e1-eecb4054b845"
 					(reference "#PWR024")
