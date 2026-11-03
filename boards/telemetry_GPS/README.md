@@ -25,3 +25,9 @@ E-Shop Order (these need to be added to the carts):
 - BGA
   - The BALFHB uses BGA pins. These pins already come pre-tinned so do not apply solder on those pads, simply place the component down onto the pads.
   - If you suspect that the component is not flush/a couple pins are unconnected, apply flux and use the heat gun, flux is your best friend
+
+## Instructions for a future V2 board
+- Look into storing the data onto an SD card
+- Add an LED to the GPS chip's PPS to verify that it is on
+- Add more test points in general
+- Do research into expanding the BALFHB into actual inductors and capacitors to make soldering the board less annoying
