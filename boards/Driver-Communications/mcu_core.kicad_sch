@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "11a300b1-e4c0-4bcb-b3b2-1415aa78cc41")
+	(uuid "bcfecb2f-c71c-47e2-954b-cb21c10ef1a0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -3168,6 +3168,39 @@
 		)
 		(uuid "7d51c445-4d06-4ad7-b00a-da680e52cd49")
 	)
+	(hierarchical_label "VOL_POT"
+		(shape input)
+		(at 95.25 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b874045-7579-4a8b-9fa3-f750ee229313")
+	)
+	(hierarchical_label "SD_OUT"
+		(shape input)
+		(at 97.79 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae242685-6344-45bc-ade6-613ef18b80ce")
+	)
+	(hierarchical_label "REC_BTN"
+		(shape input)
+		(at 96.52 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bda7bf6a-c51f-4e9d-b39d-cd71abe27021")
+	)
 	(hierarchical_label "LRCLK"
 		(shape input)
 		(at 87.63 52.07 0)
@@ -3190,7 +3223,7 @@
 		)
 		(uuid "e4bd5ce9-411e-413c-b55e-58110a7258ef")
 	)
-	(hierarchical_label "DOUT"
+	(hierarchical_label "SD_IN"
 		(shape input)
 		(at 87.63 85.09 0)
 		(effects

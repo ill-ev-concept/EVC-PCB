@@ -998,7 +998,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 111.76 40.64)
+			(xy 72.39 39.37) (xy 111.76 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1018,13 +1018,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 111.76 59.69)
+			(xy 72.39 57.15) (xy 111.76 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e356e50-340e-495e-ac76-fd4cd38eab7d")
+		(uuid "448272e9-ca5a-48a5-a851-64832cda9f91")
+	)
+	(wire
+		(pts
+			(xy 72.39 101.6) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b77d6ad-e607-4619-9c71-7e60e1b68666")
 	)
 	(wire
 		(pts
@@ -1088,6 +1098,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 109.22) (xy 111.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6b13bc-65c3-4602-a8bc-e104c4ff6bcb")
+	)
+	(wire
+		(pts
 			(xy 269.24 62.23) (xy 273.05 62.23)
 		)
 		(stroke
@@ -1108,17 +1128,27 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 95.25) (xy 111.76 95.25)
+			(xy 72.39 91.44) (xy 111.76 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4984742-62a7-41ab-af9e-adcc6495f8e0")
+		(uuid "bd11d63a-a543-443c-9121-30f50b3ce1a5")
 	)
 	(wire
 		(pts
-			(xy 72.39 90.17) (xy 111.76 90.17)
+			(xy 72.39 113.03) (xy 111.76 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b8a955-0207-412f-887b-788703546962")
+	)
+	(wire
+		(pts
+			(xy 72.39 87.63) (xy 111.76 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1128,13 +1158,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 100.33) (xy 111.76 100.33)
+			(xy 72.39 97.79) (xy 111.76 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f29d8642-dce5-4e30-8068-e9ac315d31f9")
+		(uuid "eb17a379-9c8c-4e3d-8d0f-d9540cae57c4")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -2346,7 +2376,7 @@
 			)
 		)
 		(pin "CAN_TX" input
-			(at 72.39 40.64 0)
+			(at 72.39 39.37 0)
 			(uuid "c8953c78-30a4-4e3d-a81e-edc3b5d2606d")
 			(effects
 				(font
@@ -2366,7 +2396,7 @@
 			)
 		)
 		(pin "SWDIO" input
-			(at 72.39 59.69 0)
+			(at 72.39 57.15 0)
 			(uuid "0afcca74-f0ce-4339-8638-1b6311e7d818")
 			(effects
 				(font
@@ -2376,7 +2406,7 @@
 			)
 		)
 		(pin "BCLK" input
-			(at 72.39 90.17 0)
+			(at 72.39 87.63 0)
 			(uuid "e6125133-d919-4e60-a151-a7a84a21b259")
 			(effects
 				(font
@@ -2385,8 +2415,8 @@
 				(justify right)
 			)
 		)
-		(pin "DOUT" input
-			(at 72.39 95.25 0)
+		(pin "SD_IN" input
+			(at 72.39 97.79 0)
 			(uuid "0d1214f7-b003-43b6-9184-5a6c10961b4f")
 			(effects
 				(font
@@ -2396,8 +2426,38 @@
 			)
 		)
 		(pin "LRCLK" input
-			(at 72.39 100.33 0)
+			(at 72.39 91.44 0)
 			(uuid "33ac216b-0202-4be6-bc4d-9ea9c0dcb22a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOL_POT" input
+			(at 72.39 109.22 0)
+			(uuid "1a8e087e-e2d0-47d8-aa2a-afbd3fe250d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REC_BTN" input
+			(at 72.39 113.03 0)
+			(uuid "3a452991-82a8-455e-b63d-048a16d5c9f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_OUT" input
+			(at 72.39 101.6 0)
+			(uuid "1cf0ac5f-54d1-40ae-bb89-a93f4818f2dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,8 +2474,8 @@
 		)
 	)
 	(sheet
-		(at 111.76 85.09)
-		(size 29.21 34.29)
+		(at 111.76 82.55)
+		(size 29.21 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2430,7 +2490,7 @@
 		)
 		(uuid "e5fca094-4d5e-4228-b40e-af8dcb103d99")
 		(property "Sheetname" "Audio"
-			(at 111.76 84.3784 0)
+			(at 111.76 81.8384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2452,7 +2512,7 @@
 			)
 		)
 		(pin "BCLK" input
-			(at 111.76 90.17 180)
+			(at 111.76 87.63 180)
 			(uuid "e825fb3c-4bab-4657-8201-2d1a8f54521a")
 			(effects
 				(font
@@ -2461,8 +2521,8 @@
 				(justify left)
 			)
 		)
-		(pin "DOUT" input
-			(at 111.76 95.25 180)
+		(pin "SD_IN" input
+			(at 111.76 97.79 180)
 			(uuid "4866e0be-9947-41a2-8cf0-f35e5e0a9164")
 			(effects
 				(font
@@ -2472,7 +2532,7 @@
 			)
 		)
 		(pin "LRCLK" input
-			(at 111.76 100.33 180)
+			(at 111.76 91.44 180)
 			(uuid "547a67c5-decb-4f22-9867-81a75b809422")
 			(effects
 				(font
@@ -2481,9 +2541,9 @@
 				(justify left)
 			)
 		)
-		(pin "SPEAKER+" input
-			(at 111.76 107.95 180)
-			(uuid "e7638f2c-beee-478f-94e2-03074072638e")
+		(pin "VOL_POT" input
+			(at 111.76 109.22 180)
+			(uuid "a702d219-f3ed-4a80-8ee7-bfd06a3c3e7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,9 +2551,19 @@
 				(justify left)
 			)
 		)
-		(pin "SPEAKER-" input
+		(pin "REC_BTN" input
 			(at 111.76 113.03 180)
-			(uuid "bffa35f2-7167-431c-aecf-f941166b88fc")
+			(uuid "97a3d25f-5cde-4e39-a424-fa47c481e174")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_OUT" input
+			(at 111.76 101.6 180)
+			(uuid "4264c9ff-844e-4fd4-99f3-8c78a8451797")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2628,7 @@
 			)
 		)
 		(pin "SWO" input
-			(at 111.76 54.61 180)
+			(at 111.76 53.34 180)
 			(uuid "f0c1b35d-cd19-4620-b82d-1cca2524441c")
 			(effects
 				(font
@@ -2568,7 +2638,7 @@
 			)
 		)
 		(pin "SWDIO" input
-			(at 111.76 59.69 180)
+			(at 111.76 57.15 180)
 			(uuid "ee05c5a6-f6c3-46b9-a9ba-b2f7ce77f61c")
 			(effects
 				(font
@@ -2588,7 +2658,7 @@
 			)
 		)
 		(pin "CAN_TX" input
-			(at 111.76 40.64 180)
+			(at 111.76 39.37 180)
 			(uuid "1fff32a4-ab4b-494d-a462-ec5ba6e5a422")
 			(effects
 				(font
