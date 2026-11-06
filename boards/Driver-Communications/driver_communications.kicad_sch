@@ -998,13 +998,33 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 35.56) (xy 111.76 35.56)
+			(xy 72.39 40.64) (xy 111.76 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "190f213d-e14e-449d-9272-8d28f24b6da5")
+		(uuid "0323d9f8-d2cf-4a82-b0fa-19d95c949707")
+	)
+	(wire
+		(pts
+			(xy 72.39 49.53) (xy 111.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfef0fe-ab06-407b-8483-c1ac60b0445c")
+	)
+	(wire
+		(pts
+			(xy 72.39 59.69) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e356e50-340e-495e-ac76-fd4cd38eab7d")
 	)
 	(wire
 		(pts
@@ -1038,33 +1058,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 111.76 59.69)
+			(xy 72.39 35.56) (xy 111.76 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "708a30b5-d7c2-4456-bf78-6719a332d0b4")
-	)
-	(wire
-		(pts
-			(xy 72.39 49.53) (xy 111.76 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86794b11-5ffb-43de-a9f2-08a00da6bd88")
-	)
-	(wire
-		(pts
-			(xy 72.39 40.64) (xy 111.76 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "958dddd2-90ff-45c0-bdb1-49b71b4ea5bf")
+		(uuid "98861e22-6ff7-4010-bacb-aa76583d5f8c")
 	)
 	(wire
 		(pts
@@ -1105,6 +1105,36 @@
 			(type default)
 		)
 		(uuid "b1264c53-f578-45f3-9b33-7818cdd53485")
+	)
+	(wire
+		(pts
+			(xy 72.39 95.25) (xy 111.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4984742-62a7-41ab-af9e-adcc6495f8e0")
+	)
+	(wire
+		(pts
+			(xy 72.39 90.17) (xy 111.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d024cc8a-7203-497f-9053-b353b0cff5ca")
+	)
+	(wire
+		(pts
+			(xy 72.39 100.33) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29d8642-dce5-4e30-8068-e9ac315d31f9")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -2268,8 +2298,8 @@
 		)
 	)
 	(sheet
-		(at 27.94 29.21)
-		(size 44.45 90.17)
+		(at 38.1 29.21)
+		(size 34.29 90.17)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2284,7 +2314,7 @@
 		)
 		(uuid "4a4b7404-6dbe-41ad-abb6-6dac11fa1fd4")
 		(property "Sheetname" "MCU and Core"
-			(at 27.94 28.4984 0)
+			(at 38.1 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2295,7 +2325,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_core.kicad_sch"
-			(at 27.94 119.9646 0)
+			(at 38.1 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2345,6 +2375,36 @@
 				(justify right)
 			)
 		)
+		(pin "BCLK" input
+			(at 72.39 90.17 0)
+			(uuid "e6125133-d919-4e60-a151-a7a84a21b259")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" input
+			(at 72.39 95.25 0)
+			(uuid "0d1214f7-b003-43b6-9184-5a6c10961b4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LRCLK" input
+			(at 72.39 100.33 0)
+			(uuid "33ac216b-0202-4be6-bc4d-9ea9c0dcb22a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "driver_communications"
 				(path "/09266164-7d72-46ef-8a8d-ad508b6c5658"
@@ -2354,7 +2414,7 @@
 		)
 	)
 	(sheet
-		(at 111.76 82.55)
+		(at 111.76 85.09)
 		(size 29.21 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2370,7 +2430,7 @@
 		)
 		(uuid "e5fca094-4d5e-4228-b40e-af8dcb103d99")
 		(property "Sheetname" "Audio"
-			(at 111.76 81.8384 0)
+			(at 111.76 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2381,7 +2441,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 111.76 117.4246 0)
+			(at 111.76 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2392,7 +2452,7 @@
 			)
 		)
 		(pin "BCLK" input
-			(at 111.76 86.36 180)
+			(at 111.76 90.17 180)
 			(uuid "e825fb3c-4bab-4657-8201-2d1a8f54521a")
 			(effects
 				(font
@@ -2402,7 +2462,7 @@
 			)
 		)
 		(pin "DOUT" input
-			(at 111.76 91.44 180)
+			(at 111.76 95.25 180)
 			(uuid "4866e0be-9947-41a2-8cf0-f35e5e0a9164")
 			(effects
 				(font
@@ -2412,7 +2472,7 @@
 			)
 		)
 		(pin "LRCLK" input
-			(at 111.76 96.52 180)
+			(at 111.76 100.33 180)
 			(uuid "547a67c5-decb-4f22-9867-81a75b809422")
 			(effects
 				(font
@@ -2422,7 +2482,7 @@
 			)
 		)
 		(pin "SPEAKER+" input
-			(at 111.76 104.14 180)
+			(at 111.76 107.95 180)
 			(uuid "e7638f2c-beee-478f-94e2-03074072638e")
 			(effects
 				(font
@@ -2432,7 +2492,7 @@
 			)
 		)
 		(pin "SPEAKER-" input
-			(at 111.76 109.22 180)
+			(at 111.76 113.03 180)
 			(uuid "bffa35f2-7167-431c-aecf-f941166b88fc")
 			(effects
 				(font
@@ -2450,8 +2510,8 @@
 		)
 	)
 	(sheet
-		(at 111.76 26.67)
-		(size 30.48 38.1)
+		(at 111.76 29.21)
+		(size 29.21 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2466,7 +2526,7 @@
 		)
 		(uuid "e8d6ddaf-1f99-4264-ba23-a9b05a45a8c2")
 		(property "Sheetname" "Communications and Programming"
-			(at 111.76 25.9584 0)
+			(at 111.76 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2477,7 +2537,7 @@
 			)
 		)
 		(property "Sheetfile" "comm_prog.kicad_sch"
-			(at 111.76 65.3546 0)
+			(at 111.76 66.6246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
