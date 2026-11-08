@@ -661,13 +661,17 @@
         "uuid": "c07bca58-d193-4d60-a102-fcb7a470e24c"
       }
     ],
-    "used_designators": "U1-3,IC1",
+    "used_designators": "U1-3,R1-6,IC1-2,#PWR1-9,D1-6",
     "variants": []
   },
   "sheets": [
     [
       "c07bca58-d193-4d60-a102-fcb7a470e24c",
       "Root"
+    ],
+    [
+      "b299198a-5315-4f5b-b446-9fee3601fea9",
+      "MCU"
     ]
   ],
   "text_variables": {},
