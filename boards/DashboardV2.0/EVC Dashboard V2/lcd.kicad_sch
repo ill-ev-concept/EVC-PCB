@@ -1963,7 +1963,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "determine pullup/down values\n"
+	(text "pullup/pulldown needed?"
 		(exclude_from_sim no)
 		(at 82.042 69.342 0)
 		(effects
@@ -2020,12 +2020,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30a1ad45-22dc-47fc-9941-64c0756d6b1e")
-	)
-	(junction
-		(at 139.7 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3be8c000-5ec2-44ad-a939-43aeb8334c82")
 	)
 	(junction
 		(at 147.32 74.93)
@@ -2177,16 +2171,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 121.92) (xy 147.32 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0be6b138-ef62-4f26-b300-f4c751c720d7")
-	)
-	(wire
-		(pts
 			(xy 132.08 59.69) (xy 132.08 57.15)
 		)
 		(stroke
@@ -2217,16 +2201,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 120.65) (xy 139.7 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14fd9cd7-0be3-4624-b2b2-d6d3b1cd2bb0")
-	)
-	(wire
-		(pts
 			(xy 147.32 146.05) (xy 147.32 148.59)
 		)
 		(stroke
@@ -2254,16 +2228,6 @@
 			(type default)
 		)
 		(uuid "1de0fd58-81a2-4ee7-bd9b-404c6be60ddb")
-	)
-	(wire
-		(pts
-			(xy 147.32 120.65) (xy 139.7 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1df33a9a-f41e-4fbe-90b6-8122d58d8eb6")
 	)
 	(wire
 		(pts
@@ -2457,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 86.36) (xy 48.26 80.01)
+			(xy 48.26 72.39) (xy 48.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2517,33 +2481,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 86.36) (xy 58.42 80.01)
+			(xy 58.42 72.39) (xy 58.42 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72d0efe2-1f9b-4048-8bfc-a6b3b9f8507c")
-	)
-	(wire
-		(pts
-			(xy 139.7 118.11) (xy 147.32 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7394c371-e209-4588-8eaf-18ab743941b4")
-	)
-	(wire
-		(pts
-			(xy 147.32 121.92) (xy 147.32 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5a4cd3-5ce2-4262-9072-53f0d99b22f0")
 	)
 	(wire
 		(pts
@@ -2574,6 +2518,16 @@
 			(type default)
 		)
 		(uuid "88461e2c-8932-4dae-916a-fd460aea887c")
+	)
+	(wire
+		(pts
+			(xy 38.1 72.39) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b11e503-7484-41be-9189-9faa1ae35976")
 	)
 	(wire
 		(pts
@@ -2714,16 +2668,6 @@
 			(type default)
 		)
 		(uuid "e3736309-933b-4423-ac18-e962ce263e56")
-	)
-	(wire
-		(pts
-			(xy 130.81 118.11) (xy 139.7 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae12d68-3307-4646-a2fe-58a5cf84b36a")
 	)
 	(wire
 		(pts
@@ -6579,6 +6523,12 @@
 			(uuid "c284f50b-594e-4e65-8ea0-c1a4f1c422fc")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR046")
@@ -6657,89 +6607,15 @@
 			(uuid "e3d5e7c7-bb43-4d74-8fd5-252c1554582b")
 		)
 		(instances
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
 					(reference "#PWR033")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d788245-9dcb-4360-af73-b7b3508a67b5")
-		(property "Reference" "R9"
-			(at 44.45 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 41.91 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.322 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7c066283-1acc-491c-b7cc-e533f374b3c5")
-		)
-		(pin "1"
-			(uuid "dac0c8f4-d11f-4dde-b597-a492d3f77e61")
-		)
-		(instances
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
-					(reference "R9")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6988,89 +6864,15 @@
 			(uuid "e8389813-c5a2-4564-b44a-27b86251f04a")
 		)
 		(instances
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
 					(reference "J2")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30ad20a4-05fc-4f1d-b707-b8ad2bc00f94")
-		(property "Reference" "R12"
-			(at 64.77 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 62.23 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.642 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ebb4746-907f-473e-9851-cb8279ebf45f")
-		)
-		(pin "1"
-			(uuid "2d3bda61-2624-452a-8a2f-dc1d2e0d17af")
-		)
-		(instances
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
-					(reference "R12")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7150,6 +6952,12 @@
 			(uuid "bb03dc37-4bad-4b11-9c20-3391f8600de1")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "L1")
@@ -7228,6 +7036,12 @@
 			(uuid "23bf1134-796d-4b43-b999-683040c34192")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR044")
@@ -7306,6 +7120,12 @@
 			(uuid "5141f093-2b17-4ccd-8284-52c53219d53a")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR047")
@@ -7384,6 +7204,12 @@
 			(uuid "4d74ddce-63f6-46f0-b37e-56085e012719")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR032")
@@ -7462,6 +7288,12 @@
 			(uuid "31094db9-3b3d-4cf1-b1d0-2ed8429755c2")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR031")
@@ -7541,6 +7373,12 @@
 			(uuid "32d4eb58-e0b5-4dec-b580-44b5007519cf")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR057")
@@ -7622,89 +7460,15 @@
 			(uuid "e10eb8d0-9fc0-4306-8443-f610cfe5bf47")
 		)
 		(instances
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
 					(reference "C4")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 48.26 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78f03cbe-d1f1-4782-890f-c44441c9a3ad")
-		(property "Reference" "R11"
-			(at 54.61 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 52.07 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.482 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 48.26 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6503132d-e1f7-4a09-ae0e-45e203c2dda3")
-		)
-		(pin "1"
-			(uuid "9276ca43-ab90-48f4-9c70-19fdb96fc39a")
-		)
-		(instances
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
-					(reference "R11")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7781,6 +7545,12 @@
 			(uuid "395e8cb8-80a0-4f49-9e07-badafaeb511a")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR056")
@@ -7862,6 +7632,12 @@
 			(uuid "d0195703-1773-44d7-abd3-6eaf610f8df8")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "C24")
@@ -7943,88 +7719,15 @@
 			(uuid "74b8813c-3d0a-4827-8fe8-1f0393b5cd8b")
 		)
 		(instances
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
 					(reference "C25")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 139.7 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96a4ba5c-b51f-4382-a30e-9d7bca4586e5")
-		(property "Reference" "#PWR060"
-			(at 143.51 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 135.89 121.9199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30b125b5-14c9-4068-880d-3952ee660d74")
-		)
-		(instances
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
-					(reference "#PWR060")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -8100,6 +7803,12 @@
 			(uuid "79473826-ca5d-463b-b44e-0a5caab2487a")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR048")
@@ -8178,88 +7887,15 @@
 			(uuid "9bb477cd-1e3a-487b-a9fd-92a658888951")
 		)
 		(instances
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
 					(reference "#PWR034")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 118.11 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1ee6651-8f70-4188-aeda-a279dc19b839")
-		(property "Reference" "#PWR059"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 118.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2fb6abfb-69db-486a-b7e7-646e7a8e1fbd")
-		)
-		(instances
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
-					(reference "#PWR059")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8335,6 +7971,12 @@
 			(uuid "18402e0f-82dc-412d-a334-ddc3ed20db6a")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR058")
@@ -8413,6 +8055,12 @@
 			(uuid "6d227db1-a9c1-4436-b51e-5de65e18f172")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR030")
@@ -8492,6 +8140,12 @@
 			(uuid "7352f7cd-3054-4063-988e-87971a14b7f5")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR055")
@@ -8601,6 +8255,12 @@
 			(uuid "db353631-591a-4849-bca4-5d13b8d13878")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "U8")
@@ -8681,6 +8341,12 @@
 			(uuid "593f2259-5c23-4eeb-90d0-bbf9bbd3352c")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "R14")
@@ -8759,6 +8425,12 @@
 			(uuid "cce5b663-f74f-4ea0-b350-f14896c591a3")
 		)
 		(instances
+			(project "lcd"
+				(path "/164ee78b-0133-40c7-a018-bb2912f69a02"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
 					(reference "#PWR054")
@@ -8767,4 +8439,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
