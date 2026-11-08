@@ -2311,6 +2311,12 @@
 					(unit 1)
 				)
 			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2385,6 +2391,12 @@
 		(instances
 			(project "CAN"
 				(path "/bdf91877-732a-447c-ac33-c3e6a30c4da5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -2467,6 +2479,12 @@
 					(unit 1)
 				)
 			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2541,6 +2559,12 @@
 		(instances
 			(project "CAN"
 				(path "/bdf91877-732a-447c-ac33-c3e6a30c4da5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -2644,6 +2668,12 @@
 					(unit 1)
 				)
 			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2718,6 +2748,12 @@
 		(instances
 			(project "CAN"
 				(path "/bdf91877-732a-447c-ac33-c3e6a30c4da5"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -2800,6 +2836,12 @@
 		(instances
 			(project "CAN"
 				(path "/bdf91877-732a-447c-ac33-c3e6a30c4da5"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
 					(reference "C2")
 					(unit 1)
 				)
@@ -2895,6 +2937,12 @@
 					(unit 1)
 				)
 			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2971,6 +3019,12 @@
 		(instances
 			(project "CAN"
 				(path "/bdf91877-732a-447c-ac33-c3e6a30c4da5"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
 					(reference "R1")
 					(unit 1)
 				)
@@ -3057,6 +3111,12 @@
 					(unit 1)
 				)
 			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3135,6 +3195,12 @@
 					(unit 1)
 				)
 			)
+			(project "screenless-dashboard"
+				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/4a40ced4-2efd-4a98-9536-f384a8df6a19"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -3142,5 +3208,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
