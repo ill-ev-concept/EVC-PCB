@@ -1243,7 +1243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "306beeb3-04a9-4162-9b0c-51775a420d1d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 217.17 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -1303,7 +1303,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1321,7 +1321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "509b5473-8bff-41e4-a6f2-569dfa492daf")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 217.17 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1386,7 +1386,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1878,7 +1878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e92bf90e-2d7b-4431-81b7-78960f7f972f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 234.95 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1938,7 +1938,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

@@ -5428,7 +5428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ad3ecee-9671-4c49-b9d6-0da490d7d36e")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 176.53 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5492,7 +5492,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5510,7 +5510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ea5e73c-7665-4ac1-b9a2-2f4ec78768b2")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5570,7 +5570,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5588,7 +5588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c1e804-8e5c-4ab6-8795-869f3a7c697f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 53.34 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5649,7 +5649,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5666,7 +5666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28d31d54-5f14-4755-80f9-80cf73bc1aaa")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 86.36 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5758,7 +5758,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -5776,7 +5776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "394ecc66-9a84-44e8-afff-24a296622a58")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5836,7 +5836,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5853,7 +5853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3dd0a518-9d4f-4a78-816e-f432320421e6")
-		(property "Reference" "C16"
+		(property "Reference" "C6"
 			(at 64.77 64.262 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5915,7 +5915,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C16")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5932,7 +5932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e7c39e2-746b-452d-b82a-99cc539ec947")
-		(property "Reference" "C14"
+		(property "Reference" "C8"
 			(at 68.58 113.538 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5994,7 +5994,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C14")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6012,7 +6012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41fb794f-118f-4ca0-a961-355cb198a22a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR012"
 			(at 127 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6072,7 +6072,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6090,7 +6090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a40653-ae8c-419d-9bbe-405eacf4b3b2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6151,7 +6151,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6169,7 +6169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47d0f255-c888-4437-9a72-bc30491867f7")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR018"
 			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6229,7 +6229,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR013")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6247,7 +6247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b670691-bf9e-41c6-91f8-89d2c8493f75")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 213.36 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6311,7 +6311,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6328,7 +6328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dded9a5-8a92-468a-876b-4464a3c84b95")
-		(property "Reference" "C15"
+		(property "Reference" "C5"
 			(at 64.77 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6390,7 +6390,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C15")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6407,7 +6407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ed96fc5-fac5-4d56-a1b7-6bebc928850d")
-		(property "Reference" "C17"
+		(property "Reference" "C13"
 			(at 179.07 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,7 +6469,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C17")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6487,7 +6487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54156c6f-40bc-41a3-a0fd-c4dd98d21a99")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 162.56 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6551,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C5")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6569,7 +6569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55e59633-064a-4cb0-9443-5fb80553a9d3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR014"
 			(at 201.93 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6629,7 +6629,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR021")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6727,7 +6727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6852cb39-6a57-4954-815d-5801128736b7")
-		(property "Reference" "Y1"
+		(property "Reference" "Y2"
 			(at 83.82 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6791,7 +6791,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "Y1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -6809,7 +6809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fdb1b86-0149-4c41-969d-33c9c413a870")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR020"
 			(at 233.68 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6869,7 +6869,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR014")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6887,7 +6887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70aa3777-79c3-4dc9-be86-7306ac22c6dc")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR05"
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6948,7 +6948,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR010")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6966,7 +6966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760096e6-37e2-4c13-8606-88cb0176a0e4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 55.88 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7027,7 +7027,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7045,7 +7045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "792266b1-cef4-4a08-bf12-3b390defdef2")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 217.17 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7109,7 +7109,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7127,7 +7127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b3dfc7c-0285-4891-b748-846065893712")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 190.5 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7187,7 +7187,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7205,7 +7205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96cd6213-de39-472f-a468-265c4fb3ea01")
-		(property "Reference" "C19"
+		(property "Reference" "C10"
 			(at 95.25 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7269,7 +7269,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C19")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7287,7 +7287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ec70acd-3317-410b-8867-1b3aa044cbcb")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 189.23 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7351,7 +7351,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7449,7 +7449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f567a0c-1db9-4599-ad79-53ae2e2ca1dd")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 204.47 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7509,7 +7509,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7527,7 +7527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9494a63-76da-4ae0-9a67-5a243ec16459")
-		(property "Reference" "C10"
+		(property "Reference" "C17"
 			(at 231.14 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7591,7 +7591,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C10")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7743,7 +7743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1192942-c4cc-4442-957c-92a3e75ffd0a")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR017"
 			(at 207.01 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7803,7 +7803,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR06")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7821,7 +7821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b19bc63b-2198-47f7-893f-79702e45b1d5")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 130.4133 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8072,7 +8072,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8090,7 +8090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b76b49e6-0519-492e-9658-a6aae240f071")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR08"
 			(at 78.74 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8150,7 +8150,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR016")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8168,7 +8168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2f663a2-74f2-4df6-a515-90209ad5caff")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 127 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8228,7 +8228,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8246,7 +8246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6b83624-ba4c-4e7b-928f-d0b307b8f0ed")
-		(property "Reference" "C11"
+		(property "Reference" "C18"
 			(at 245.11 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8310,7 +8310,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C11")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8328,7 +8328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8379f0c-ca79-43b5-9ffa-7fb3f8419329")
-		(property "Reference" "C18"
+		(property "Reference" "C9"
 			(at 82.55 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8392,7 +8392,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C18")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8410,7 +8410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc51d6ed-c1fb-4af2-8b59-f5e7876efe6f")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 204.47 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8474,7 +8474,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8492,7 +8492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3bc276e-1759-4ae8-aeaf-2b14c191cf9a")
-		(property "Reference" "C12"
+		(property "Reference" "C19"
 			(at 256.54 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8556,7 +8556,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C12")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8574,7 +8574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc6ba1e8-a304-451c-98a3-6ec9e1efbd8a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR010"
 			(at 91.44 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8634,7 +8634,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR017")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8651,7 +8651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e10ad115-a406-4dfb-89a7-c1fc097ff2e4")
-		(property "Reference" "C13"
+		(property "Reference" "C7"
 			(at 68.58 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8713,7 +8713,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C13")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8731,7 +8731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3c8d53c-54e0-4658-a720-c383f0c091b4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8791,7 +8791,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8809,7 +8809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4d0a15a-805d-463f-bca4-5a1e6ee83c01")
-		(property "Reference" "C9"
+		(property "Reference" "C16"
 			(at 217.17 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8873,7 +8873,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C9")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8891,7 +8891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e77f72a5-be99-4434-9741-ba3d7431566f")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 195.58 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8955,7 +8955,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8973,7 +8973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f23f15f8-9aab-4d0c-a78a-76d2dd85db7c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 227.33 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9033,7 +9033,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9051,7 +9051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f849ca32-ea16-4e6c-a467-a959f7b91ce3")
-		(property "Reference" "C8"
+		(property "Reference" "C15"
 			(at 203.2 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9115,7 +9115,7 @@
 		(instances
 			(project "screenless-dashboard"
 				(path "/d910187f-4507-4b88-8211-f1a45fa01caf/78f18463-d8a7-403f-a989-a1610996795e"
-					(reference "C8")
+					(reference "C15")
 					(unit 1)
 				)
 			)
