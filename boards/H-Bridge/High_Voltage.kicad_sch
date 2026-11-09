@@ -5585,6 +5585,12 @@
 			(uuid "3ebac084-87d3-438d-a926-adb6a58cd43c")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR038")
@@ -5669,6 +5675,12 @@
 			(uuid "a4bcb1f7-bd62-4dc1-ab62-d4b5fb0b9310")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "J9")
@@ -5874,6 +5886,12 @@
 			(uuid "d7d9607b-a2d7-4279-b7a5-04b50ac1b709")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "Q2")
@@ -5922,7 +5940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 98.7552 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5962,6 +5980,12 @@
 			(uuid "c9fc80c7-84ba-4d5b-a978-3d6e22a65342")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "C7")
@@ -6040,6 +6064,12 @@
 			(uuid "b438fc2b-2d4b-4418-9678-7c251673df0c")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR044")
@@ -6124,6 +6154,12 @@
 			(uuid "532592aa-09fb-4793-8b99-3c9b64de0060")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR042")
@@ -6208,6 +6244,12 @@
 			(uuid "218ef2a4-5924-4153-b2a9-10b1e5c9054b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "J1")
@@ -6292,6 +6334,12 @@
 			(uuid "762b4d9e-76b0-4355-b8f2-802122cc4aba")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR027")
@@ -6376,6 +6424,12 @@
 			(uuid "4c463d61-2c81-41c8-93b6-1fcba542c2b9")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR060")
@@ -6455,6 +6509,12 @@
 			(uuid "3d367121-5187-416a-a8fe-e991821e8b60")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "R13")
@@ -6533,6 +6593,12 @@
 			(uuid "0846aaa3-f6d3-4575-8521-d5300f14fa3d")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR049")
@@ -6617,6 +6683,12 @@
 			(uuid "fde8331a-3fd2-46ef-a867-8a1cf4be7f49")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR053")
@@ -6703,6 +6775,12 @@
 			(uuid "2dd68835-c2ad-4121-b12d-c4bc06243954")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "R12")
@@ -6782,6 +6860,12 @@
 			(uuid "94ecdcdc-7df2-473d-bc55-30a542558647")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "J2")
@@ -6870,6 +6954,12 @@
 			(uuid "51060e5b-1d9e-4799-8745-77fa408443ca")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "C5")
@@ -7075,6 +7165,12 @@
 			(uuid "7cec9d4e-6bd2-499a-959b-1951229b348c")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "Q1")
@@ -7159,6 +7255,12 @@
 			(uuid "66aaed62-02fe-4a32-975a-03d2b3fd4ce2")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR043")
@@ -7243,6 +7345,12 @@
 			(uuid "12e1d500-55da-4d25-8b4c-5eeb37d0e7e3")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR051")
@@ -7447,6 +7555,12 @@
 			(uuid "16594815-b67c-4426-af88-ffaad85351e5")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "Q4")
@@ -7531,6 +7645,12 @@
 			(uuid "c179f881-4c2f-45e4-984c-912ada390169")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR028")
@@ -7619,6 +7739,12 @@
 			(uuid "46af42bf-5a97-444c-900a-5f3c582433a9")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "D4")
@@ -7701,6 +7827,12 @@
 			(uuid "08654e67-b9ed-408a-a508-68cbd53e631b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "R7")
@@ -7906,6 +8038,12 @@
 			(uuid "0f28207b-b4c9-4325-b4b8-713d3d0e956e")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "Q3")
@@ -7990,6 +8128,12 @@
 			(uuid "95656ee4-1f90-41ff-b0cb-76d75b797297")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR037")
@@ -8074,6 +8218,12 @@
 			(uuid "519be360-951c-4b12-bc9a-430551c9fe23")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR052")
@@ -8159,6 +8309,12 @@
 			(uuid "da3b906e-d4d3-48f2-a799-4795acee06fc")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "R8")
@@ -8244,6 +8400,12 @@
 			(uuid "baf08c55-dad8-4938-b224-4697723cfb37")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#FLG02")
@@ -8328,6 +8490,12 @@
 			(uuid "0836f808-d59a-44d9-8b78-37fad0a1b611")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR040")
@@ -8416,6 +8584,12 @@
 			(uuid "972bf9ea-4bcc-4d1a-b4c7-b8512559ac8d")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "R6")
@@ -8606,6 +8780,12 @@
 			(uuid "64ee90c9-6016-4224-8287-b2f2aa347f51")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "IC3")
@@ -8690,6 +8870,12 @@
 			(uuid "3af69607-ebfe-4243-b9cd-71821663168d")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR059")
@@ -8768,6 +8954,12 @@
 			(uuid "05c0ccfc-1c67-43e0-982d-4d4aad412640")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR058")
@@ -8847,6 +9039,12 @@
 			(uuid "b0d72174-0f3c-4bc3-b730-0c9a358970fa")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#FLG01")
@@ -8933,6 +9131,12 @@
 			(uuid "37f4ba63-8ca5-4901-b533-85b70692841e")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "M1")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "M1")
@@ -9017,6 +9221,12 @@
 			(uuid "20608fb5-1c56-4268-83ee-ebd48a7606f1")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR050")
@@ -9105,6 +9315,12 @@
 			(uuid "da341476-d591-480e-ad97-59fd466f5d3b")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "C2")
@@ -9193,6 +9409,12 @@
 			(uuid "544d0755-2402-45eb-a25f-704a5f8bff2e")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "C8")
@@ -9279,6 +9501,12 @@
 			(uuid "7f4ad982-1652-40b5-b093-7291ef4950a7")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "R5")
@@ -9363,6 +9591,12 @@
 			(uuid "42c73537-ba8a-444d-a629-2d440d3f801e")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "J4")
@@ -9441,6 +9675,12 @@
 			(uuid "3257ff98-b6ef-42f2-9b1c-e10f4689c818")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR039")
@@ -9529,6 +9769,12 @@
 			(uuid "bc6b02d1-15d1-4f8c-80ae-8e3867e05dfe")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "D3")
@@ -9607,6 +9853,12 @@
 			(uuid "96bf0f9f-2a91-4c97-a31a-805b23e8c994")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR026")
@@ -9692,6 +9944,12 @@
 			(uuid "5ae24e8b-9774-4fee-b451-00c0bec56f9f")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "J3")
@@ -9774,6 +10032,12 @@
 			(uuid "67ecf28c-315c-4c08-a4cd-7d037e212e18")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "C6")
@@ -9862,6 +10126,12 @@
 			(uuid "d532cfa4-6dcf-4971-9a9c-43f76889cfcf")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "C1")
@@ -9948,6 +10218,12 @@
 			(uuid "b5a5f7a2-ecbc-42a6-b1cf-baf729225c67")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "R1")
@@ -10032,6 +10308,12 @@
 			(uuid "58c32cdc-dbb1-41c8-98f9-f82c83e89d17")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "#PWR041")
@@ -10116,6 +10398,12 @@
 			(uuid "a07443cc-3c21-4bb3-ba9a-c41dce4053f7")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86/576e7c9a-0307-4216-9e33-6884784be1ad"
 					(reference "#PWR057")
@@ -10326,6 +10614,12 @@
 			(uuid "0f158ce5-1df6-459e-8a53-7ab0607c0bd5")
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788/576e7c9a-0307-4216-9e33-6884784be1ad"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
 			(project "High_Voltage"
 				(path "/5eff4230-b4d7-415f-8761-6e7cb0e7585b"
 					(reference "IC2")

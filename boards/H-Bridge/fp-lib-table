@@ -7,4 +7,5 @@
 	(lib (name "ThreadedConnector") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/ThreadedConnector.pretty") (options "") (descr ""))
 	(lib (name "Potentiometers THD") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/Potentiometers THD.pretty") (options "") (descr ""))
 	(lib (name "EVC Logo") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/EVC Logo.pretty") (options "") (descr ""))
+	(lib (name "EVC Standard CAN Connector") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/EVC Standard CAN Connector.pretty") (options "") (descr ""))
 )

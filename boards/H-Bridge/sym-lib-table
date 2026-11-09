@@ -7,4 +7,5 @@
 	(lib (name "High Power MOSFETs") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/High Power MOSFETs.kicad_sym") (options "") (descr ""))
 	(lib (name "CAN Isolators & Trancievers") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/CAN Isolators & Trancievers.kicad_sym") (options "") (descr ""))
 	(lib (name "EVCLogo") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/EVCLogo.kicad_sym") (options "") (descr ""))
+	(lib (name "EVC Standard CAN Connector") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/EVC Standard CAN Connector.kicad_sym") (options "") (descr ""))
 )
