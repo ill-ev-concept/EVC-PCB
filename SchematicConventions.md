@@ -41,19 +41,6 @@ Make sure to label each boxes function. Make sure the box has:
 
 ![Box/Partition Conventions](./images/Box_Example.png)
 
-## **Sizes**
-
-### **Page Size**
-
-Page size can be any size, although larger sizes will be harder to print, using hierarchical sheets can help to 
-
-### **Text**
-
-Make sure any text follows the above 1.5 mm min text size for readability.
-
-### **Grid** 
-
-Keep the grid size the default size (1.27mm/50mil) if more accurate placement is needed, use half of the size (0.635mm/25mil).
 
 ### **Reference Designators & Component Values**
 
@@ -64,7 +51,11 @@ Make sure that components do not have overlapping designators, or component valu
 We have some specific standard layouts for connectors such as the programming headers and CANbus connections, as shown below
 
 
-![Programming Header](./images/Programming_Header.png) ![CAN Header](./images/CAN_Header.png) 
+![Programming Header](./images/Programming_Header.png) 
+
+For the CANBUS connector, the symbol and footprint can be found in the EVC Standard CAN Connector folder in the libs. This is a TE Connectiviy DT family connector, which is a standard automotive connector, better suited for the envriornment the car is in.
+
+![CAN Header](./images/CAN_Header.png) 
 
 # **Final Notes**
 
