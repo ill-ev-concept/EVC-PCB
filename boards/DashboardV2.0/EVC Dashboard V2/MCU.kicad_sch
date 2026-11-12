@@ -7555,6 +7555,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PDR_ON only needs to be tied low if we think the supply voltage will drop below 1.7V.\nI changed it to be tied high because I don't think we'll need it."
+		(exclude_from_sim no)
+		(at 103.886 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72b32d43-7424-4fac-b76e-4a67452d1a78")
+	)
 	(text "Decoupling Caps"
 		(exclude_from_sim no)
 		(at 280.67 32.385 0)
@@ -7639,18 +7649,6 @@
 		(uuid "35c7e86a-17a5-4e9b-a45c-4074c396e299")
 	)
 	(junction
-		(at 132.08 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e4d66ba-b92f-4a16-a104-5c797854944e")
-	)
-	(junction
-		(at 120.65 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fe7c7f9-1b00-4544-bf72-e08268c053bf")
-	)
-	(junction
 		(at 191.77 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7733,6 +7731,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9ce9f8f-8c7a-4ba6-80fa-964bd1663c42")
+	)
+	(junction
+		(at 107.95 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf92d26-4245-4823-82fa-111b413829d7")
 	)
 	(junction
 		(at 201.93 52.07)
@@ -8142,16 +8146,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 57.15) (xy 132.08 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58cd129c-ff60-4a52-86d8-fa659aee5438")
-	)
-	(wire
-		(pts
 			(xy 232.41 194.31) (xy 237.49 194.31)
 		)
 		(stroke
@@ -8209,16 +8203,6 @@
 			(type default)
 		)
 		(uuid "626504c5-e602-435b-8fd0-02d5ae7c8a9a")
-	)
-	(wire
-		(pts
-			(xy 120.65 86.36) (xy 120.65 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62b5356f-b6b0-436d-b047-455d847f8c74")
 	)
 	(wire
 		(pts
@@ -8349,16 +8333,6 @@
 			(type default)
 		)
 		(uuid "7e605c0a-2761-4ed0-b099-40492f32a7a9")
-	)
-	(wire
-		(pts
-			(xy 120.65 77.47) (xy 120.65 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f5b9897-5dff-462a-bf85-c7ce263590e7")
 	)
 	(wire
 		(pts
@@ -9009,16 +8983,6 @@
 			(type default)
 		)
 		(uuid "f0cb8ca2-0e53-473d-9fd1-8e52aba4be46")
-	)
-	(wire
-		(pts
-			(xy 132.08 46.99) (xy 132.08 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f462710c-44d1-4cd6-a506-7a34c87ed436")
 	)
 	(wire
 		(pts
@@ -11411,88 +11375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 132.08 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47fc6da9-5190-4f61-9b92-080bf41036c7")
-		(property "Reference" "R1"
-			(at 134.62 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 134.62 54.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm"
-			(at 130.302 53.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d097d792-74bc-41c3-bfef-6af7bab0c874")
-		)
-		(pin "2"
-			(uuid "329f87a0-9146-4c61-8df2-815a63e7ea9f")
-		)
-		(instances
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/b8483d53-f481-44f9-9ba9-4abbe5cb3a26"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 233.68 0)
 		(unit 1)
@@ -12738,6 +12620,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 107.95 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76d3815f-79b3-4b29-accf-5096785d7d25")
+		(property "Reference" "#PWR059"
+			(at 107.95 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3832e503-eb67-4a53-bc7c-a94127b6e1fb")
+		)
+		(instances
+			(project "EVC Dashboard V2"
+				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/b8483d53-f481-44f9-9ba9-4abbe5cb3a26"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 277.495 45.72 0)
 		(unit 1)
@@ -13073,7 +13033,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 147.955 227.965 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13209,88 +13169,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 120.65 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b7babc8-2d5a-4332-a8eb-0d0df98c7239")
-		(property "Reference" "R4"
-			(at 123.19 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 123.19 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.872 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e1edc3b-bd3a-4f95-a312-fe1f33bddb04")
-		)
-		(pin "2"
-			(uuid "c1af02f8-586d-4134-ae85-6451667cf6a8")
-		)
-		(instances
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/b8483d53-f481-44f9-9ba9-4abbe5cb3a26"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 132.08 71.12 0)
 		(unit 1)
@@ -13391,7 +13269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 134.62 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13684,84 +13562,6 @@
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/b8483d53-f481-44f9-9ba9-4abbe5cb3a26"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6abe837-dfb3-474a-be1b-31d99f964d5b")
-		(property "Reference" "#PWR027"
-			(at 120.65 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d8772c8-a71a-42e0-8299-e137a3ed02c6")
-		)
-		(instances
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/b8483d53-f481-44f9-9ba9-4abbe5cb3a26"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14261,7 +14061,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 135.89 224.155 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15972,84 +15772,6 @@
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/b8483d53-f481-44f9-9ba9-4abbe5cb3a26"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 132.08 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7a0709b-3244-4389-b82f-7e611b30339c")
-		(property "Reference" "#PWR02"
-			(at 132.08 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 132.08 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 132.08 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3362847b-daed-4002-b96a-c2877c0b8006")
-		)
-		(instances
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/b8483d53-f481-44f9-9ba9-4abbe5cb3a26"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
