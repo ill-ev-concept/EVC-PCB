@@ -1709,16 +1709,16 @@
 		(uuid "1f8c621f-22d3-4af0-963a-38a3706c3e3c")
 	)
 	(junction
-		(at 99.06 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "267d6ca1-8a08-440c-812e-74b7e19231f6")
-	)
-	(junction
 		(at 99.06 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3545daab-6be4-4507-a409-ce8d8884c106")
+	)
+	(junction
+		(at 99.06 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c0eb2a2-7616-488a-80cc-5292de7ed3a8")
 	)
 	(junction
 		(at 172.72 41.91)
@@ -2036,6 +2036,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 44.45) (xy 111.76 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe97316-8b14-493b-bd5c-78e8b02a1e3c")
+	)
+	(wire
+		(pts
 			(xy 204.47 53.34) (xy 204.47 52.07)
 		)
 		(stroke
@@ -2325,7 +2335,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 99.06 49.53 270)
+		(at 99.06 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2336,7 +2346,7 @@
 		(fields_autoplaced yes)
 		(uuid "296c379f-fbc6-4fd7-a5e4-02618bad5901")
 		(property "Reference" "#PWR07"
-			(at 95.25 49.53 0)
+			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2347,7 +2357,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 102.87 49.5299 90)
+			(at 101.6 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2831,7 +2841,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 99.06 44.45 270)
+		(at 99.06 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2839,10 +2849,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8ba8baa4-eaf5-46f4-b2e6-34d1c50bbc1a")
 		(property "Reference" "#PWR06"
-			(at 95.25 44.45 0)
+			(at 99.06 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2853,7 +2862,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 102.87 44.4499 90)
+			(at 97.536 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3343,7 +3352,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 40.64 0)
+		(at 111.76 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3354,7 +3363,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd3374b3-e116-42d0-95cc-0d1f08eef7b5")
 		(property "Reference" "C1"
-			(at 102.87 39.3699 0)
+			(at 115.57 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3365,7 +3374,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 102.87 41.9099 0)
+			(at 115.57 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3376,7 +3385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.0252 44.45 0)
+			(at 112.7252 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3387,7 +3396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 40.64 0)
+			(at 111.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3398,7 +3407,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 99.06 40.64 0)
+			(at 111.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +3440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 36.83 180)
+		(at 111.76 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3442,7 +3451,7 @@
 		(fields_autoplaced yes)
 		(uuid "df5cb16c-118d-4c21-853c-fb0b0aaf9fa6")
 		(property "Reference" "#PWR011"
-			(at 99.06 30.48 0)
+			(at 111.76 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3453,17 +3462,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 31.75 0)
+			(at 114.3 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 36.83 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3474,7 +3484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 36.83 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 36.83 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
