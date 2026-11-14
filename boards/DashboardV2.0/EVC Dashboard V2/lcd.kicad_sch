@@ -2381,6 +2381,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 80.01) (xy 48.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fbb3fd-3be8-407f-a976-09354fd97b99")
+	)
+	(wire
+		(pts
 			(xy 147.32 87.63) (xy 147.32 90.17)
 		)
 		(stroke
@@ -2418,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "65546cd8-14d9-4a2f-8408-b6060a7da2a4")
-	)
-	(wire
-		(pts
-			(xy 48.26 72.39) (xy 48.26 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b50253-dc4b-4398-a531-e8af57e21ede")
 	)
 	(wire
 		(pts
@@ -2481,16 +2481,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 72.39) (xy 58.42 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72d0efe2-1f9b-4048-8bfc-a6b3b9f8507c")
-	)
-	(wire
-		(pts
 			(xy 100.33 118.11) (xy 100.33 107.95)
 		)
 		(stroke
@@ -2518,16 +2508,6 @@
 			(type default)
 		)
 		(uuid "88461e2c-8932-4dae-916a-fd460aea887c")
-	)
-	(wire
-		(pts
-			(xy 38.1 72.39) (xy 38.1 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b11e503-7484-41be-9189-9faa1ae35976")
 	)
 	(wire
 		(pts
@@ -2578,6 +2558,16 @@
 			(type default)
 		)
 		(uuid "aceead2b-8c66-46e7-93ab-bea9c7f9cf5f")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 58.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf9641f-3c7b-4e27-93aa-2c20e651b96c")
 	)
 	(wire
 		(pts
@@ -7303,8 +7293,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 48.26 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57a67a6d-24ed-47aa-91d0-a09b6c8dd0fa")
+		(property "Reference" "R9"
+			(at 50.8 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 50.8 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.482 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdca107e-214d-4d62-a72e-ee8ea99df698")
+		)
+		(pin "2"
+			(uuid "dc930ca0-0926-4d9b-8f57-f5fb25bcf543")
+		)
+		(instances
+			(project "EVC Dashboard V2"
+				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 39.37 113.03 90)
+		(at 39.37 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7315,7 +7387,7 @@
 		(fields_autoplaced yes)
 		(uuid "591fe08b-0ee9-4f62-b6c4-0671969c9e5e")
 		(property "Reference" "#PWR057"
-			(at 43.18 113.03 0)
+			(at 39.37 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7326,7 +7398,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 35.56 113.0299 90)
+			(at 41.91 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7476,7 +7548,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 115.57 270)
+		(at 39.37 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7487,7 +7559,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f91dbf0-e2f1-433b-880e-49bcf9892b67")
 		(property "Reference" "#PWR056"
-			(at 33.02 115.57 0)
+			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,14 +7570,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 115.5699 90)
+			(at 41.91 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7902,6 +7974,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 58.42 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b15eaa56-ea83-4ed1-a343-38954a7ee50c")
+		(property "Reference" "R11"
+			(at 60.96 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 60.96 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.642 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d63c657-ebb7-45ad-aa47-0fff1b007477")
+		)
+		(pin "2"
+			(uuid "c23ff81b-8ef2-4f85-a422-15c054affd0f")
+		)
+		(instances
+			(project "EVC Dashboard V2"
+				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba88978f-7886-410e-9313-377080f69cdc")
+		(property "Reference" "R4"
+			(at 40.64 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.64 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.322 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81dfe446-6721-4576-ab4a-6fb81bfe40c7")
+		)
+		(pin "2"
+			(uuid "0b421705-4bfd-49da-94a6-caa8c93171ae")
+		)
+		(instances
+			(project "EVC Dashboard V2"
+				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/3ee3826b-6fc5-49c7-b040-60fa39243ad2"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 15.24 132.08 0)
 		(unit 1)
@@ -8071,7 +8307,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 113.03 90)
+		(at 82.55 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8082,7 +8318,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea679901-69a7-45e6-802b-909042d12d90")
 		(property "Reference" "#PWR055"
-			(at 88.9 113.03 0)
+			(at 82.55 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8093,14 +8329,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 113.0299 90)
+			(at 85.09 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8357,7 +8593,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 124.46 90)
+		(at 113.03 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8368,7 +8604,7 @@
 		(fields_autoplaced yes)
 		(uuid "f636c1a4-9499-4eb1-b4bc-ea06f46ede21")
 		(property "Reference" "#PWR054"
-			(at 119.38 124.46 0)
+			(at 113.03 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8379,13 +8615,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 124.46 0)
+			(at 115.57 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "DFN-10_DD_LIT"
