@@ -1,0 +1,167 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "33a1e1ee-e631-42b9-8e62-37604ecbfaba")
+	(paper "A4")
+	(title_block
+		(title "5V/1A Buck - EV Concept Power Converter")
+		(comment 1 "Draft: TPS54202 synchronous buck")
+	)
+	(lib_symbols)
+	(sheet
+		(at 50.8 166.37)
+		(size 101.6 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3ac2136f-fb93-4f21-9163-484fc7510306")
+		(property "Sheetname" "5VConvert"
+			(at 50.8 165.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5VConvert.kicad_sch"
+			(at 50.8 188.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "psu_5v_buck"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 133.35)
+		(size 107.95 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "951853f4-2e14-4fe6-9ee5-3ebbb7f4f211")
+		(property "Sheetname" "12VConvert"
+			(at 139.7 132.6384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12VConvert.kicad_sch"
+			(at 139.7 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 139.7 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "psu_5v_buck"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 74.93)
+		(size 52.07 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a7691093-024a-4f7b-9b66-150993edc056")
+		(property "Sheetname" "BuckBoost"
+			(at 214.63 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BuckBoost.kicad_sch"
+			(at 214.63 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "psu_5v_buck"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
