@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "psu_5v_buck.kicad_pro",
+    "filename": "Power-Converter-Autonomous.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -424,8 +424,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "psu_5v_buck.kicad_sch",
-        "name": "psu_5v_buck",
+        "filename": "Power-Converter-Autonomous.kicad_sch",
+        "name": "Power-Converter-Autonomous",
         "uuid": "33a1e1ee-e631-42b9-8e62-37604ecbfaba"
       }
     ],
@@ -435,7 +435,7 @@
   "sheets": [
     [
       "33a1e1ee-e631-42b9-8e62-37604ecbfaba",
-      "psu_5v_buck"
+      "Power-Converter-Autonomous"
     ],
     [
       "3ac2136f-fb93-4f21-9163-484fc7510306",

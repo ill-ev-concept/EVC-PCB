@@ -1948,7 +1948,7 @@
 			(uuid "21a3eae9-5e89-48c2-9a5c-ae9201eb9db0")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "L1")
 					(unit 1)
@@ -2028,7 +2028,7 @@
 			(uuid "fe01fd25-8649-4f7d-8c3c-4ccf76e32e4d")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "C3")
 					(unit 1)
@@ -2120,7 +2120,7 @@
 			(uuid "da433506-4da0-4b7e-a468-95424ee90c81")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "U1")
 					(unit 1)
@@ -2200,7 +2200,7 @@
 			(uuid "46502866-91d3-429e-a247-4a23eb5907fe")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "C1")
 					(unit 1)
@@ -2280,7 +2280,7 @@
 			(uuid "d4a60434-27b0-4400-9465-23f03e39778f")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "R1")
 					(unit 1)
@@ -2360,7 +2360,7 @@
 			(uuid "f3c6e645-5e73-4e53-9c11-0e08b8a11c42")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "R3")
 					(unit 1)
@@ -2440,7 +2440,7 @@
 			(uuid "f55f2e2c-dcaf-42b8-8b5b-37f1c4cbf6b1")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "J1")
 					(unit 1)
@@ -2520,7 +2520,7 @@
 			(uuid "ffd36b7c-d107-4174-abb0-15af37ed716c")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "J2")
 					(unit 1)
@@ -2600,7 +2600,7 @@
 			(uuid "fda43d6f-ea0f-4a6b-a7df-15b0498ba509")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "C4")
 					(unit 1)
@@ -2680,7 +2680,7 @@
 			(uuid "0b3ffc99-04b8-46d8-a312-fa642a89dd6a")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "C5")
 					(unit 1)
@@ -2760,7 +2760,7 @@
 			(uuid "4b0cff7f-f927-4e5f-9f6a-cf73d57801e1")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "R5")
 					(unit 1)
@@ -2840,7 +2840,7 @@
 			(uuid "da32cbb5-2e5f-4f91-bd86-0084ca52bf68")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "C6")
 					(unit 1)
@@ -2920,7 +2920,7 @@
 			(uuid "a21f0725-82f3-4eb8-886b-5f15151bc815")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "D1")
 					(unit 1)
@@ -3000,7 +3000,7 @@
 			(uuid "264241ea-3c65-4f11-becd-2d286c323fff")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "R2")
 					(unit 1)
@@ -3080,7 +3080,7 @@
 			(uuid "b24e7b76-ef46-4d5d-bd7c-85185fdd971a")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "J3")
 					(unit 1)
@@ -3160,7 +3160,7 @@
 			(uuid "c33609b4-33f5-4299-b4d6-00ed57b3d847")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "C2")
 					(unit 1)
@@ -3240,7 +3240,7 @@
 			(uuid "dc08438f-b95b-440a-b5a6-20575a3def8e")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "R6")
 					(unit 1)
@@ -3320,7 +3320,7 @@
 			(uuid "cbd1eeb3-6f06-43df-b8ac-341652b565b9")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "F1")
 					(unit 1)
@@ -3400,7 +3400,7 @@
 			(uuid "4db0afba-2eb7-4a2c-98ef-22ac12c5b57c")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "D2")
 					(unit 1)
@@ -3480,7 +3480,7 @@
 			(uuid "523013b3-266b-4ce7-a04f-47ce5c0ab806")
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/3ac2136f-fb93-4f21-9163-484fc7510306"
 					(reference "R4")
 					(unit 1)

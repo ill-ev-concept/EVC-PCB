@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TPS552892") (type "KiCad") (uri "${EVC_FOOTPRINT_DIR}/TPS552892.pretty") (options "") (descr ""))
+)
