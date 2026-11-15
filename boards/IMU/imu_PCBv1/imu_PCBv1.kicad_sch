@@ -1318,6 +1318,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Square"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Square"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Square_0_1"
+				(rectangle
+					(start -0.762 0.762)
+					(end 0.762 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Square_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -6819,6 +6942,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 59.69) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04548777-d14f-4c28-ad2b-684bf0f91f73")
+	)
+	(wire
+		(pts
 			(xy 252.73 33.02) (xy 269.24 33.02)
 		)
 		(stroke
@@ -7296,6 +7429,16 @@
 			(type default)
 		)
 		(uuid "36c906ec-5a9e-4fc0-b759-f7ef4a3ca3e1")
+	)
+	(wire
+		(pts
+			(xy 96.52 52.07) (xy 100.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e71381-1430-4475-91d7-5ffa55b6f22e")
 	)
 	(wire
 		(pts
@@ -9447,6 +9590,16 @@
 		)
 		(uuid "85460658-621d-478a-9c27-071578b58ebc")
 	)
+	(label "GND"
+		(at 96.52 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85819ca3-214f-4d6b-9fef-c55c6961afbf")
+	)
 	(label "CAN_5V"
 		(at 85.09 30.48 180)
 		(effects
@@ -9487,7 +9640,7 @@
 		)
 		(uuid "94ebdad4-a180-4b1b-bf36-77022ab2d9fd")
 	)
-	(label "USB_VIN"
+	(label "CAN_5V"
 		(at 246.38 90.17 0)
 		(effects
 			(font
@@ -9516,6 +9669,16 @@
 			(justify left bottom)
 		)
 		(uuid "9ff831ad-e9f5-40b5-830d-c57ab5c0f4ba")
+	)
+	(label "CAN_5V"
+		(at 96.52 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a02e0d5a-1c9c-4b28-acd2-db4c7649d9ba")
 	)
 	(label "GPS_TXD"
 		(at 270.51 195.58 0)
@@ -9706,6 +9869,16 @@
 			(justify right bottom)
 		)
 		(uuid "e5536c3e-ab17-4d54-a176-4bf5af744724")
+	)
+	(label "USB_VIN"
+		(at 246.38 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e55fa241-4846-4951-9572-df0630ca3a55")
 	)
 	(label "SWDIO"
 		(at 99.06 181.61 0)
@@ -10180,6 +10353,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 100.33 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b9cc433-aa02-48fc-b2a1-8e4298aa3bcf")
+		(property "Reference" "TP5V1"
+			(at 102.87 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 102.87 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 105.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fc6bb74-2827-4bfa-acac-7b2e8de0b122")
+		)
+		(instances
+			(project "imu_PCBv1"
+				(path "/c751f12b-4428-40a4-afa3-9f787be38c4a"
+					(reference "TP5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 152.4 142.24 0)
 		(unit 1)
@@ -10538,7 +10790,7 @@
 		(fields_autoplaced yes)
 		(uuid "45543e76-d27e-4ab0-80c8-c982cbc64b1a")
 		(property "Reference" "U5"
-			(at 50.8 31.75 0)
+			(at 50.8 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10548,7 +10800,7 @@
 			)
 		)
 		(property "Value" "ISO1042BQDWQ1"
-			(at 50.8 34.29 0)
+			(at 50.8 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12577,6 +12829,85 @@
 			(project "imu_PCBv1"
 				(path "/c751f12b-4428-40a4-afa3-9f787be38c4a"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 100.33 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8280417a-e3f8-42be-be70-29da94cc88ae")
+		(property "Reference" "TPGND1"
+			(at 102.87 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 102.87 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 105.41 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc239889-4e66-4869-94c4-4bd4d3f846cc")
+		)
+		(instances
+			(project "imu_PCBv1"
+				(path "/c751f12b-4428-40a4-afa3-9f787be38c4a"
+					(reference "TPGND1")
 					(unit 1)
 				)
 			)
