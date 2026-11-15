@@ -48,7 +48,7 @@
 			)
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba"
 					(page "2")
 				)
@@ -105,7 +105,7 @@
 			)
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba"
 					(page "3")
 				)
@@ -151,7 +151,7 @@
 			)
 		)
 		(instances
-			(project "psu_5v_buck"
+			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba"
 					(page "4")
 				)
