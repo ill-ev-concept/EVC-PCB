@@ -1141,6 +1141,18 @@
 		(color 0 0 0 0)
 		(uuid "344d66cc-6123-4fe4-941d-ff0eeb20fc69")
 	)
+	(junction
+		(at 45.72 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c2b333b-fa1f-4b52-b064-848df7503b37")
+	)
+	(junction
+		(at 31.75 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0d3b8dd-8a05-4447-b2d0-ebd2251f3140")
+	)
 	(wire
 		(pts
 			(xy 100.33 41.91) (xy 107.95 41.91)
@@ -1153,6 +1165,46 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 46.99) (xy 31.75 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f630657-7c18-44ce-b1c4-28336fa57a1f")
+	)
+	(wire
+		(pts
+			(xy 30.48 41.91) (xy 31.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25eedd88-f2d5-4c2d-b6b8-bfe91fac1e63")
+	)
+	(wire
+		(pts
+			(xy 31.75 41.91) (xy 31.75 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ceaaa3-966d-4110-bd31-a9ac2b198f7c")
+	)
+	(wire
+		(pts
+			(xy 31.75 41.91) (xy 34.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91cbd4a7-7863-4744-a8b4-84495c3587a7")
+	)
+	(wire
+		(pts
 			(xy 107.95 41.91) (xy 110.49 41.91)
 		)
 		(stroke
@@ -1160,6 +1212,16 @@
 			(type default)
 		)
 		(uuid "b758a770-bb15-4ecc-b1c9-67eb5770b285")
+	)
+	(wire
+		(pts
+			(xy 41.91 41.91) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1611c3-fa18-41ec-b5a9-22de392b4589")
 	)
 	(wire
 		(pts
@@ -1181,9 +1243,19 @@
 		)
 		(uuid "d42f2a7b-56ba-41a1-b4fe-cccf9f408d60")
 	)
+	(wire
+		(pts
+			(xy 45.72 41.91) (xy 59.69 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd882e27-67e7-40c9-887b-c676e9cc2043")
+	)
 	(global_label "VIN"
 		(shape input)
-		(at 50.8 41.91 180)
+		(at 30.48 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1193,7 +1265,7 @@
 		)
 		(uuid "4e37c06e-d717-4eb6-b497-68b684c456f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.7909 41.91 0)
+			(at 24.4709 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1231,7 +1303,7 @@
 	)
 	(global_label "VOUT_19V"
 		(shape input)
-		(at 48.26 46.99 180)
+		(at 45.72 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1241,7 +1313,7 @@
 		)
 		(uuid "b81a1ba2-7576-4d26-8418-33c50dc0d1ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.0824 46.99 0)
+			(at 33.5424 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2132,6 +2204,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 45.72 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b51be794-4d1b-4449-8a7b-50f2ffd8c985")
+		(property "Reference" "CVIN"
+			(at 49.53 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 49.53 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.6852 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a660d774-186f-4669-a49a-30f51a204e86")
+		)
+		(pin "1"
+			(uuid "484430ab-642a-489a-ac33-b8be497f4d6a")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "CVIN")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 55.88 95.25 90)
 		(unit 1)
@@ -2292,6 +2446,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 45.72 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c534b7a6-578b-44df-b21a-45962692f19c")
+		(property "Reference" "#PWR010"
+			(at 45.72 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a51fab04-3f7c-449e-8d6e-5452f4bfed4f")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 52.07 95.25 270)
 		(unit 1)
 		(body_style 1)
@@ -2443,6 +2675,86 @@
 			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f81dec29-3c13-4918-b35f-e692957a2ac5")
+		(property "Reference" "RVIN"
+			(at 38.1 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 Ohms"
+			(at 38.1 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.354 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f40a456e-831a-4509-a46d-dee4ea547d70")
+		)
+		(pin "1"
+			(uuid "eedb19f9-ebba-4278-822d-e6d6612b6bd6")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "RVIN")
 					(unit 1)
 				)
 			)
