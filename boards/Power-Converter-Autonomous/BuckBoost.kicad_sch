@@ -1135,15 +1135,51 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 107.95 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "344d66cc-6123-4fe4-941d-ff0eeb20fc69")
+	)
 	(wire
 		(pts
-			(xy 100.33 41.91) (xy 110.49 41.91)
+			(xy 100.33 41.91) (xy 107.95 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0148f36c-a188-41a5-a853-6e6ca1fa59c1")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 110.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b758a770-bb15-4ecc-b1c9-67eb5770b285")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d407ebd8-539e-4cc0-912b-c934e9ea0e6b")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 107.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42f2a7b-56ba-41a1-b4fe-cccf9f408d60")
 	)
 	(global_label "VIN"
 		(shape input)
@@ -1171,7 +1207,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 106.68 41.91 90)
+		(at 107.95 38.1 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1181,7 +1217,7 @@
 		)
 		(uuid "7a4f17f8-36e5-44b3-9175-218e25a5fe5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 35.2962 90)
+			(at 107.95 31.4862 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1219,7 +1255,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 85.09 90)
+		(at 55.88 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1228,9 +1264,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2c841fb7-e5b7-455e-ba84-918160ab8676")
-		(property "Reference" "R7"
-			(at 107.95 78.74 90)
+		(uuid "1f866525-fcd3-4141-85d9-249562a7eeb3")
+		(property "Reference" "RMODE"
+			(at 55.88 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1239,8 +1275,8 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 107.95 81.28 90)
+		(property "Value" "93.1k Ohms"
+			(at 55.88 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1250,7 +1286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.204 84.074 90)
+			(at 56.134 76.454 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1261,7 +1297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 85.09 0)
+			(at 55.88 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1272,7 +1308,87 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 85.09 0)
+			(at 55.88 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a950c648-39f1-43e6-aed1-1140370fb4d1")
+		)
+		(pin "1"
+			(uuid "fb7b12c6-b769-437f-9610-a54f7e6634d1")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "RMODE")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 104.14 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c841fb7-e5b7-455e-ba84-918160ab8676")
+		(property "Reference" "R7"
+			(at 104.14 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k Ohms"
+			(at 104.14 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.394 84.074 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,6 +1408,86 @@
 			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e2a5e60-15f7-4294-8c41-18c4b333866f")
+		(property "Reference" "CSS"
+			(at 55.88 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 55.88 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 58.7248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2726fbfa-5bee-4ca9-a89d-904bc3e5db60")
+		)
+		(pin "1"
+			(uuid "d882674f-2061-4f1d-a450-a67f3c4fd119")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "CSS")
 					(unit 1)
 				)
 			)
@@ -1371,6 +1567,86 @@
 			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43f7bc9b-05a2-434a-918a-2d934aae71cc")
+		(property "Reference" "CSLOPE"
+			(at 55.88 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 55.88 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 114.6048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "01df682a-8356-47b9-a66c-ca8504cbb063")
+		)
+		(pin "1"
+			(uuid "41025004-e037-40a9-8146-77e282c8282d")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "CSLOPE")
 					(unit 1)
 				)
 			)
@@ -1856,6 +2132,323 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 55.88 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5836806-6311-4b45-a197-72c5a8a4f0bc")
+		(property "Reference" "RT"
+			(at 55.88 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "84.5k Ohms"
+			(at 55.88 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.134 94.234 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 55.88 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9e1166a4-992e-48b4-a066-3278a70c7be6")
+		)
+		(pin "1"
+			(uuid "c6abd1f0-4341-4a23-ad61-fea23b6ad8c5")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "RT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c148ee81-a56f-45b3-9127-c66d25aa7b0c")
+		(property "Reference" "#PWR09"
+			(at 45.72 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef9b99d8-d492-4f86-b807-16723c0025be")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d19f389b-0148-44e7-9c78-1f36fe839b2b")
+		(property "Reference" "#PWR08"
+			(at 45.72 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98b08931-ad7e-4ee0-a0ca-aed1c5a34f2e")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7a947c3-d437-4dc5-9d5c-2b6d75caa89b")
+		(property "Reference" "#PWR07"
+			(at 45.72 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40274feb-acd1-473b-93a5-73fdac276c08")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 41.91 90)
 		(unit 1)
@@ -1930,6 +2523,85 @@
 			(project "Power-Converter-Autonomous"
 				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
 					(reference "CVCC")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb47b249-d27f-4768-b061-f0f7ffd0c76f")
+		(property "Reference" "#PWR06"
+			(at 45.72 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "045d0727-cff2-4aed-8722-5e71d405b402")
+		)
+		(instances
+			(project "Power-Converter-Autonomous"
+				(path "/33a1e1ee-e631-42b9-8e62-37604ecbfaba/a7691093-024a-4f7b-9b66-150993edc056"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
