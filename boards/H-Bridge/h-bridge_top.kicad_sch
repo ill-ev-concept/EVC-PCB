@@ -20,7 +20,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#G"
+			(property "Reference" "#G1"
 				(at 0 43.337 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -590,6 +590,12 @@
 			)
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788"
+					(reference "H3")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
 					(reference "H3")
@@ -666,6 +672,12 @@
 			)
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788"
+					(reference "H4")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
 					(reference "H4")
@@ -742,6 +754,12 @@
 			)
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788"
+					(reference "H6")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
 					(reference "H6")
@@ -784,7 +802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EVC Logo:EVC_LOGO"
 			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -818,6 +836,12 @@
 			)
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788"
+					(reference "#G1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
 					(reference "#G1")
@@ -894,6 +918,12 @@
 			)
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788"
+					(reference "H2")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
 					(reference "H2")
@@ -970,6 +1000,12 @@
 			)
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788"
+					(reference "H1")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
 					(reference "H1")
@@ -1046,6 +1082,12 @@
 			)
 		)
 		(instances
+			(project "h-bridge_top"
+				(path "/5680942d-4620-49a6-8440-2cbb90deb788"
+					(reference "H5")
+					(unit 1)
+				)
+			)
 			(project "brushed_v2"
 				(path "/eb8a71f1-dfd1-4787-8d20-e1c5cbb51f86"
 					(reference "H5")
