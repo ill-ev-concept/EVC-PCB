@@ -794,37 +794,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SI9945BDY-T1-GE3:SI9945BDY-T1-GE3"
+		(symbol "Transistor_FET:Si9945BDY"
 			(pin_names
-				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 13.97 -0.635 0)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SI9945BDY-T1-GE3"
-				(at 13.97 -5.08 0)
+			(property "Value" "Si9945BDY"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOIC_T1-GE3_VIS"
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -833,22 +835,11 @@
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/doc?64737"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.vishay.com/docs/64737/si9945bdy.pdf"
+				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -856,19 +847,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SI9945BDY-T1-GE3"
+			(property "Description" "Dual N-Channel MOSFET, 5.3A Id, 60V Vds, 0.058 ohms Rds(on), SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -879,7 +861,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC_T1-GE3_VIS SOIC_T1-GE3_VIS-M SOIC_T1-GE3_VIS-L"
+			(property "ki_keywords" "Vishay Siliconix TrenchFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -890,166 +872,22 @@
 					)
 				)
 			)
-			(symbol "SI9945BDY-T1-GE3_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_fp_filters" "*SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
+			)
+			(symbol "Si9945BDY_0_1"
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 5.08 -2.54)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 6.985 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -5.08) (xy 6.985 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -0.635) (xy 9.525 -0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -3.175) (xy 7.62 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -4.445) (xy 9.525 -4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 7.62 -3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -1.905) (xy 7.62 -2.54) (xy 8.89 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 9.525 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.89 -2.54)
-					(radius 3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1060,10 +898,10 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 0) (xy 10.795 0)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1072,21 +910,10 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 -0.635) (xy 9.525 0)
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 9.525 -4.445)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1095,10 +922,10 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 -5.08) (xy 9.525 -2.54)
+						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1107,10 +934,10 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 -5.08) (xy 10.795 -5.08)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1119,32 +946,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 2.54) (xy 10.16 0)
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 10.16 0)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 10.16 -5.08)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1153,55 +958,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -7.62) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.795 -1.905) (xy 10.795 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.795 -5.08) (xy 10.795 -3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 -1.905) (xy 10.16 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 -3.175) (xy 10.16 -3.175) (xy 10.795 -1.905)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -1209,6 +966,237 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Si9945BDY_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Si9945BDY_2_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1628,6 +1616,16 @@
 		)
 		(uuid "2bf55293-cf62-4867-8406-d9d081ee07b4")
 	)
+	(text "looks like 2 MOS fit in one package, double check that for footprint\nor import new Si9945BDY symbol+footprint"
+		(exclude_from_sim no)
+		(at 202.438 28.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3df13817-92cf-4ca7-a1a0-5598833cb4ac")
+	)
 	(text "added input as the voltage from the \nCAN connector, output as +5V power \nto the rest of the board"
 		(exclude_from_sim no)
 		(at 257.81 35.306 0)
@@ -1742,7 +1740,7 @@
 		(at 204.47 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca7e71c2-adaa-48f6-b573-7172ac97a08e")
+		(uuid "df37df7f-5454-4030-9059-4f832878b088")
 	)
 	(junction
 		(at 259.08 69.85)
@@ -1773,6 +1771,16 @@
 			(type default)
 		)
 		(uuid "11a3543d-5208-493c-87d3-b5d783a0e362")
+	)
+	(wire
+		(pts
+			(xy 203.2 41.91) (xy 199.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24568696-5c5e-4590-a2c3-fea6059650de")
 	)
 	(wire
 		(pts
@@ -1856,16 +1864,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 52.07) (xy 214.63 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5607f974-c220-4e8f-9d35-2eb38bf672be")
-	)
-	(wire
-		(pts
 			(xy 240.03 102.87) (xy 240.03 74.93)
 		)
 		(stroke
@@ -1873,16 +1871,6 @@
 			(type default)
 		)
 		(uuid "6703ac5a-170d-483f-a315-029e4f882999")
-	)
-	(wire
-		(pts
-			(xy 204.47 52.07) (xy 214.63 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75213d87-8174-4c63-8a67-ec4481ddcf14")
 	)
 	(wire
 		(pts
@@ -1896,13 +1884,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 41.91) (xy 209.55 43.18)
+			(xy 207.01 34.29) (xy 207.01 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8376f4bd-2b70-45a4-a7d9-7ee37c9df1da")
+		(uuid "82def161-eae7-4b94-8c1d-2bc65810a6f5")
 	)
 	(wire
 		(pts
@@ -1926,16 +1914,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 41.91) (xy 209.55 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aa07604-2555-4cb4-8a78-4295bc6b67d9")
-	)
-	(wire
-		(pts
 			(xy 179.07 67.31) (xy 179.07 62.23)
 		)
 		(stroke
@@ -1943,16 +1921,6 @@
 			(type default)
 		)
 		(uuid "a3ae4a0d-b1f8-4af6-aa8a-d8868069c60b")
-	)
-	(wire
-		(pts
-			(xy 219.71 41.91) (xy 250.19 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a520aa1b-4efc-48ae-9a9d-d3b73e2ff63a")
 	)
 	(wire
 		(pts
@@ -2006,6 +1974,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 34.29) (xy 207.01 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f5218b-9c5a-4d1b-ae45-ee7355c5c292")
+	)
+	(wire
+		(pts
 			(xy 240.03 67.31) (xy 240.03 53.34)
 		)
 		(stroke
@@ -2023,6 +2001,16 @@
 			(type default)
 		)
 		(uuid "e8bc75bb-3c72-40b1-9d8d-60946fb5a098")
+	)
+	(wire
+		(pts
+			(xy 207.01 52.07) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97247a4-b234-4f14-8e03-4ad00db9d378")
 	)
 	(wire
 		(pts
@@ -2053,6 +2041,16 @@
 			(type default)
 		)
 		(uuid "ee0a88b6-ccb5-4752-b651-5c9aa2e81b9b")
+	)
+	(wire
+		(pts
+			(xy 213.36 41.91) (xy 250.19 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdde82a3-99e4-49e9-9cfe-e05da93cc3f9")
 	)
 	(global_label "UNLIMIT_+5V"
 		(shape input)
@@ -2245,89 +2243,6 @@
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI9945BDY-T1-GE3:SI9945BDY-T1-GE3")
-		(at 212.09 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "293c057d-503e-42ea-94cf-29d550c95470")
-		(property "Reference" "U6"
-			(at 216.408 13.462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SI9945BDY-T1-GE3"
-			(at 213.868 13.462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SOIC_T1-GE3_VIS"
-			(at 212.09 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?64737"
-			(at 212.09 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "overvoltage"
-				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2659,9 +2574,122 @@
 			(uuid "5988f03e-ca10-48bc-a721-15a86354254e")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Si9945BDY")
+		(at 194.31 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76b9d5ff-e19f-4ab7-80e8-8cf651f36a49")
+		(property "Reference" "Q2"
+			(at 194.31 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Si9945BDY"
+			(at 194.31 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 196.215 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/64737/si9945bdy.pdf"
+			(at 198.12 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Dual N-Channel MOSFET, 5.3A Id, 60V Vds, 0.058 ohms Rds(on), SOIC-8"
+			(at 194.31 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "35092d3a-8f66-45fb-a0d5-09f4e8226bb1")
+		)
+		(pin "4"
+			(uuid "1369b0fa-cc47-446f-8821-116d7efa519e")
+		)
+		(pin "7"
+			(uuid "38410d60-432c-43de-a2a1-5a74c37256a2")
+		)
+		(pin "1"
+			(uuid "5f595564-9453-4e5e-a9dd-ba16e302ca0b")
+		)
+		(pin "3"
+			(uuid "8b4312ca-2bda-46dc-9cd4-76b2775585ab")
+		)
+		(pin "8"
+			(uuid "b431bd10-ef4f-4c20-a51d-448b59971674")
+		)
+		(pin "5"
+			(uuid "a40a9461-f8ef-4f9b-b9d1-8aec88e90f9a")
+		)
+		(pin "6"
+			(uuid "2b9990d2-4930-49c1-ad66-c22aca812160")
+		)
+		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+			(project "EVC Dashboard V2"
+				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2918,89 +2946,6 @@
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI9945BDY-T1-GE3:SI9945BDY-T1-GE3")
-		(at 191.77 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "907b47fc-8c82-4e4e-867b-b97d34019f6c")
-		(property "Reference" "U5"
-			(at 196.088 13.462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SI9945BDY-T1-GE3"
-			(at 193.548 13.462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SOIC_T1-GE3_VIS"
-			(at 191.77 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?64737"
-			(at 191.77 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "overvoltage"
-				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-			(project "EVC Dashboard V2"
-				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3270,6 +3215,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Si9945BDY")
+		(at 208.28 39.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5db4ecc-04f2-4827-841b-955523d8d646")
+		(property "Reference" "Q3"
+			(at 208.28 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Si9945BDY"
+			(at 208.28 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 206.375 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/64737/si9945bdy.pdf"
+			(at 204.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Dual N-Channel MOSFET, 5.3A Id, 60V Vds, 0.058 ohms Rds(on), SOIC-8"
+			(at 208.28 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b918419-80e0-447b-b961-c5a864205fdc")
+		)
+		(pin "4"
+			(uuid "1369b0fa-cc47-446f-8821-116d7efa519f")
+		)
+		(pin "7"
+			(uuid "33c8690f-d7fb-45ea-a51e-97066bb77ebb")
+		)
+		(pin "1"
+			(uuid "9a65c67d-2d92-45b3-90cb-5133bef27170")
+		)
+		(pin "3"
+			(uuid "8b4312ca-2bda-46dc-9cd4-76b2775585ac")
+		)
+		(pin "8"
+			(uuid "7d0d7bc9-56c7-4d7e-8fa4-f9e326a02361")
+		)
+		(pin "5"
+			(uuid "a40a9461-f8ef-4f9b-b9d1-8aec88e90f9b")
+		)
+		(pin "6"
+			(uuid "2b9990d2-4930-49c1-ad66-c22aca812161")
+		)
+		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+			(project "EVC Dashboard V2"
+				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 166.37 66.04 0)
 		(unit 1)
@@ -3342,6 +3394,12 @@
 			(uuid "6f6d0f17-831d-4df0-9a32-6c376e3d00c0")
 		)
 		(instances
+			(project "overvoltage"
+				(path "/2cb17de1-df35-4eb9-862a-a6a1b8ed8a32"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "EVC Dashboard V2"
 				(path "/ede78d5d-1d5c-4e8d-a13e-c039265851a9/a863baeb-ace9-4290-ba79-a0c3a9791cc4"
 					(reference "R5")
