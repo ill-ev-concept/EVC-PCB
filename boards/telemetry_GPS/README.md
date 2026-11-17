@@ -27,3 +27,10 @@ Digikey Cart(enough for 2 boards with some tolerance in the number of passives):
 - Add an LED to the GPS chip's PPS to verify that it is on
 - Add more test points in general
 - Do research into expanding the BALFHB into actual inductors and capacitors to make soldering the board less annoying
+- Add a sort of "Faraday Cage" around the MCU, crystal, and RF matching network, kind of like the one on the NUCLEO-WL55JC1 (pictured below)
+
+<img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/b484c5b9-40d2-42f3-a72d-b28ce1e379a4" />
+
+<img width="412" height="450" alt="image" src="https://github.com/user-attachments/assets/75d6ef5c-91b6-4377-87f2-71a6e4f6f2ed" />
+
+
