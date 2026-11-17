@@ -1,8 +1,8 @@
 ## Cart Orders
 
-Mouser Cart(enough for 2 board, with some tolerance in the number of passives): https://www.mouser.com/en/Tools/SavedCart/Share?AccessID=fc539ee9f1
+Mouser Cart(enough for 2 board, with some tolerance in the number of passives): https://www.mouser.com/en/Tools/SavedCart/Share?AccessID=8379b7a41d
 
-Digikey Cart(enough for 2 boards with some tolerance in the number of passives): https://www.digikey.com/short/n5p2z721
+Digikey Cart(enough for 2 boards with some tolerance in the number of passives): [https://www.digikey.com/short/n5p2z721](https://www.digikey.com/short/h8b8555r)
 
 ## Block Diagram
 
