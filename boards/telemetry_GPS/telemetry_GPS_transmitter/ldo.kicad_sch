@@ -1887,7 +1887,7 @@
 				)
 			)
 		)
-		(property "Description" "500mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5"
+		(property "Description" "500mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 			(at 88.9 67.31 0)
 			(hide yes)
 			(show_name no)
