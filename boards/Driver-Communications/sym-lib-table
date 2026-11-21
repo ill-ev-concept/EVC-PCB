@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CAN Connectors") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/EVC Standard CAN Connector.kicad_sym") (options "") (descr ""))
+	(lib (name "Audio Jack") (type "KiCad") (uri "C:/Users/mattw/Downloads/SJ2-25964A-SMT-TR") (options "") (descr ""))
+)
