@@ -10152,16 +10152,6 @@
 		)
 		(uuid "fc27566e-8fc4-42ed-aa30-ca45c4e31f0e")
 	)
-	(label "CAN_GND"
-		(at 30.48 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fe8423c3-8286-4e1d-9e8d-4880cffe8851")
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 52.07 135.89 0)
@@ -13528,7 +13518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 95.25 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -14853,6 +14843,84 @@
 			(project "imu_PCBv1"
 				(path "/c751f12b-4428-40a4-afa3-9f787be38c4a"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b37a7fde-c84d-4304-91d1-d6b43b477a3e")
+		(property "Reference" "#PWR023"
+			(at 30.48 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
+			(at 30.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60cb2c9c-b210-4f6f-9c02-6b6e4e97684d")
+		)
+		(instances
+			(project "imu_PCBv1"
+				(path "/c751f12b-4428-40a4-afa3-9f787be38c4a"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
